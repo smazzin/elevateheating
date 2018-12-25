@@ -62,5 +62,9 @@
   },
   "resolutions": {
     "natives": "1.1.6"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "netlify-lambda": "^1.1.1"
   }
 }
