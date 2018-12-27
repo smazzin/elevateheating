@@ -1,7 +1,10 @@
 {{ partial "header" . }}
 
-<h1>This is the Single layout</h1>
-<h2>{{ .Title }}</h2>
-{{ .Content }}
+<div class="container">
+    <div class="main-content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+</div>
 
 {{ partial "footer" . }}
