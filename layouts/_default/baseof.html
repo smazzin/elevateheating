@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <base href="{{ $.Site.BaseURL }}">
     <title>{{ $.Site.Title }}</title>
+
+
+    <!-- CSS -->
     {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.PostCSS }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
@@ -14,4 +16,10 @@
     {{ partial "nav.html" . }}
 </header>
 
-<body>
+<body class='page {{ block "body_classes" . }}{{ end }}'>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
