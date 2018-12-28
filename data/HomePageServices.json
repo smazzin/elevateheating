@@ -1,22 +1,22 @@
 [
-  {
-    "title": "Furnace Repair & Maintenance",
-    "description": "Rely on our furnace maintenance services to keep you warm all winter.",
-    "image": "/furnace-repair-maintenance"
-  },
-  {
-    "title": "AC Repair & Maintenance",
-    "description": "Keep the cool air flowing in your home when it gets hot out.",
-    "image": "/furnace-repair-maintenance"
-  },
-  {
-    "title": "Electric Fan Coil Tune-Up",
-    "description": "Add years of operation to your fan coil unit with regular tune-ups.",
-    "image": "/furnace-repair-maintenance"
-  },
-  {
-    "title": "Ductless/Mini-Split Installations",
-    "description": "Install an energy-efficient HVAC unit in your home.",
-    "image": "/furnace-repair-maintenance"
-  }
+    {
+      "title": "Furnace Repair & Maintenance",
+      "description": "Rely on our furnace maintenance services to keep you warm all winter.",
+      "image": "/furnace-repair-maintenance"
+    },
+    {
+      "title": "AC Repair & Maintenance",
+      "description": "Keep the cool air flowing in your home when it gets hot out.",
+      "image": "/furnace-repair-maintenance"
+    },
+    {
+      "title": "Electric Fan Coil Tune-Up",
+      "description": "Add years of operation to your fan coil unit with regular tune-ups.",
+      "image": "/furnace-repair-maintenance"
+    },
+    {
+      "title": "Ductless/Mini-Split Installations",
+      "description": "Install an energy-efficient HVAC unit in your home.",
+      "image": "/furnace-repair-maintenance"
+    }
 ]
