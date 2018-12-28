@@ -18,3 +18,30 @@ services :
     title: Ductless/Mini-Split Installations
     description: Install an energy-efficient HVAC unit in your home.
     image:
+
+callToAction1:
+  title: Stay Cool All Summer and Warm All Winter
+  subtitle: SET UP ROUTINE HVAC MAINTENANCE SERVICES
+
+callToAction2:
+  title: Stay Comfortable Through Sweltering Summers and Wicked Winters
+  subtitle: CHOOSE THE MOST RELIABLE HVAC CONTRACTORS IN NORTH PLAINS, OR
+  description: Whether you want to schedule regular maintenance, get a repair or set up some other HVAC service, Elevate Heating & Cooling, LLC is the company to turn based out of North Plains, Oregon for all of your HVAC needs. We provide a range of HVAC services, including
+  servicesList:
+    - Furnace repair and maintenance
+    - AC repair and maintenance
+    - HVAC system replacement 
+    - Fan coil maintenance
+    - Mini-split installation
+  subDescription: Count on us to conduct business with honesty and integrity. We’ll never try to upsell you. Call our HVAC contractors today to get a free estimate on installation services.
+
+callToAction3:
+  title: Keep Your HVAC Unit in Great Condition
+  subtitle: With the help of HVAC contractors in North Plains, OR
+
+callToAction4: 
+  title: GET THE HVAC SERVICES YOU NEED
+  description: If you’re looking for HVAC contractors you can trust in the North Plains, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC service. You should hire us for your HVAC needs because We’re a family owned and operated company. You’ll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We’re a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.
+  image:
+
+
