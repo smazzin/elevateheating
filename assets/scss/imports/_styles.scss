@@ -1,8 +1,7 @@
-.mt-80 {
-    margin-top: 80px;
-}
-
+//buttons
 .btn {
+    font-family: $secondary-font-family;
+    text-decoration: none;
     padding: 12px 55px;
     background-color: transparent;
     border: 1px solid $brand-color;
@@ -12,11 +11,14 @@
     font-size: 1.1rem;
     &:hover {
         background-color: $brand-color;
+        text-decoration: none;
         color: #fff;
     }
 }
-
-
+//Utilities
+.mt-80 {
+    margin-top: 80px;
+}
 
 .rel-50 {
     position: relative;

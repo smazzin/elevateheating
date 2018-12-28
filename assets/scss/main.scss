@@ -1,4 +1,5 @@
-$base-font-family: 'Rubik', sans-serif;
+$base-font-family: 'Playfair Display', serif;
+$secondary-font-family: 'Lato', sans-serif;
 $base-font-size:   20px;
 $base-font-weight: 300;
 $head-font-weight: 400;
@@ -9,6 +10,7 @@ $spacing-unit:     30px;
 
 $text-color:       #616161;
 $brand-color:      #E33F3F;
+$brand-secondary:  #15728F;
 $white:            #ffffff;
 
 $grey-color:       #616161;
@@ -36,7 +38,7 @@ $on-laptop:        1000px;
 }
 
 @import "imports/reset",
+        "imports/styles",
          "imports/grid",
          "imports/text",
-         "imports/google-font",
-         "imports/styles";
+         "imports/google-font";
