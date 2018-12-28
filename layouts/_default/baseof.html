@@ -12,14 +12,18 @@
     {{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.PostCSS }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
+
 <header>
     {{ partial "nav.html" . }}
 </header>
-
 <body class='page {{ block "body_classes" . }}{{ end }}'>
-
+    <div id="wrapper" class="wrapper">
+        {{ block "main" . }}
+        {{ end }}
+    </div> 
 <script src="app.js"></script>
 
-</body>
+{{ partial "footer" . }}
 
+</body>
 </html>
