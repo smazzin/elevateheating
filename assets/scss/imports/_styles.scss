@@ -64,62 +64,99 @@
 
 }
 
-.nav {
-    height: 85px;
-    display: flex;
-    justify-content: space-between;
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	//text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: $white;
+}
+
+.main-nav a:hover {
+    background-color: $brand-color;
+	color: $white;
+}
+
+
+
+.header {
+	padding-top: .5em;
+    padding-bottom: .5em;
     transition: top 0.5s ease;
     transition: background-color 0.5s ease;
     position: fixed;
     width: 100%;
     z-index: 10;
 
-    & nav a {
-        display: block;
-        padding: 0 10px;
-        color: $white;
-        text-decoration: none;
-    }
-
     //Hide dropdowns by default
     & nav ul ul {
         display: none;
         position: absolute;
-        top: 100%;
-    }
-
-    //Display dropdowns on hover
-    & nav ul li:hover > ul {
-        display: inherit;
-    }
-
-    //First tier
-    & nav ul ul li {
-        display: list-item;
-        position: relative;
-        min-width: 150px;
-    }
-
-    & nav ul {
-        list-style: none;
-        position: relative;
         padding: 0;
+    }
+
+    nav {
+        margin: 0 1em 0;
+    }
+
+    nav ul li:hover > ul {
+
+        display: block;
         margin: 0;
+        padding: 0;
     }
-    & nav ul li {
-        display: inline-block;
-        margin: 0px -7px 0 0;
+
+  .sub-menu{
+    li{
+      display:flex;
     }
-    & nav ul li a {
-        padding: 10px 25px;
-        transition: 0.5s;
-        font-weight: bold;
-        color: $white;
-        text-decoration: none;
+    
+    li:hover, li a:hover{
+      background: $brand-secondary;
+      color: $white;
     }
+  }
 
 }
 
 
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
 
+}
 
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
