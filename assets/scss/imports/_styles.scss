@@ -3,16 +3,16 @@
     font-family: $secondary-font-family;
     text-decoration: none;
     padding: 12px 55px;
-    background-color: transparent;
-    border: 1px solid $brand-color;
+    background-color: $brand-color;
+    border: 1px solid transparent;
     border-radius: 4px;
-    color: $brand-color;
+    color: $white;
     cursor: pointer;
     font-size: 1.1rem;
     &:hover {
-        background-color: $brand-color;
+        background-color: $brand-secondary;
         text-decoration: none;
-        color: #fff;
+        color: $white;
     }
 }
 //Utilities
@@ -27,3 +27,99 @@
         
     }
 }
+
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: $white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    & h1 {
+        /* Margins */
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        color: $white;
+    }
+
+    & p {
+        color: $white;
+    }
+
+
+}
+
+.nav {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    transition: top 0.5s ease;
+    transition: background-color 0.5s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    & nav a {
+        display: block;
+        padding: 0 10px;
+        color: $white;
+        text-decoration: none;
+    }
+
+    //Hide dropdowns by default
+    & nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+
+    //Display dropdowns on hover
+    & nav ul li:hover > ul {
+        display: inherit;
+    }
+
+    //First tier
+    & nav ul ul li {
+        display: list-item;
+        position: relative;
+        min-width: 150px;
+    }
+
+    & nav ul {
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    & nav ul li {
+        display: inline-block;
+        margin: 0px -7px 0 0;
+    }
+    & nav ul li a {
+        padding: 10px 25px;
+        transition: 0.5s;
+        font-weight: bold;
+        color: $white;
+        text-decoration: none;
+    }
+
+}
+
+
+
+

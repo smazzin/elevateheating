@@ -13,14 +13,17 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
 
-<header>
+<header class="nav">
+    <div class="logo">
+        <a href="#">Elevate Heating &amp; Cooling</a>
+    </div>
     {{ partial "nav.html" . }}
 </header>
 <body class='page {{ block "body_classes" . }}{{ end }}'>
-    <div id="wrapper" class="wrapper">
+    
         {{ block "main" . }}
         {{ end }}
-    </div> 
+    
 <script src="app.js"></script>
 
 {{ partial "footer" . }}

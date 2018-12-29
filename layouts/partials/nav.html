@@ -1,4 +1,4 @@
-<nav>
+<nav role="navigation">
   <ul>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
@@ -6,7 +6,7 @@
         <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
           <a href="#">
             {{ .Pre }}
-            <span>{{ .Name }}</span>
+            {{ .Name }}
           </a>
           <ul class="sub-menu">
             {{ range .Children }}
@@ -19,7 +19,7 @@
         <li>
           <a href="{{.URL}}">
             {{ .Pre }}
-            <span>{{ .Name }}</span>
+            {{ .Name }}
           </a>
         </li>
       {{ end }}

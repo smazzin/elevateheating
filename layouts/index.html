@@ -2,10 +2,12 @@
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "main" }}
-<div class="container">
-  <div class="main-content">
+
+  <div class="hero">
+    <div class="hero-inner">
     {{ .Content }}
     <a href="/contact" class="btn btn-red">Contact Us</a>
+    </div>
   </div>
-</div>
+
 {{ end }}
