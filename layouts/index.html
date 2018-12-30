@@ -16,17 +16,58 @@
     </div>
   </div>
 
+  
   <div class="container">
-    <div class="main-content">
-      <div class="call-to-action1">
+    <div class="call-to-action-red">
+      <div class="main-content">
         <div class="r">
           <div class="c-100">
-            {{ .Site.Data.home.callToAction1.title}}
+            <h3>
+              {{ .Site.Data.home.callToAction1.title}}
+            </h3>
+            <p>
+              {{ .Site.Data.home.callToAction1.subtitle}}
+            </p>
           </div>
         </div>
-        
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="call-to-action-white">
+      <div class="main-content">
+        <div class="r">
+          <div class="c-100">
+            <h3>
+              {{ .Site.Data.home.callToAction2.title}}
+            </h3>
+            <strong>
+              {{ .Site.Data.home.callToAction2.subtitle}}
+            </strong>
+            <p>
+              {{ .Site.Data.home.callToAction2.description}}:
+            </p>
+      
+            <ul class="list-inline">
+              {{ range $.Site.Data.home.callToAction2.servicesList }}
+              <li>
+                <a href="" class="link">{{ . }}</a>
+              </li>
+              {{ end }}
+            </ul>
+
+            <p>
+              {{ .Site.Data.home.callToAction2.subDescription}}
+            </p>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
 
 {{ end }}

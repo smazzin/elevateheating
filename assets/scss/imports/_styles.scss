@@ -28,4 +28,40 @@
     }
 }
 
+//Homepage services
+ul.list-inline {
+    display: inline;
+    list-style: none;
 
+    & li {
+        display: inline-block;
+
+        & a {
+            text-decoration: underline;
+        }
+    }
+    & li:nth-of-type(n+2) ::before {
+        content: "|";
+        padding: .2em;
+    }
+}
+
+.call-to-action-white {
+    text-align: center;
+
+    & h3 {
+        font-weight: 600;
+    }
+
+}
+
+.call-to-action-red {
+
+    background-color: $brand-color;
+    text-align: center;
+
+    & h3, p {
+        font-family: $secondary-font-family;
+        color: $white;
+    }
+}

@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>{{ $.Site.Title }}</title>
-
-
     <!-- CSS -->
     {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.PostCSS }}
@@ -25,7 +23,8 @@
     
         {{ block "main" . }}
         {{ end }}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
 <script type="text/javascript">
     (function () {
             $(document).ready(function () {
@@ -49,6 +48,7 @@
 
         }).call(this);
 </script>
+
 <script src="/app.js"></script>
 
 {{ partial "footer" . }}
