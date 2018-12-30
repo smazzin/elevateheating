@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
 
-<header class="header">
-    <div class="logo">
+<header class="header" id="navigation">
+    <div id="logo">
         <a href="#">
-            <img width="300" src="/images/elevate-logov2.png" alt="">
+            <img width="200" src="/images/elevate-logov2.png" alt="">
         </a>
     </div>
     {{ partial "nav.html" . }}
@@ -25,8 +25,31 @@
     
         {{ block "main" . }}
         {{ end }}
-    
-<script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+<script type="text/javascript">
+    (function () {
+            $(document).ready(function () {
+                return $('#burger').click(function () {
+                    $(this).toggleClass('active');
+                    return $('#menu').toggleClass('active');
+                });
+            });
+
+            $(document).ready(function () {
+                $(window).bind('scroll', function () {
+                    var distance;
+                    distance = 50;
+                    if ($(window).scrollTop() > distance) {
+                        $('#navigation').addClass('scrolled');
+                    } else {
+                        $('#navigation').removeClass('scrolled');
+                    }
+                });
+            });
+
+        }).call(this);
+</script>
+<script src="/app.js"></script>
 
 {{ partial "footer" . }}
 
