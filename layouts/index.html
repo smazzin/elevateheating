@@ -2,7 +2,10 @@
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "main" }}
-
+  <!-- some content to allow scrolling :)-->
+<!-- <div class="hero">
+  <div class="overlay"></div>
+</div> -->
   <div class="hero js-box">
     <img src="/images/hero.jpg" alt="">
     <div class="hero-inner">
@@ -12,6 +15,20 @@
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="main-content">
+      <div class="call-to-action1">
+        <div class="r">
+          <div class="c-100">
+            {{ .Site.Data.home.callToAction1.title}}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
   <script type="text/javascript">
   // Detect objectFit support
     if ('objectFit' in document.documentElement.style === false) {

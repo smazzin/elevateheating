@@ -1,0 +1,136 @@
+.hero {
+
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    & img {
+        filter: brightness(0.60);
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+
+
+    .hero-inner {
+        display: block;
+        //height: 100%;
+        margin-top: -25%;   
+        position: relative;
+        text-align: center;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+        & h1, p, a {
+            color: $white;
+        }
+
+    }
+}
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	//text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: $white;
+}
+
+.main-nav a:hover {
+    background-color: $brand-color;
+	color: $white;
+}
+
+
+
+.header {
+	padding-top: .5em;
+    padding-bottom: .5em;
+    transition: top 0.5s ease;
+    transition: background-color 0.5s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    //Hide dropdowns by default
+    & nav ul ul {
+        display: none;
+        position: absolute;
+        padding: 0;
+    }
+
+    nav {
+        margin: 0 1em 0;
+    }
+
+    nav ul li:hover > ul {
+
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+  .sub-menu{
+    li{
+      display:flex;
+    }
+    
+    li:hover, li a:hover{
+      background: $brand-secondary;
+      color: $white;
+    }
+  }
+
+}
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+
+.call-to-action1 {
+    margin-top: 15em;
+}

@@ -38,7 +38,8 @@ $on-laptop:        1000px;
 }
 
 @import "imports/reset",
+        "imports/nav",
         "imports/styles",
-         "imports/grid",
-         "imports/text",
-         "imports/google-font";
+        "imports/grid",
+        "imports/text",
+        "imports/google-font";
