@@ -2,10 +2,6 @@
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "main" }}
-  <!-- some content to allow scrolling :)-->
-<!-- <div class="hero">
-  <div class="overlay"></div>
-</div> -->
   <div class="bg-img" id="top-hero">
     <img class="hero-img" src="/images/hero.jpg" alt="">
     <div class="overlay"></div>
@@ -17,7 +13,6 @@
     </div>
   </div>
 
-  
   <div class="container">
     <div class="call-to-action-red">
       <div class="main-content">
@@ -49,7 +44,6 @@
             <p>
               {{ .Site.Data.home.callToAction2.description}}:
             </p>
-      
             <ul class="list-inline">
               {{ range $.Site.Data.home.callToAction2.servicesList }}
               <li>
@@ -57,50 +51,41 @@
               </li>
               {{ end }}
             </ul>
-
             <p>
               {{ .Site.Data.home.callToAction2.subDescription}}
             </p>
-      
           </div>
         </div>
       </div>
     </div>
-
   </div>
 
-
-    <div class="container">
-      
-      <div class="hero">
-        <div class="hero-overlay"></div>
-        <div class="r">
-          <div class="c-100 center">
-            <h3>{{ .Site.Data.home.callToAction3.title}}</h3>
-            <p>{{ .Site.Data.home.callToAction3.subtitle}}</p>
-            <a href="/contact" class="btn btn-red">Contact Us</a>
-          </div>
+  <div class="container">
+    <div class="hero">
+      <div class="hero-overlay"></div>
+      <div class="r">
+        <div class="c-100 center">
+          <h3>{{ .Site.Data.home.callToAction3.title}}</h3>
+          <p>{{ .Site.Data.home.callToAction3.subtitle}}</p>
+          <a href="/contact" class="btn btn-red">Contact Us</a>
         </div>
       </div>
     </div>
+  </div>
 
-
-  
-
-  
-    <div class="container">
-        <div class="services__container">
-          {{ range $.Site.Data.HomePageServices }}
-            <div class="services__item c-25">
-              <img class="services__img" width="316" src="images/{{ .image}}" alt="">
-              <div class="services__figcaption">
-                <h3>{{ .title }}</h3>
-                <p>{{ .description }}</p>
-              </div>
+  <div class="container">
+      <div class="services__container">
+        {{ range $.Site.Data.HomePageServices }}
+          <div class="services__item c-25">
+            <img class="services__img" width="316" src="images/{{ .image}}" alt="">
+            <div class="services__figcaption">
+              <h3>{{ .title }}</h3>
+              <p>{{ .description }}</p>
             </div>
-          {{ end }}
-        </div>
-    </div>
+          </div>
+        {{ end }}
+      </div>
+  </div>
 
 
 
