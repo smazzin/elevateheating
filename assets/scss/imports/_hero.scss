@@ -1,14 +1,3 @@
-#top-hero {
-    background: url(../images/hero.jpg) center top/cover no-repeat;
-    //background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    //padding: 10em 0 20em 0;
-    height: 80vh;
-    z-index: 1;
-    position: relative;
-}
-
 .overlay {
     position: absolute;
     z-index: -1;
@@ -19,12 +8,26 @@
     background: rgba(#000, 0.4);
 }
 
+.bg-img h1 p  {
+    position: absolute;
+}
+
+.hero-img {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 .hero-inner {
     padding: 15em 1em;
     margin-left: auto;
     margin-right: auto;
-    //max-width: 1000px;
     text-align: center;
+    
     
     & h1, h3{
         color: $white;
@@ -41,71 +44,73 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-    #top-hero .intro {
-        padding:25px;
-    }
-}
+// @media (min-width: 768px) and (max-width: 1023px) {
+//     #top-hero .intro {
+//         padding:25px;
+//     }
+// }
 
-@media (max-width: 767px) {
-    #top-hero {
-        padding:50px 0;
-    }
+// @media (max-width: 767px) {
+//     #top-hero {
+//         padding:50px 0;
+//     }
 
-    #top-hero .intro {
-        padding: 25px;
-    }
+//     #top-hero .intro {
+//         padding: 25px;
+//     }
 
-    #top-hero .intro h1 {
-        font-size: 2em;
-    }
-}
+//     #top-hero .intro h1 {
+//         font-size: 2em;
+//     }
+// }
 
-//second hero
-.hero{
-    background-image: url(../images/keep-your-hvac-unit-in-great-condition.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+
+.hero {
+    background: url(../images/keep-your-hvac-unit-in-great-condition.jpg) no-repeat center;
     background-size: cover;
-    height: 50vh;
-    z-index: 1;
+    background-attachment: fixed;
     position: relative;
-    //padding: 1em 0 1em 0;
+    //Middle align content
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: 75vh;
 
-
-    & .hero-inner-alt {
-        //padding: 3em 1em;
-        //margin-left: auto;
-        //margin-right: auto;
-        //min-width: 100%;
-        text-align: center;
-
-
-    & h1, h3, p {
-        margin: auto;
-    }
-    & h1, h3{
+    & h3{
         color: $white;
-        // margin-top: 0;
-        // margin-bottom: 0;
+        margin-bottom: 0;
     }
     & h3 {
         font-size: 3rem
     }
     & p {
         font-size: 1.5rem;
-        // margin-top: 0;
+        margin-top: 0;
         color: $white;
     }
 }
-}
 
-.overlay-bottom {
+.hero-overlay {
     position: absolute;
-    z-index: -10;
+    z-index: -1;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background: rgba(#000, 0.4);
+}
+
+
+
+
+
+.services1 {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
 }

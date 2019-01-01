@@ -6,7 +6,8 @@
 <!-- <div class="hero">
   <div class="overlay"></div>
 </div> -->
-  <div id="top-hero">
+  <div class="bg-img" id="top-hero">
+    <img class="hero-img" src="/images/hero.jpg" alt="">
     <div class="overlay"></div>
     <div class="hero-inner">
       <div class="content">
@@ -69,26 +70,25 @@
   </div>
 
 
-  <div class="hero container">
-    <div class="overlay-bottom"></div>
-    <div class="main-content">
+    <div class="container">
       
+      <div class="hero">
+        <div class="hero-overlay"></div>
         <div class="r">
-        <div class="c-100">
-          <div class="hero-inner-alt">
-          <h3>{{ .Site.Data.home.callToAction3.title}}</h3>
-          <p>{{ .Site.Data.home.callToAction3.subtitle}}</p>
-          <a href="/contact" class="btn btn-red">Contact Us</a>
-</div>
+          <div class="c-100 center">
+            <h3>{{ .Site.Data.home.callToAction3.title}}</h3>
+            <p>{{ .Site.Data.home.callToAction3.subtitle}}</p>
+            <a href="/contact" class="btn btn-red">Contact Us</a>
+          </div>
         </div>
-        </div>
-
       </div>
     </div>
+
+
   
 
   
-    <div class="container mt-80">
+    <div class="container">
         <div class="services__container">
           {{ range $.Site.Data.HomePageServices }}
             <div class="services__item c-25">
