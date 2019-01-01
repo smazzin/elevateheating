@@ -5,7 +5,7 @@
     // background-size: cover;
     //padding: 10em 0 20em 0;
     height: 80vh;
-    z-index: -2;
+    z-index: 1;
     position: relative;
 }
 
@@ -23,10 +23,20 @@
     padding: 15em 1em;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
+    //max-width: 1000px;
     text-align: center;
     
-    & h1, p {
+    & h1, h3{
+        color: $white;
+        margin-top: 2em;
+        margin-bottom: 0;
+    }
+    & h3 {
+        font-size: 3rem
+    }
+    & p {
+        font-size: 1.5rem;
+        margin-top: 0;
         color: $white;
     }
 }
@@ -49,4 +59,53 @@
     #top-hero .intro h1 {
         font-size: 2em;
     }
+}
+
+//second hero
+.hero{
+    background-image: url(../images/keep-your-hvac-unit-in-great-condition.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    z-index: 1;
+    position: relative;
+    //padding: 1em 0 1em 0;
+
+
+    & .hero-inner-alt {
+        //padding: 3em 1em;
+        //margin-left: auto;
+        //margin-right: auto;
+        //min-width: 100%;
+        text-align: center;
+
+
+    & h1, h3, p {
+        margin: auto;
+    }
+    & h1, h3{
+        color: $white;
+        // margin-top: 0;
+        // margin-bottom: 0;
+    }
+    & h3 {
+        font-size: 3rem
+    }
+    & p {
+        font-size: 1.5rem;
+        // margin-top: 0;
+        color: $white;
+    }
+}
+}
+
+.overlay-bottom {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(#000, 0.4);
 }

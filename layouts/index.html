@@ -69,5 +69,43 @@
   </div>
 
 
+  <div class="hero container">
+    <div class="overlay-bottom"></div>
+    <div class="main-content">
+      
+        <div class="r">
+        <div class="c-100">
+          <div class="hero-inner-alt">
+          <h3>{{ .Site.Data.home.callToAction3.title}}</h3>
+          <p>{{ .Site.Data.home.callToAction3.subtitle}}</p>
+          <a href="/contact" class="btn btn-red">Contact Us</a>
+</div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  
+
+  
+    <div class="container mt-80">
+        <div class="services__container">
+          {{ range $.Site.Data.HomePageServices }}
+            <div class="services__item c-25">
+              <img class="services__img" width="316" src="images/{{ .image}}" alt="">
+              <div class="services__figcaption">
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+    </div>
+
+
+
+
+
+
 
 {{ end }}

@@ -65,3 +65,46 @@ ul.list-inline {
         color: $white;
     }
 }
+
+.services img {
+    width: 100%;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 0;
+}
+
+.services__item {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.services__img {
+  width: 100%;
+}
+
+.services__figcaption {
+  position: absolute;
+  background: rgba(0, 0, 0, .5);
+  bottom: 0;
+  top: 0;
+  padding: 2em;
+}
+
+.services__figcaption p {
+  margin: 0;
+}
+
+// .services-content {
+//     position: relative;
+//     float: left;
+//     .content{
+//         position: absolute;
+//         top: 0;
+//         bottom: 0
+//     //z-index: 1;
+//     }
+// }
