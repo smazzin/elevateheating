@@ -77,7 +77,7 @@
       <div class="services__container">
         {{ range $.Site.Data.HomePageServices }}
           <div class="services__item c-25">
-            <img class="services__img" width="316" src="images/{{ .image}}" alt="">
+            <img class="services__img" src="images/{{ .image}}" alt="">
             <div class="services__figcaption">
               <h3>{{ .title }}</h3>
               <p>{{ .description }}</p>
@@ -85,6 +85,23 @@
           </div>
         {{ end }}
       </div>
+  </div>
+
+  <div class="container">
+    <div class="main-content">
+    <div class="r">
+      <div class="c-50">
+        <h3>
+          {{ .Site.Data.home.callToAction4.title}}
+        </h3>
+        <p>{{ .Site.Data.home.callToAction4.description}}</p>
+      </div>
+      <div class="c-50 center">
+        <img class="img-responsive mx-auto" src="/images/get-the-hvac-services-you-need.jpg" alt="">
+      </div>
+    </div>
+    </div>
+
   </div>
 
 

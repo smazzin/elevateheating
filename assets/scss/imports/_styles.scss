@@ -20,12 +20,21 @@
     margin-top: 80px;
 }
 
+.mx-auto {
+    margin: 0 auto;
+}
+
 .rel-50 {
     position: relative;
     top: -50px;
     @include media-query($on-palm) {
         
     }
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 //Homepage services
@@ -88,7 +97,6 @@ ul.list-inline {
 
 .services__figcaption {
   position: absolute;
-  background: rgba(0, 0, 0, .5);
   bottom: 0;
   top: 0;
   padding: 2em;
