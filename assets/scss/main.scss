@@ -17,10 +17,13 @@ $grey-color:       #616161;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+
+
 @import "imports/reset",
         "imports/nav",
         "imports/hero",
         "imports/styles",
+        "imports/footer",
         "imports/flex-grid",
         "imports/text",
         "imports/google-font";

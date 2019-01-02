@@ -1,0 +1,9 @@
+footer {
+    background-color: $brand-secondary;
+    padding: 1em;
+    //text-align: center;
+    & p, a, small{
+        color: $white;
+    }
+
+}

@@ -24,10 +24,15 @@
     margin: 0 auto;
 }
 
-
 .img-responsive {
   max-width: 100%;
   height: auto;
+}
+
+.list-none {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 //Homepage services
@@ -72,7 +77,7 @@ ul.list-inline {
     width: 100%;
 }
 
-
+//Cards
 .card {
     position: relative;
 }
@@ -129,6 +134,20 @@ ul.list-inline {
     line-height: 1;
 }
 
-.card__text {
+.service-area {
+    background-color: $brand-secondary;
+    padding: 2em;
+    & h3, p, li {
+        color: $white;
+        margin-bottom: 0;
+    }
 
+    & ul {
+        list-style: none;
+
+        & li {
+            font-family: $secondary-font-family;
+        }
+    }
+    
 }

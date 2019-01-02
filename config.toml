@@ -3,6 +3,7 @@ contentDir = "content"
 languageCode = "en-us"
 languageLang = "en"
 title = "Elevate Heating & Cooling"
+copyright = "Copyright &copy; {year} Elevate Heating & Cooling, LLC, all rights reserved."
 permalinks = "/:slug/"
 
 preserveTaxonomyNames = false
