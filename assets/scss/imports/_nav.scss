@@ -198,3 +198,11 @@
         padding: 5px
     }
 }
+
+span.licensed{
+    display: block;
+    padding: 10px 25px;
+    font-family: $secondary-font-family;
+    color: $white;
+    font-weight: bold;
+}
