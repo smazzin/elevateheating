@@ -13,11 +13,10 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="call-to-action-red">
-      <div class="main-content">
-        <div class="r">
-          <div class="c-100">
+  <div class="call-to-action-red">
+    <div class="grid grid--container">
+      <div class="row">
+          <div class="col col--sm">
             <h3>
               {{ .Site.Data.home.callToAction1.title}}
             </h3>
@@ -25,16 +24,14 @@
               {{ .Site.Data.home.callToAction1.subtitle}}
             </p>
           </div>
-        </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="call-to-action-white">
-      <div class="main-content">
-        <div class="r">
-          <div class="c-100">
+  <div class="call-to-action-white">
+    <div class="grid grid--container">
+        <div class="row">
+          <div class="col col--sm">
             <h3>
               {{ .Site.Data.home.callToAction2.title}}
             </h3>
@@ -56,15 +53,14 @@
             </p>
           </div>
         </div>
-      </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="hero">
-      <div class="hero-overlay"></div>
-      <div class="r">
-        <div class="c-100 center">
+  <div class="grid grid--no-gutters">
+    <div class="row row--no-gutters">
+      <div class="hero col col--sm">
+        <div class="hero-overlay"></div>
+        <div class="center">
           <h3>{{ .Site.Data.home.callToAction3.title}}</h3>
           <p>{{ .Site.Data.home.callToAction3.subtitle}}</p>
           <a href="/contact" class="btn btn-red">Contact Us</a>
@@ -73,41 +69,43 @@
     </div>
   </div>
 
-  <div class="container">
-      <div class="services__container">
-        {{ range $.Site.Data.HomePageServices }}
-          <div class="services__item c-25">
-            <img class="services__img" src="images/{{ .image}}" alt="">
-            <div class="services__figcaption">
-              <h3>{{ .title }}</h3>
-              <p>{{ .description }}</p>
-            </div>
+  <div class="grid grid--no-gutters">
+    <div class="row row--no-gutters">
+      {{ range $.Site.Data.HomePageServices }}
+      <div class="card col col--md-3 col--sm-12 col--no-gutters">
+        <a href="{{ .url }}">
+          <img class="card__img" src="images{{ .image}}" alt="">
+          <div class="card__body">
+            <h3 class="card__title">{{ .title }}</h3>
+            <p class="card__text">{{ .description }}</p>
           </div>
-        {{ end }}
+        </a>
       </div>
+      {{ end }}
+    </div>
   </div>
 
-  <div class="container">
-    <div class="main-content">
-    <div class="r">
-      <div class="c-50">
-        <h3>
-          {{ .Site.Data.home.callToAction4.title}}
-        </h3>
-        <p>{{ .Site.Data.home.callToAction4.description}}</p>
-      </div>
-      <div class="c-50 center">
-        <img class="img-responsive mx-auto" src="/images/get-the-hvac-services-you-need.jpg" alt="">
-      </div>
+  <div class="grid grid--container">
+    <div class="row">
+        <div class="col col--sm">
+          <h3>
+            {{ .Site.Data.home.callToAction4.title}}
+          </h3>
+          <p>{{ .Site.Data.home.callToAction4.description}}</p>
+        </div>
+        <div class="col col--sm">
+          <img class="img-responsive mx-auto" src="/images/get-the-hvac-services-you-need.jpg" alt="">
+        </div>
     </div>
-    </div>
-
   </div>
 
-
-
-
-
+  <div class="grid grid--container">
+    <div class="row">
+      <div class="col col--md-3 col--sm-12">
+        Home Advisor here
+      </div>
+    </div>
+  </div>
 
 
 {{ end }}

@@ -10,6 +10,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
+        "@vivid-web/flexboxgrid-sass": "^5.0.4",
         "autoprefixer": "^9.1.0",
         "postcss-cli": "^6.0.0"
     },

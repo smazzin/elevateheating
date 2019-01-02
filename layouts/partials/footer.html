@@ -1,1 +1,22 @@
 
+<div class="grid grid--no-gutters">
+    <div class="row row--no-gutters">
+
+        <div class="col col--md-3 col--sm-12">
+            <h2>Service Areas</h2>
+                <ul class="">
+                    {{ range $.Site.Data.ServiceAreas }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>          
+        </div>
+
+        <div class="card col col--md-9 col--sm-12 col--no-gutters">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d714283.6996539086!2d-122.9525217!3d45.627307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d12e66afca05851!2sElevate+Heating+%26+Cooling%2C+LLC!5e0!3m2!1sen!2sus!4v1546386892595"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+
