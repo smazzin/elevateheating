@@ -1,9 +1,10 @@
 
 {{ define "body_classes" }}page-default-single{{ end }}
+{{ define "two_columns" }}page-ul-two-column{{ end }}
 {{ define "main" }}
 <div class="grid grid--container">
     <div class="row">
-        <div class="col col--sm">
+        <div class="col col--sm {{ block "two_columns" . }}{{ end }}">
             {{ .Content }}
         </div>
     </div>

@@ -151,3 +151,16 @@ ul.list-inline {
     }
     
 }
+
+.page-ul-two-column h1 {
+    margin-top: 3rem;
+}
+
+//Two columns for ul
+.page-ul-two-column ul {
+    columns: 2;
+    & li {
+        font-family: $secondary-font-family;
+        padding: .5rem;
+    }
+}
