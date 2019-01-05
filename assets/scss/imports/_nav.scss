@@ -33,8 +33,14 @@
 
 }
 
+//Homepage
 .scrolled {
     background: $brand-secondary;
+}
+
+//Single page layout
+.scrolled-single {
+    position: fixed;
 }
 
 #navigation nav ul li {
@@ -43,7 +49,6 @@
 
 #navigation nav ul li a {
     padding: 10px 25px;
-    //transition: 0.5s;
     font-weight: bold;
     color: $white;
 }
@@ -54,8 +59,19 @@
     text-decoration: none;
 }
 
-#navigation {
-    //height: 85px;
+//Single Page layout
+.page-default-single #navigation {
+    background-color: $brand-secondary;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index:10;
+}
+//Homepage layout
+.page-home #navigation {
+    height: 15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +79,7 @@
     transition: background-color 0.5s ease;
     position: fixed;
     width: 100%;
-    z-index: 10;
+    z-index:10;
 }
 
 #navigation #logo {
@@ -71,9 +87,9 @@
     display: flex;
 }
 
-#navigation #logo img {
-    //height: 65px
-}
+// #navigation #logo img {
+//     height: 65px
+// }
 
 #navigation #logo span {
     color: $brand-color;

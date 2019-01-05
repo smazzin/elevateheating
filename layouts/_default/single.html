@@ -1,10 +1,37 @@
-{{ partial "header" . }}
 
-<div class="container">
-    <div class="main-content">
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
+{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "main" }}
+<div class="grid grid--container">
+    <div class="row">
+        <div class="col col--sm">
+            {{ .Content }}
+        </div>
     </div>
 </div>
+{{ end }}
 
-{{ partial "footer" . }}
+{{ define "nav_js" }}
+<script type="text/javascript">
+    (function () {
+        $(document).ready(function () {
+            return $('#burger').click(function () {
+                $(this).toggleClass('active');
+                return $('#menu').toggleClass('active');
+            });
+        });
+
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var distance;
+                distance = 1;
+                if ($(window).scrollTop() > distance) {
+                    $('#navigation').addClass('scrolled-single');
+                } else {
+                    $('#navigation').removeClass('scrolled-single');
+                }
+            });
+        });
+
+    }).call(this);
+</script>
+{{ end }}

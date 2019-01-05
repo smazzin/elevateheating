@@ -107,5 +107,30 @@
     </div>
   </div>
 
+{{ end }}
 
+{{ define "nav_js" }}
+<script type="text/javascript">
+  (function () {
+    $(document).ready(function () {
+      return $('#burger').click(function () {
+        $(this).toggleClass('active');
+        return $('#menu').toggleClass('active');
+      });
+    });
+
+    $(document).ready(function () {
+      $(window).bind('scroll', function () {
+        var distance;
+        distance = 50;
+        if ($(window).scrollTop() > distance) {
+          $('#navigation').addClass('scrolled');
+        } else {
+          $('#navigation').removeClass('scrolled');
+        }
+      });
+    });
+
+  }).call(this);
+</script>
 {{ end }}
