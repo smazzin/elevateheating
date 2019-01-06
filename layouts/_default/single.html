@@ -23,3 +23,29 @@
     </div>
 </div>
 {{ end }}
+
+{{ define "nav_js" }}
+<script type="text/javascript">
+    (function () {
+        $(document).ready(function () {
+            return $('#burger').click(function () {
+                $(this).toggleClass('active');
+                return $('#menu').toggleClass('active');
+            });
+        });
+
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var distance;
+                distance = 1;
+                if ($(window).scrollTop() > distance) {
+                    $('#navigation').addClass('scrolled-single');
+                } else {
+                    $('#navigation').removeClass('scrolled-single');
+                }
+            });
+        });
+
+    }).call(this);
+</script>
+{{ end }}

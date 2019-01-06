@@ -34,14 +34,14 @@ url = "#"
 
 [[menu.main]]
 name = "Funace Repair & Maintenance"
-weight = 3
+weight = 1
 parent = "Services"
 identifier = "Funace Repair & Maintenance"
 url = "furnace-repair-and-maintenance"
 
 [[menu.main]]
 name = "AC Repair & Maintenance"
-weight = 3
+weight = 2
 parent = "Services"
 identifier = "AC Repair & Maintenance"
 url = "ac-repair-and-maintenance"
@@ -55,7 +55,7 @@ url = "electric-fan-coil-tune-up"
 
 [[menu.main]]
 name = "Ductless/Mini-Split Installations"
-weight = 3
+weight = 4
 parent = "Services"
 identifier = "Ductless/Mini-Split Installations"
 url = "ductless-mini-split-installations"
