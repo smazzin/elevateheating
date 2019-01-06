@@ -5,10 +5,5 @@ businessName: Elevate Heating & Cooling, LLC
 licensed: Licensed and Insured CCB# 221000
 
 Hours:
-  - Mon: 8:00AM-5:00PM
-  - Tue: 8:00AM-5:00PM
-  - Wed: 8:00AM-5:00PM
-  - Thu: 8:00AM-5:00PM
-  - Fri: 8:00AM-5:00PM
-  - Sat: Closed
-  - Sun: Closed
+  - Mon - Fri 8:00AM-5:00PM
+  - Sat - Sun Closed

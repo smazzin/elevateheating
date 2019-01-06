@@ -160,3 +160,31 @@ ul.two-column {
         padding: .5rem;
     }
 }
+
+.contact {
+
+    & header {
+        margin-bottom: 5rem;
+    }
+
+    & h1 {
+        font-size: 2rem;
+    }
+
+    & h3 {
+        font-size: 1.25rem;
+    }
+}
+
+.business-info {
+    background-color: $brand-color;
+    padding: 1rem;
+    & h2, p, span, ul li {
+        color: $white;
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+    & .business-name h2  {
+        font-size: 1.25rem;
+    }
+}

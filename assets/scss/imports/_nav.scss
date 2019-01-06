@@ -71,14 +71,14 @@
 }
 
 //Single Page layout
-.page-default-single #navigation {
+.default #navigation {
     background-color: $brand-secondary;
     height: 15rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     //position: relative;
-    width: 100%;
+    //width: 100%;
     z-index:10;
 }
 //Homepage layout

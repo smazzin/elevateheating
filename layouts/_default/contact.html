@@ -1,0 +1,36 @@
+{{ define "body_classes" }}default contact{{ end }}
+
+{{ define "main" }}
+
+<div class="grid grid--container">
+    <div class="row">
+        <div class="col col--md-8 col--sm-12">
+            {{ .Content }}
+        </div>
+        <div class="col col--md-4 col--sm-12">
+            <div class="business-info">
+                <div class="business-name">
+                    <h2>{{ .Site.Data.contact.businessName}}</h2>
+                    <p>{{ .Site.Data.contact.address}}</p>
+                </div>
+                <div class="phone">
+                    <p>
+                        <span>Call Us</span><br>
+                        {{ .Site.Data.contact.phone }}
+                    </p>
+                </div>
+                <div class="hours">
+                    <p><span>Hours</span></p>
+                    <ul class="hours">
+                        {{ range $.Site.Data.contact.Hours }}
+                        <li>
+                            {{ . | markdownify}}
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
