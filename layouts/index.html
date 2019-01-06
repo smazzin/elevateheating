@@ -74,7 +74,7 @@
       {{ range $.Site.Data.HomePageServices }}
       <div class="card col col--md-3 col--sm-12 col--no-gutters">
         <a href="{{ .url }}">
-          <img class="card__img" src="images{{ .image}}" alt="">
+          <img class="card__img" src="images{{ .image}}" alt="{{ .title }}">
           <div class="card__body">
             <h3 class="card__title">{{ .title }}</h3>
             <p class="card__text">{{ .description }}</p>
@@ -94,7 +94,7 @@
           <p>{{ .Site.Data.home.callToAction4.description}}</p>
         </div>
         <div class="col col--sm">
-          <img class="img-responsive mx-auto" src="/images/get-the-hvac-services-you-need.jpg" alt="">
+          <img class="img-responsive mx-auto" src="/images/get-the-hvac-services-you-need.jpg" alt="{{ .Site.Data.home.callToAction4.title}}">
         </div>
     </div>
   </div>
