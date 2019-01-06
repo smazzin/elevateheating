@@ -1,5 +1,6 @@
 ---
-title: "Ductless Mini Split Installations"
+title: Ductless & Mini Split System Installations | North Plains, OR | Elevate Heating & Cooling, LLC
+description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
 date: 2018-12-30T09:53:15-08:00
 draft: false
 image: /images/ductless-mini-split-installations-hero.jpg

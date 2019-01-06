@@ -4,7 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>{{ $.Site.Title }}</title>
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Description }}">
+    <meta property="og:description" content="{{ .Description }}">
+    <link rel="canonical" href="{{ .URL | relURL }}">
     <!-- CSS -->
     {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.PostCSS }}

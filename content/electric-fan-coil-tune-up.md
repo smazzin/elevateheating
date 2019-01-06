@@ -1,5 +1,6 @@
 ---
-title: "Electric Fan Coil Tune Up"
+title: Electric Heat Fan Coil Tune Up | North Plains, OR | Elevate Heating & Cooling, LLC
+description: If you use a fan coil for electric heat and cooling in North Plains, OR & the surrounding Portland Oregon Metro Area and you want to get good use out of it.
 date: 2018-12-30T09:53:49-08:00
 draft: false
 image: /images/electric-fan-coil-tune-up-hero.jpg
