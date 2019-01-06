@@ -4,8 +4,21 @@
 {{ define "main" }}
 <div class="grid grid--container">
     <div class="row">
-        <div class="col col--sm {{ block "two_columns" . }}{{ end }}">
+        <div class="col col--sm-12">
+            <div class="img__fixed__container" style="background-image:url({{.Params.image}});">
+                <div class="center">
+                    <h3>{{ .Params.herotext }}</h3>
+                    <a href="/contact-us" class="btn btn-red">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--container">
+    <div class="row">
+        <div class="col col--sm-12">
             {{ .Content }}
+            <a href="/contact-us" class="btn btn-red">Contact Us</a>
         </div>
     </div>
 </div>
@@ -21,17 +34,7 @@
             });
         });
 
-        $(document).ready(function () {
-            $(window).bind('scroll', function () {
-                var distance;
-                distance = 1;
-                if ($(window).scrollTop() > distance) {
-                    $('#navigation').addClass('scrolled-single');
-                } else {
-                    $('#navigation').removeClass('scrolled-single');
-                }
-            });
-        });
+
 
     }).call(this);
 </script>

@@ -104,3 +104,30 @@
     width: 100%;
     background: rgba(#000, 0.4);
 }
+
+
+.img__fixed__container{
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 45vh;
+    margin: 2rem 0;
+
+
+    & h3{
+        font-size: 3rem;
+        color: $white;
+        margin-bottom: 0;
+        margin-top: auto;
+        padding: 6rem 0 1rem 0;
+    }
+
+    & .center {
+        background: rgba(0, 0, 0, 0.3);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
