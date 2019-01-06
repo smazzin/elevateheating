@@ -42,9 +42,9 @@
               {{ .Site.Data.home.callToAction2.description}}:
             </p>
             <ul class="list-inline">
-              {{ range $.Site.Data.home.callToAction2.servicesList }}
+              {{ range $.Site.Data.serviceList }}
               <li>
-                <a href="" class="link">{{ . }}</a>
+                <a href="{{ .url }}" class="link">{{ .title }}</a>
               </li>
               {{ end }}
             </ul>
