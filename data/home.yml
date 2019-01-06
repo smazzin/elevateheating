@@ -2,7 +2,7 @@ services :
   item:
     title: Furnace Repair & Maintenance
     description: Rely on our furnace maintenance services to keep you warm all winter.
-    image: urnace-repair-maintenance.jpg
+    image: furnace-repair-maintenance.jpg
 
   item: 
     title: AC Repair & Maintenance

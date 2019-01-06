@@ -49,6 +49,13 @@ p, strong, span {
   font-weight: 300;
 }
 
+ul li {
+  font-family: $secondary-font-family;
+  font-size: 1.25rem;
+  font-weight: 300;
+  //padding: 0 .5rem;
+}
+
 .font-light {
   font-weight: 300;
 }

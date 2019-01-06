@@ -1,0 +1,67 @@
+
+{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "two_columns" }}page-ul-two-column{{ end }}
+{{ define "main" }}
+<div class="grid grid--container mb-4">
+    <div class="row row--lg-center">
+        <div class="col col--sm {{ block "two_columns" . }}{{ end }}">
+            {{ .Content }}
+        </div>
+        <div class="col col--sm-12">
+            <p>{{ .Site.Data.FurnaceRepairMaintenance.Checklist.Description}}</p>
+            <ul class="two-column">
+                {{ range $.Site.Data.FurnaceRepairMaintenance.Checklist.Items }}
+                <li>
+                    {{ . }}
+                </li>
+                {{ end }}
+            </ul>
+            <p>{{ .Site.Data.FurnaceRepairMaintenance.Checklist.SubDescription}}</p>
+        </div>
+        <div class="col col--md-6 col-sm--12">
+            <h3>{{ .Site.Data.FurnaceRepairMaintenance.Maintenance.Title}}</h3>
+            <p>{{ .Site.Data.FurnaceRepairMaintenance.Maintenance.Description}}</p>
+            <ul>
+                {{ range $.Site.Data.FurnaceRepairMaintenance.Maintenance.Items }}
+                <li>
+                    {{ . }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="col col--md-6 col-sm--12">
+            <img width="490" src="/images/{{ .Site.Data.FurnaceRepairMaintenance.Maintenance.image}}" alt="">
+        </div>
+        <div class="col col--sm-12">
+            <p>{{ .Site.Data.FurnaceRepairMaintenance.Maintenance.SubDescription}}</p>
+            <a href="/contact" class="btn btn-red">Contact Us</a>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "nav_js" }}
+<script type="text/javascript">
+    (function () {
+        $(document).ready(function () {
+            return $('#burger').click(function () {
+                $(this).toggleClass('active');
+                return $('#menu').toggleClass('active');
+            });
+        });
+
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var distance;
+                distance = 1;
+                if ($(window).scrollTop() > distance) {
+                    $('#navigation').addClass('scrolled-single');
+                } else {
+                    $('#navigation').removeClass('scrolled-single');
+                }
+            });
+        });
+
+    }).call(this);
+</script>
+{{ end }}
