@@ -1,5 +1,11 @@
 <nav role="navigation">
-  <!--<span class="licensed text text--sm-center text--md-right">{{ .Site.Data.contact.licensed}}</span>-->
+  <span class="top-phone">
+    <a href="tel:{{ .Site.Data.contact.phone }}">
+      {{ .Site.Data.contact.phone }}
+    </a>
+  </span>
+
+  <span class="licensed">{{ .Site.Data.contact.licensed}}</span>
   <ul class="nav-ul hide-ul">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
