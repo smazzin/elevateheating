@@ -101,9 +101,13 @@
 
   <div class="grid grid--container">
     <div class="row">
-      <div class="col col--md-3 col--sm-12">
-        Home Advisor here
+      {{ range $.Site.Data.HomeAdvisor }}
+      <div class="col col--sm col--sm-flex mt-80">
+        <a class="d-block mx-auto text text--xs-center text--sm-center" href="{{ .url }}">
+          <img src="{{ .image}}" alt="{{ .alt }}">
+        </a>
       </div>
+      {{ end }}
     </div>
   </div>
 
