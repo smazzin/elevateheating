@@ -183,14 +183,27 @@ ul.two-column {
 .business-info {
     background-color: $brand-color;
     padding: 1rem;
-    & h2, p, span, ul li {
+    & h2, p, span {
         color: $white;
         margin: 0;
-        padding-bottom: 1rem;
     }
     & .business-name h2  {
         font-size: 1.25rem;
     }
+
+    
+    & .hours, .phone {
+        padding-top: 1rem;
+        & ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            & li {
+                color: $white;
+            }
+        }
+    }
+
 }
 
 //Review stars
