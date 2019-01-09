@@ -4,9 +4,25 @@
 
 <div class="grid grid--container">
     <div class="row">
-        <div class="col col--sm-12">
+        <div class="col col--sm-12 mt-80">
             {{ .Content }}
         </div>
+    <div class="col col--sm-12">
+        <div class="row">
+            {{ range $.Site.Data.Reviews }}
+                <div class="col col--md-6 col--sm-12">
+                    <div class="review">
+                        <h3>{{ .By }}</h3>
+                        <div class="stars">{{ .Stars }}</div>
+                        <p><strong>{{ .Project }}</strong></p>
+                        <p>{{ .Review }}</p>
+                    </div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+
+
     </div>
 </div>
 {{ end }}
