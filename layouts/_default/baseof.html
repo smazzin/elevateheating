@@ -4,6 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <!-- noindex meta -->
+    {{ $default_noindex_kinds := slice "section" "taxonomy" "taxonomyTerm" }}
+    {{ $noindex_kinds := .Site.Params.noindex_kinds | default $default_noindex_kinds }}
+    {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
+    {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
+    <meta name="robots" content="noindex">
+    {{ end }}
     <title>{{ .Title }}</title>
     <meta name="description" content="{{ .Description }}">
     <meta property="og:description" content="{{ .Description }}">
@@ -30,7 +37,7 @@
         {{ block "main" . }}
         {{ end }}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 {{ block "nav_js" . }}
 {{ end }}
 {{ partial "footer" . }}

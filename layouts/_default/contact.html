@@ -8,6 +8,28 @@
             <div class="row">
                 <div class="col col--md-8 col--sm-12">
                     {{ .Content }}
+                    <div class="row">
+                        <div class="col col--sm-12">
+                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                            <form id="contact-form" accept-charset="UTF-8" action="https://usebasin.com/f/faca860b53d9" method="POST">
+                                <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value=""
+                                    required>
+                                <input placeholder="Email address" type="email" name="_replyto" onblur="this.setAttribute('value', this.value);"
+                                    value="" required>
+                                <textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+                        
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <input type="hidden" name="_next" value="/" />
+                                <input type="hidden" name="_subject" value="Contact from jhausotter.com">
+                                <div class="mt-50">
+                                    <button class="text text--xs-center text--sm-right btn btn-red" type="submit" value="Send Message">Send
+                                        Message</button>
+                                </div>
+                        
+                                <div class="mt-50 g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <div class="col col--md-4 col--sm-12">
                     <div class="business-info">
@@ -37,4 +59,5 @@
         </div>
     </div>
 </div>
+
 {{ end }}
