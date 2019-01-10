@@ -1,50 +1,3 @@
-
-//  .form{
-//     width:50%;
-//     height:440px;
-//     box-sizing:border-box;
-//     font-family: $secondary-font-family;
-//     position:relative;
-// }
-
-//  input{
-//     width:100%;
-//     padding:10px;
-//     box-sizing:border-box;
-//     background:none;
-//     outline:none;
-//     resize:none;
-//     border:0;
-//     font-family: $secondary-font-family;
-//     transition:all .3s;
-//     border-bottom:2px solid $brand-secondary
-// }
-//  input:focus{
-//     border-bottom:2px solid $brand-secondary
-// }
-//  label:before{
-//     content:attr(type);
-//     display:block;
-//     margin:28px 0 0;
-//     //font-size:14px;
-//     //color:#5a5a5a
-// }
-//  button{
-//     float:right;
-//     padding:8px 12px;
-//     margin:8px 0 0;
-//     font-family: $secondary-font-family;
-//     background: $brand-color;
-//     color:$white;
-//     cursor:pointer;
-//     transition:all .3s
-// }
-//  button:hover{
-//     background: $brand-secondary;
-//     color: $white;
-// }
-
-
 $invalid: $brand-color;
 $width: 100%;
 $cubic: cubic-bezier(.64,.09,.08,1);
@@ -148,3 +101,8 @@ input {
 //     }
 //   }
 }
+
+//Hide google recaptcha
+  .grecaptcha-badge {
+    display: none;
+  }
