@@ -121,12 +121,12 @@ input {
       visibility: visible !important;
       opacity: 1;
     }
-    &:focus::-webkit-input-placeholder {
-      color: $brand-secondary;
-    }
-    &:focus:not(:valid)::-webkit-input-placeholder {
-      color: $invalid;
-    }
+    // &:focus::-webkit-input-placeholder {
+    //   color: $brand-secondary;
+    // }
+    // &:focus:not(:valid)::-webkit-input-placeholder {
+    //   color: $invalid;
+    // }
   }
   &:focus {
     background-position: 0 0;
