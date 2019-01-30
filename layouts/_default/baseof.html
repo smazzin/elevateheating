@@ -20,6 +20,59 @@
     {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
     {{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.PostCSS }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": ["LocalBusiness","Service", "HVACBusiness"],
+        "name": "Elevate Heating & Cooling, LLC",
+        "telephone": "541-670-9618",
+        "openingHours": "Mo-Fri 08:00-17:00",
+        "logo": "https://elevateheatingllc.com/images/elevate-logo.png",
+        "image": "https://elevateheatingllc.com/images/elevate-logo.png",
+        "url": "https://elevateheatingllc.com/",
+        "priceRange" : "$$$",
+        "areaServed": ["North Plains, OR", "Beaverton, OR", "Hillsboro, OR", "Tualatin, OR", "Cornelius, OR", "Forest Grove, OR", "Tigard, OR", "Banks, OR"],
+        "address" : {
+          "@type" : "PostalAddress",
+          "streetAddress" : "",
+          "addressLocality" : "North Plains",
+          "addressRegion" : "OR",
+          "postalCode" : "97133"
+        },
+        "description": "We provide a range of HVAC installation, repair and maintenance services. We install new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.",
+        "sameAs": ["https://www.facebook.com/ElevateHeating/",
+        "https://www.instagram.com/elevateheatingandcooling/"]
+    }
+    </script>
+{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+
+{{- $.Scratch.Add "path" ( "/" | absLangURL ) -}}
+{{- $.Scratch.Add "breadcrumb" (slice (dict "url" ( "/" | absLangURL ) "name" "home" "position" 1 )) -}}
+{{- range $index, $element := split $url "/" -}}
+{{- $.Scratch.Add "path" $element -}}
+{{- $.Scratch.Add "path" "/" -}}
+{{- if ne $element "" -}} {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+{{- end -}}
+{{- end -}} 
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      {{ range $.Scratch.Get "breadcrumb" }}
+        {{ if ne .position 1 }},
+      {{ end }}
+      {
+            "@type": "ListItem",
+            "position": {{ .position }},
+            "item": {
+              "@id": "{{ .url }}",
+              "name": "{{ .name }}"
+            }
+        }{{ end }}]
+    }
+    </script>
 </head>
 <div id="nav-background">
     <div id="nav-container">
