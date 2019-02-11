@@ -1,6 +1,6 @@
 ---
-title: Electric Heat Fan Coil Tune Up | North Plains, OR | Elevate Heating & Cooling, LLC
-description: If you use a fan coil for electric heat and cooling in North Plains, OR & the surrounding Portland Oregon Metro Area and you want to get good use out of it.
+title: Electric Heat Fan Coil Tune Up | Beaverton, OR | Elevate Heating & Cooling, LLC
+description: If you use a fan coil for electric heat and cooling in Beaverton, OR & the surrounding Portland Oregon Metro Area and you want to get good use out of it.
 date: 2018-12-30T09:53:49-08:00
 draft: false
 image: /images/electric-fan-coil-tune-up-hero.jpg
@@ -9,7 +9,7 @@ herotext: Electric Fan Coil Tune Up
 
 # Get Years of Use From Your Fan Coil Unit
 
-### FAN COIL TUNE-UP SERVICES IN IN NORTH PLAINS, OR
+### FAN COIL TUNE-UP SERVICES IN BEAVERTON, OR AND SURROUNDING AREAS
 
 If you use a fan coil for electric heat and cooling in North Plains, OR and the surrounding Portland Oregon Metro Area and you want to get good use out of it. we will help keep your fan coil unit running efficiently for years with regular maintenance and tune-ups. 
 
@@ -30,4 +30,4 @@ Sometimes it’s more cost-effective to simply replace your furnace or air condi
 - New furnaces and AC units are more energy efficient than older models.
 - Repairs and energy bills may become more expensive than a new system.
 
-Reach out to us right away for more information about HVAC unit replacement services in North Plains, OR.
+Reach out to us right away for more information about HVAC unit replacement services in Beaverton, OR.

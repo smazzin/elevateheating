@@ -1,5 +1,5 @@
 ---
-title: Ductless & Mini Split System Installations | North Plains, OR | Elevate Heating & Cooling, LLC
+title: Ductless & Mini Split System Installations | Beaverton, OR | Elevate Heating & Cooling, LLC
 description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
 date: 2018-12-30T09:53:15-08:00
 draft: false
@@ -9,7 +9,7 @@ herotext: Ductless Mini Split Installations
 
 # Heat and Cool Your Home for Less
 
-### INSTALL A DUCTLESS MINI-SPLIT SYSTEM IN NORTH PLAINS, OR
+### INSTALL A DUCTLESS MINI-SPLIT SYSTEM IN BEAVERTON, OR AND SURROUNDING AREAS
 
 If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system. We provide mini-split installations for clients in and around the North Plains, Oregon general area.
 
@@ -23,4 +23,4 @@ We will help install and repair your ductless mini-split system. There are many 
 - Labor costs are lower with min-split installations.
 - Mini-splits are quick to install and easy to manage.
 
-Reach out to us right away if you want a more energy-efficient way to heat and cool your home in the North Plains and surrounding Portland Oregon area.
+Reach out to us right away if you want a more energy-efficient way to heat and cool your home in the Beaverton and surrounding Portland Oregon area.

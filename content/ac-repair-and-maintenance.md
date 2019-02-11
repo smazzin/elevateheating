@@ -1,5 +1,5 @@
 ---
-title: AC Repair & Maintenance | North Plains, OR | Elevate Heating & Cooling, LLC
+title: AC Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
 date: 2018-12-30T09:54:21-08:00
 draft: false
@@ -10,7 +10,7 @@ herotext: Ac Repair & Maintenance
 
 # Don’t Sweat Through Your Summers
 
-### Set up regular air conditioner maintenance in North Plains, OR
+### Set up regular air conditioner maintenance in Beaverton and surrounding areas
 
 It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
 
@@ -30,4 +30,4 @@ Elevate Heating & Cooling can work on any make or model of air conditioning unit
 - $135.00 for our service diagnostic
 - $100.00 an hour for AC repair after the diagnostic
 
-Reach out to us right away to schedule air conditioning repair or maintenance services in North Plains, Oregon.
+Reach out to us right away to schedule air conditioning repair or maintenance services. We service Hillsboro, Beaverton and surrounding areas.
