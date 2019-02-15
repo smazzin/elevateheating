@@ -5,7 +5,9 @@
     </a>
   </span>
 
-  <span class="licensed">{{ .Site.Data.contact.licensed}}</span>
+  <span class="licensed">
+    {{ .Site.Data.contact.licensed}}
+  </span>
   <ul class="nav-ul hide-ul">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
