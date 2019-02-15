@@ -13,8 +13,12 @@
     <meta name="robots" content="noindex">
     {{ end }}
     <title>{{ .Title }}</title>
+    <meta property="og:title" content="{{ .Description }}">
     <meta name="description" content="{{ .Description }}">
     <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:image" content="/{{ .Params.image }}">
+    <meta property="og:url" content="{{ .URL | relURL }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
     <link rel="canonical" href="{{ .URL | relURL }}">
     <!-- CSS -->
     {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
