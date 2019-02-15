@@ -31,7 +31,12 @@
         "image": "https://elevateheatingllc.com/images/elevate-logo.png",
         "url": "https://elevateheatingllc.com/",
         "priceRange" : "$$$",
-        "areaServed": ["North Plains, OR", "Beaverton, OR", "Hillsboro, OR", "Tualatin, OR", "Cornelius, OR", "Forest Grove, OR", "Tigard, OR", "Banks, OR"],
+        //"areaServed": ["North Plains, OR", "Beaverton, OR", "Hillsboro, OR", "Tualatin, OR", "Cornelius, OR", "Forest Grove, OR", "Tigard, OR", "Banks, OR"],
+        "areaServed" : [
+            {"@type": "City",
+                       "Name": ["North Plains","Beaverton","Hillsboro","Tualatin","Cornelius", "Forest Grove", "Tigard", "Banks"]
+            }
+        ],
         "address" : {
           "@type" : "PostalAddress",
           "streetAddress" : "",
@@ -44,6 +49,8 @@
         "https://www.instagram.com/elevateheatingandcooling/"]
     }
     </script>
+    {{ block "schema" . }}
+    {{ end }}
 {{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
 {{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
 
