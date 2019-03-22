@@ -8,7 +8,7 @@ layout: single-alt
 
 # Keep Your Furnace in Working Order
 
-### Schedule furnace repair services in Beaverton, OR and surrounding Portland area.
+## Schedule furnace repair services in Beaverton, OR and surrounding Portland area.
 
 As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
