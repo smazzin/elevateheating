@@ -9,7 +9,7 @@ herotext: Electric Fan Coil Tune Up
 
 # Get Years of Use From Your Fan Coil Unit
 
-### FAN COIL TUNE-UP SERVICES IN BEAVERTON, OR AND GREATER PORTLAND AREA
+## FAN COIL TUNE-UP SERVICES IN BEAVERTON, OR AND GREATER PORTLAND AREA
 
 If you use a fan coil for electric heat and cooling in Beaverton, OR and the surrounding Portland Oregon Metro Area and you want to get good use out of it. we will help keep your fan coil unit running efficiently for years with regular maintenance and tune-ups. 
 

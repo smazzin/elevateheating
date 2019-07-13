@@ -10,7 +10,7 @@ herotext: Ac Repair & Maintenance
 
 # Don’t Sweat Through Your Summers
 
-### Set up regular air conditioner maintenance in Beaverton and surrounding areas
+## Set up regular air conditioner maintenance in Beaverton and surrounding areas
 
 It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
 
