@@ -81,7 +81,7 @@
 
 
 //MOBILE MENU
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 
   nav {
       width: 100%;
@@ -176,7 +176,7 @@
 //END MOBILE MENU
 
 //DESKTOP MENU
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
 
   //Hide dropdowns by default
 .sub-menu {
