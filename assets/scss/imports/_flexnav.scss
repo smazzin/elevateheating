@@ -164,7 +164,7 @@
     padding: 1rem 0;
     font-size: 1.3rem;
   }
-  span.licensed, .top-phone a {
+  span.licensed, .top-phone a, .schedule {
     display: flex;
     justify-content: flex-start;
     padding: .5rem 1.5rem;
@@ -172,6 +172,17 @@
     color: $white;
     font-weight: 500;
 }
+
+// .schedule {
+//     display: flex;
+//     justify-content: flex-start;
+//     padding: 1rem 1.5rem;
+    
+//     // a {
+//     //   color: $white;
+//     //   font-weight: 500;
+//     // }
+// }
 }
 //END MOBILE MENU
 
@@ -249,6 +260,17 @@ span.licensed {
     font-family: $secondary-font-family;
     color: $white;
     font-weight: 500;
+}
+
+.schedule {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1.5rem;
+    
+    // a {
+    //   color: $white;
+    //   font-weight: 500;
+    // }
 }
 
 .top-phone {
