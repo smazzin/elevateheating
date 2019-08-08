@@ -12,4 +12,6 @@ layout: single-alt
 
 As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
-<a class="btn btn-red" href="tel:541-670-9618">Call Us &nbsp; 541-670-9618</a>
+<a class="btn btn-red" target="_blank" href="https://housecallpro.com/book/Elevate-Heating--Cooling-LLC/e1e426477d584e32882ba7ac2043954d?attribution=Book%20Now">
+    Schedule An Appointment
+</a>
