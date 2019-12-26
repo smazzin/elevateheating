@@ -2,3 +2,4 @@ node_modules/
 dist/
 site/data/webpack.json
 sendgrid.env
+.DS_Store
