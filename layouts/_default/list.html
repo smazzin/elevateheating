@@ -1,7 +1,12 @@
-{{ partial "header" . }}
+{{ define "main" }}
+    
+    {{ range .Paginator.Pages }}
+        <article>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ .Content }}
+        </article>
+    {{ end }}
 
-<h1>This is the List layout</h1>
-<h2>{{ .Title }}</h2>
-{{ .Content }}
+    {{ template "_internal/pagination.html" . }}
 
-{{ partial "footer" . }}
+{{ end }}

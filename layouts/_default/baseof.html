@@ -1,177 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+    <head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="google-site-verification" content="Af6TWpN8sjIQQT-Aol2y0GXfsi0hid4rikbu2FgjSs0" />
-    <!-- noindex meta -->
-    {{ $default_noindex_kinds := slice "section" "taxonomy" "taxonomyTerm" }}
-    {{ $noindex_kinds := .Site.Params.noindex_kinds | default $default_noindex_kinds }}
-    {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
-    {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
-    <meta name="robots" content="noindex">
-    {{ end }}
-    <title>{{ .Title }}</title>
-    <meta property="og:title" content="{{ .Title }}">
-    <meta name="description" content="{{ .Description }}">
-    <meta property="og:description" content="{{ .Description }}">
-    <meta property="og:image" content="/{{ .Params.image }}">
-    <meta property="og:url" content="{{ .URL | relURL }}">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-    <link rel="canonical" href="{{ .URL | relURL }}">
-    <!-- CSS -->
-    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-    {{ $style := resources.Get "scss/main.scss" | toCSS $options | resources.PostCSS }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org/",
-      "@type": ["LocalBusiness","Service", "HVACBusiness"],
-      "aggregateRating" : {
-          "@type" : "AggregateRating",
-           "ratingValue": "5",
-           "reviewCount": "16"
-      },
-        "name": "Elevate Heating & Cooling, LLC",
-        "telephone": "541-670-9618",
-        "openingHours": "Mo-Fri 08:00-17:00",
-        "logo": "https://elevateheatingllc.com/images/elevate-logo.png",
-        "image": "https://elevateheatingllc.com/images/elevate-logo.png",
-        "url": "https://elevateheatingllc.com",
-        "priceRange" : "$$$",
-        "areaServed" : [
-            {"@type" : "Place",
-                        "name": ["Helvetia, Oregon"]
-            },
-            {"@type" : "Place",
-                        "name": ["Bethany, Oregon"]
-            },
-            {"@type" : "Place",
-                        "name": ["North Plains, Oregon"]
-            },
-            {"@type" : "Place",
-                        "name": ["Beaverton, Oregon"]
-            },
-            {"@type" : "Place",
-                        "name": ["Hillsboro, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Tualatin, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Cornelius, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Forest Grove, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Tigard, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Banks, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["King City, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Cedar Hills, Oregon"]
-            },
-            {"@type" : "Place",
-                       "name": ["Aloha, Oregon"]
-            }
+        {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
 
-        ],
-        "address" : {
-          "@type" : "PostalAddress",
-          "streetAddress" : "",
-          "addressLocality" : "North Plains",
-          "addressRegion" : "OR",
-          "postalCode" : "97133"
-        },
-        "description": "We provide a range of services from furance repair and maintenance to installing new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.",
-        "sameAs": ["https://www.facebook.com/ElevateHeating/",
-        "https://www.instagram.com/elevateheatingandcooling/"]
-    }
-    </script>
-    {{ block "schema" . }}
-    {{ end }}
-{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
-{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+        <title>{{ block "title" . }}
+            {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
+        {{ end }}</title>
 
-{{- $.Scratch.Add "path" ( "/" | absLangURL ) -}}
-{{- $.Scratch.Add "breadcrumb" (slice (dict "url" ( "/" | absLangURL ) "name" "home" "position" 1 )) -}}
-{{- range $index, $element := split $url "/" -}}
-{{- $.Scratch.Add "path" $element -}}
-{{- $.Scratch.Add "path" "/" -}}
-{{- if ne $element "" -}} {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
-{{- end -}}
-{{- end -}} 
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-      {{ range $.Scratch.Get "breadcrumb" }}
-        {{ if ne .position 1 }},
-      {{ end }}
-      {
-            "@type": "ListItem",
-            "position": {{ .position }},
-            "item": {
-              "@id": "{{ .url }}",
-              "name": "{{ .name }}"
-            }
-        }{{ end }}]
-    }
-    </script>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T2B5FL8');</script>
-    <!-- End Google Tag Manager -->
-</head>
-<div id="nav-background">
-    <div id="nav-container">
-        <header id="nav-header">
-            <a href="{{ .Site.BaseURL }}">
-                <img id="nav-logo" width="250" src="{{ .Site.BaseURL }}images/logo.png" alt="{{ .Site.Title }}">
-            </a>
-            <div id="nav-menu-button">MENU</div>
-        </header>
-        {{ partial "nav.html" . }}
-    </div>
-</div>
-
-<body class='page {{ block "body_classes" . }}{{ end }}'>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2B5FL8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
-        {{ block "main" . }}
+        {{ range .AlternativeOutputFormats }}
+            <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end }}
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-{{ block "nav_js" . }}
-{{ end }}
-{{ partial "footer" . }}
-<script type="text/javascript">
-    (function () {
+        {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
 
-            var navButton = document.querySelector("#nav-menu-button");
-            var navUl = document.querySelector(".nav-ul");
+    </head>
+    <body>
 
-            function toggleMobileMenu() {
-                navUl.classList.toggle("hide-ul");
-            }
+        {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
 
-            navButton.onclick = toggleMobileMenu;
-        }());
-</script>
-</body>
+        <main class="site-main" role="main">
+
+            {{ block "main" . }}{{ end }}
+
+        </main>
+
+        {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+
+        {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+
+    </body>
 </html>

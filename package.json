@@ -1,18 +1,15 @@
 {
-    "name": "simple",
-    "version": "1.0.0",
-    "description": "Simple Hugo Theme",
-    "main": "index.js",
-    "directories": {
-        "doc": "docs"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-        "@vivid-web/flexboxgrid-sass": "^5.0.4",
-        "autoprefixer": "^9.1.0",
-        "postcss-cli": "^6.0.0"
-    },
-    "devDependencies": {}
+  "name": "atlas",
+  "private": true,
+  "scripts": {
+    "start": "hugo server",
+    "build": "hugo && npm run build:functions",
+    "build:functions": "netlify-lambda build assets/lambda",
+    "server": "hugo server"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "netlify-lambda": "^1.5.0",
+    "postcss-cli": "^6.1.3"
+  }
 }
