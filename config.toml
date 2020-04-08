@@ -12,6 +12,32 @@ canonifyURLs = true
 
 enableRobotsTXT = true # generate robots.txt
 
+[params]
+disallow_search_engines = false # set robots.txt to disallow everything
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
@@ -21,42 +47,26 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 hrefTargetBlank = true
 
 [[menu.main]]
-name = "Home"
-weight = 1
-identifier = "Home"
-url = "/"
-
-[[menu.main]]
-name = "Services"
-weight = 2
-identifier = "Services"
-url = "#"
-
-[[menu.main]]
 name = "Funace Repair & Maintenance"
 weight = 1
-parent = "Services"
 identifier = "Funace Repair & Maintenance"
 url = "furnace-repair-and-maintenance"
 
 [[menu.main]]
 name = "AC Repair & Maintenance"
 weight = 2
-parent = "Services"
 identifier = "AC Repair & Maintenance"
 url = "ac-repair-and-maintenance"
 
 [[menu.main]]
 name = "Electric Fan Coil Tune Up"
 weight = 3
-parent = "Services"
 identifier = "Electric Fan Coil Tune Up"
 url = "electric-fan-coil-tune-up"
 
 [[menu.main]]
 name = "Ductless/Mini-Split Installations"
 weight = 4
-parent = "Services"
 identifier = "Ductless/Mini-Split Installations"
 url = "ductless-mini-split-installations"
 
