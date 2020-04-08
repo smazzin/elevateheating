@@ -4,18 +4,131 @@
 
         {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
 
-        <title>{{ block "title" . }}
-            {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
-        {{ end }}</title>
-
         {{ range .AlternativeOutputFormats }}
             <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end }}
 
         {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org/",
+            "@type": ["LocalBusiness","Service", "HVACBusiness"],
+            "aggregateRating" : {
+                "@type" : "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "16"
+            },
+                "name": "Elevate Heating & Cooling, LLC",
+                "telephone": "541-670-9618",
+                "openingHours": "Mo-Fri 08:00-17:00",
+                "logo": "https://elevateheatingllc.com/images/elevate-logo.png",
+                "image": "https://elevateheatingllc.com/images/elevate-logo.png",
+                "url": "https://elevateheatingllc.com",
+                "priceRange" : "$$$",
+                "areaServed" : [
+                    {"@type" : "Place",
+                                "name": ["Helvetia, Oregon"]
+                    },
+                    {"@type" : "Place",
+                                "name": ["Bethany, Oregon"]
+                    },
+                    {"@type" : "Place",
+                                "name": ["North Plains, Oregon"]
+                    },
+                    {"@type" : "Place",
+                                "name": ["Beaverton, Oregon"]
+                    },
+                    {"@type" : "Place",
+                                "name": ["Hillsboro, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Tualatin, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Cornelius, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Forest Grove, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Tigard, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Banks, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["King City, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Cedar Hills, Oregon"]
+                    },
+                    {"@type" : "Place",
+                            "name": ["Aloha, Oregon"]
+                    }
 
+                ],
+                "address" : {
+                "@type" : "PostalAddress",
+                "streetAddress" : "",
+                "addressLocality" : "North Plains",
+                "addressRegion" : "OR",
+                "postalCode" : "97133"
+                },
+                "description": "We provide a range of services from furance repair and maintenance to installing new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.",
+                "sameAs": ["https://www.facebook.com/ElevateHeating/",
+                "https://www.instagram.com/elevateheatingandcooling/"]
+            }
+            </script>
+        {{ block "schema" . }}
+        {{ end }}
+        {{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+        {{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+
+        {{- $.Scratch.Add "path" ( "/" | absLangURL ) -}}
+        {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ( "/" | absLangURL ) "name" "home" "position" 1 )) -}}
+        {{- range $index, $element := split $url "/" -}}
+        {{- $.Scratch.Add "path" $element -}}
+        {{- $.Scratch.Add "path" "/" -}}
+        {{- if ne $element "" -}}
+        {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+        {{- end -}}
+        {{- end -}}
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+            {{ range $.Scratch.Get "breadcrumb" }}
+                {{ if ne .position 1 }},
+            {{ end }}
+            {
+                    "@type": "ListItem",
+                    "position": {{ .position }},
+                    "item": {
+                    "@id": "{{ .url }}",
+                    "name": "{{ .name }}"
+                    }
+                }{{ end }}]
+            }
+            </script>
+        <!-- Google Tag Manager -->
+        <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-T2B5FL8');</script>
+        <!-- End Google Tag Manager -->
     </head>
     <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2B5FL8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
         {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
 
