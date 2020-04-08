@@ -1,5 +1,8 @@
-node_modules/
 dist/
 site/data/webpack.json
 sendgrid.env
 .DS_Store
+public/
+node_modules/
+/functions
+/resources
