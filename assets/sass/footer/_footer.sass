@@ -1,0 +1,35 @@
+footer 
+    background-color: $grey
+.contact
+    list-style: none
+    padding: 0
+    margin: 0
+    li 
+        padding: .5em 0
+.footer-content
+    width: 100%
+    margin: 0 auto
+    padding: 2em
+    display: grid
+    justify-content: space-around
+    align-items: center
+    @media (min-width: 900px)
+        grid-auto-flow: column
+        width: 80%
+
+.footer-phone-number
+    color: $red
+    text-decoration: none
+
+.service-areas
+    h4 
+        color: $blue
+        font-weight: bold
+        font-size: larger
+    &-list
+        list-style: none
+        padding: 0
+        margin: 0
+        columns: 2
+        li 
+            padding: .5em 0
