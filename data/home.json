@@ -48,23 +48,17 @@
         "url": "",
         "image": "/img/keep-your-hvac-unit-in-great-condition.jpg"
     },
-    "about": {
-        "section1": [
-            {
-                "title": "GET THE HVAC SERVICES YOU NEED",
-                "description": "If you’re looking for HVAC contractors you can trust in the Beaverton, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC & Furnace repair service.",
-                "button": "Call Us Today",
-                "url": "",
-                "image": "img/elevate-van-sm.jpg"
-            }
-        ],
-        "section2": [
-            {
-                "title": "WE'RE FAMILY OWNED & OPERATED",
-                "description": "We’re a family owned and operated company. You’ll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We’re a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.",
-                "image": "/img/elevate-fam-sm.jpg"
-            }
-        ]
+    "section1":{
+        "title": "GET THE HVAC SERVICES YOU NEED",
+        "description": "If you’re looking for HVAC contractors you can trust in the Beaverton, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC & Furnace repair service.",
+        "button": "Call Us Today",
+        "url": "",
+        "image": "/img/elevate-van-sm.jpg"
+    },
+    "section2":{
+        "title": "WE'RE FAMILY OWNED & OPERATED",
+        "description": "We’re a family owned and operated company. You’ll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We’re a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.",
+        "image": "/img/elevate-fam-sm.jpg"
     },
     "reviews": {
         "title": "What Customers Say"

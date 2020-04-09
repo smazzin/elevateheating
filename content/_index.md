@@ -1,8 +1,6 @@
 ---
 title: Beaverton, OR Furnace Repair & HVAC Service
 description: Elevate Heating & Cooling, LLC offers Furnace repair, HVAC service in Beaverton, Hillsboro and surrounding areas. Contact an HVAC contractor for AC repair, furnace installation & fan coil tune.
-date: 2018-12-26T07:59:10-08:00
-draft: false
 layout: single
 ---
 
