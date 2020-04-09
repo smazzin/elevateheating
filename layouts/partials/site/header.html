@@ -1,14 +1,20 @@
 <header class="container-fluid header">
     <div class="logo">
-        <a href="{{ .Site.BaseURL }}">
+        <a href="{{ .Site.BaseURL }}" title="{{.Site.Title}}">
             <img src="/img/logo-sm.png" alt="{{.Site.Title}}">
         </a>
     </div>
     <div class="book-online">
-        <a class="btn btn-red-shadow" href="{{.Site.Data.contact.scheduleurl}}">{{ .Site.Data.contact.scheduleblurb }}</a>
+        <a  class="btn btn-red-shadow" 
+            href="{{.Site.Data.contact.scheduleurl}}" 
+            title="{{ .Site.Data.contact.scheduleblurb }}">
+
+            {{ .Site.Data.contact.scheduleblurb }}
+
+        </a>
     </div>
     <div class="header-phone">
-        <a class="header-phone-number" href="#" tel="{{.Site.Data.contact.phone}}">{{ .Site.Data.contact.phone }}</a>
+        <a class="header-phone-number" href="#" tel="{{.Site.Data.contact.phone}}" title="{{ .Site.Data.contact.phone }}">{{ .Site.Data.contact.phone }}</a>
         <span>{{ .Site.Data.contact.headerblurb }}</span>
     </div>
     <a id="mobile-menu__opener" class="mobile-menu__opener" href="#menu" role="button" tabindex="0">
@@ -21,7 +27,7 @@
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             <li>
-                <a class="menu__item" href="{{.URL | relURL }}">
+                <a class="menu__item" href="{{.URL | relURL }}" title="{{ .Name }}">
                     {{ .Pre }}
                     {{ .Name }}
                 </a>
