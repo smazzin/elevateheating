@@ -1,8 +1,7 @@
 ---
 title: Electric Heat Fan Coil Tune Up | Beaverton, OR | Elevate Heating & Cooling, LLC
+pagetitle: Electric Heat Fan Coil Tune Up
 description: If you use a fan coil for electric heat and cooling in Beaverton, OR & the surrounding Portland Oregon Metro Area and you want to get good use out of it.
-date: 2018-12-30T09:53:49-08:00
-draft: false
 image: /images/electric-fan-coil-tune-up-hero.jpg
 herotext: Electric Fan Coil Tune Up
 ---

@@ -1,9 +1,8 @@
 ---
-title: Furnace Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC
+title: "Furnace Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC"
+pagetitle: "Furnace Repair & Maintenance"
+image: /img/about-jumbotron.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
-date: 2018-12-30T09:54:06-08:00
-draft: false
-layout: single-alt
 ---
 
 # Keep Your Furnace in Working Order
@@ -15,3 +14,28 @@ As winter approaches, you want to be sure that your furnace is working as it sho
 <a class="btn btn-red" target="_blank" href="https://housecallpro.com/book/Elevate-Heating--Cooling-LLC/e1e426477d584e32882ba7ac2043954d?attribution=Book%20Now">
     Schedule An Appointment
 </a>
+
+When we work on your furnace, we’ll
+
+- Check carbon monoxide levels
+- Adjust and tighten electrical connections
+- Clean the blower motor
+- Clean the assemblies
+- Check for corrosion and rust
+- Check for leaks
+- Check the piping
+
+We can also install new furnaces, if necessary. Call today to get a free quote on new furnace installation.
+
+### Fix your furnace without breaking the bank
+
+![Fix your furnace without breaking the bank](/img/fix-your-furnace-without-breaking-the-bank.jpg)
+
+At Elevate Heating & Cooling, we want to help you avoid costly repairs. That’s why we offer regular maintenance. With Elevate Heating & Cooling, you can always depend on quality service and flat and fair pricing. We charge
+
+- $159.00 for furnace maintenance
+- $259.00 for heating and AC maintenance
+- $135.00 for our service diagnostic
+- $100.00 an hour for furnace repair after the diagnostic
+
+It’s a good idea to schedule maintenance services twice a year; before and after winter. Reach out to us right away to schedule furnace maintenance and tune-up services in North Plains, OR. 
