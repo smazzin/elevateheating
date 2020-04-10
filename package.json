@@ -5,7 +5,7 @@
     "start": "hugo server",
     "build": "hugo && npm run build:functions",
     "build:functions": "netlify-lambda build assets/lambda",
-    "server": "hugo server"
+    "server": "hugo server --disableKinds=taxonomy,taxonomyTerm"
   },
   "dependencies": {
     "autoprefixer": "^9.6.1",
