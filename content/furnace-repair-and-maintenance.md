@@ -1,7 +1,7 @@
 ---
 title: "Furnace Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC"
 pagetitle: "Furnace Repair & Maintenance"
-image: /img/keep-your-hvac-unit-in-great-condition.jpg
+image: /images/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
 ---
 
@@ -29,7 +29,7 @@ We can also install new furnaces, if necessary. Call today to get a free quote o
 
 ### Fix your furnace without breaking the bank
 
-![Fix your furnace without breaking the bank](/img/fix-your-furnace-without-breaking-the-bank.jpg)
+![Fix your furnace without breaking the bank](/images/fix-your-furnace-without-breaking-the-bank.jpg)
 
 At Elevate Heating & Cooling, we want to help you avoid costly repairs. That’s why we offer regular maintenance. With Elevate Heating & Cooling, you can always depend on quality service and flat and fair pricing. We charge
 

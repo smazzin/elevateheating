@@ -2,7 +2,7 @@
     "tophero": {
         "title": "We Want You to Stay Warm This Winter",
         "button": "Call Today!",
-        "image": "/img/hero.jpg"
+        "image": "/images/hero.jpg"
     },
     "topsection": {
         "title": "Stay <span class=\"blue\">Cool<\/span> All Summer and <span class=\"red\">Warm<\/span>  All Winter",
@@ -18,25 +18,25 @@
             {
                 "title": "Furnace Repair & Maintenance",
                 "description": "Rely on our furnace maintenance services to keep you warm all winter.",
-                "image": "/img/fix-your-furnace-without-breaking-the-bank.jpg",
+                "image": "/images/fix-your-furnace-without-breaking-the-bank.jpg",
                 "url": "/furnace-repair-and-maintenance"
             },
             {
                 "title": "AC Repair & Maintenance",
                 "description": "Keep the cool air flowing in your home when it gets hot out.",
-                "image": "/img/ac-repair-maintenance.jpg",
+                "image": "/images/ac-repair-maintenance.jpg",
                 "url": "/ac-repair-and-maintenance"
             },
             {
                 "title": "Electric Fan Coil Tune-Up",
                 "description": "Add years of operation to your fan coil unit with regular tune-ups.",
-                "image": "/img/electric-fan-coil-tune-up.jpg",
+                "image": "/images/electric-fan-coil-tune-up.jpg",
                 "url": "/electric-fan-coil-tune-up"
             },
             {
                 "title": "Ductless/Mini-Split Installations",
                 "description": "Install an energy-efficient HVAC unit in your home.",
-                "image": "/img/air-conditioner.jpg",
+                "image": "/images/air-conditioner.jpg",
                 "url": "/ductless-mini-split-installations"
             }
         ]
@@ -46,19 +46,19 @@
         "subtitle": "Schedule Your Furnace Maintenance & Tune-up Today",
         "button": "Request Service",
         "url": "",
-        "image": "/img/keep-your-hvac-unit-in-great-condition.jpg"
+        "image": "/images/keep-your-hvac-unit-in-great-condition.jpg"
     },
     "section1":{
         "title": "GET THE HVAC SERVICES YOU NEED",
         "description": "If you’re looking for HVAC contractors you can trust in the Beaverton, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC & Furnace repair service.",
         "button": "Call Us Today",
         "url": "",
-        "image": "/img/elevate-van-sm.jpg"
+        "image": "/images/elevate-van-sm.jpg"
     },
     "section2":{
         "title": "WE'RE FAMILY OWNED & OPERATED",
         "description": "We’re a family owned and operated company. You’ll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We’re a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.",
-        "image": "/img/elevate-fam-sm.jpg"
+        "image": "/images/elevate-fam-sm.jpg"
     },
     "reviews": {
         "title": "What Customers Say"

@@ -2,7 +2,7 @@
 title: AC Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC
 pagetitle: AC Repair & Maintenance
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
-image: /img/ac-repair-hero.jpg
+image: /imamges/ac-repair-hero.jpg
 herotext: Ac Repair & Maintenance
 ---
 
