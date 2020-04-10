@@ -47,13 +47,13 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 hrefTargetBlank = true
 
 [[menu.main]]
-name = "Funace Repair & Maintenance"
+name = "Funace Repair"
 weight = 1
 identifier = "Funace Repair & Maintenance"
 url = "furnace-repair-and-maintenance"
 
 [[menu.main]]
-name = "AC Repair & Maintenance"
+name = "AC Repair"
 weight = 2
 identifier = "AC Repair & Maintenance"
 url = "ac-repair-and-maintenance"
