@@ -4,7 +4,7 @@
             <div class="overlay"></div>
             <div class="top-hero-content">
                 <h1>{{ .Site.Data.home.tophero.title }}</h1>
-                <a class="btn btn-lg btn-red-shadow" href="#" title="{{.Site.Data.home.tophero.button}} {{.Site.Data.contact.phone}}" tel="{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.tophero.button }}</a>
+                <a class="btn btn-lg btn-red-shadow" href="tel:{{ .Site.Data.contact.phone }}" title="{{.Site.Data.home.tophero.button}} {{.Site.Data.contact.phone}}">{{ .Site.Data.home.tophero.button }}</a>
             </div>
             <svg data-name="Layer 1" id="4c20d5fe-6b2f-413f-94b8-2ad5b1aa331d" preserveAspectRatio="xMinYMax" viewBox="0 0 1618 139"
                 xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@
             <div class="overlay"></div>
             <div class="middle-hero-content">
                 <h2>{{ .Site.Data.home.middlehero.subtitle }}</h2>
-                <a class="btn btn-red-shadow" href="#" tel="{{.Site.Data.contact.phone}}">{{ .Site.Data.home.middlehero.button }}</a>
+                <a class="btn btn-red-shadow" href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.middlehero.button }}</a>
             </div>
             <svg data-name="Layer 1" id="4c20d5fe-6b2f-413f-94b8-2ad5b1aa331d" preserveAspectRatio="xMinYMax" viewBox="0 0 1618 139"
                 xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@
                 <div class="section1">
                     <h2>{{ .Site.Data.home.section1.title }}</h2>
                     <p>{{ .Site.Data.home.section1.description }}</p>
-                    <a class="btn btn-red-shadow" href="#" tel="{{.Site.Data.contact.phone}}">{{ .Site.Data.home.section1.button }}</a>
+                    <a class="btn btn-red-shadow" href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.section1.button }}</a>
                 </div>
                 <div class="section2">
                     <img src="{{ .Site.Data.home.section2.image }}" alt="">
