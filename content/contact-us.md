@@ -3,6 +3,7 @@ title: Contact Us For Furnace Repair & AC Maintenance | Beaverton, OR | Elevate 
 pagetitle: Contact Us For Furnace Repair & AC Maintenance
 description: Contact Elevate Heating & Cooling. We provide a range of services from gas furnace repair and maintenance to installs.
 image: /img/electric-fan-coil-tune-up.jpg
+layout: contact
 ---
 
 # Find HVAC Contractors in Beaverton, OR and Surrounding Area
