@@ -2,7 +2,7 @@
 {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
 {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
 {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
-<div class="container-sm my-2">
+<div class="container-sm py-2">
     {{ .Content  | safeHTML }}
     <a class="btn btn-lg btn-red-shadow" href="#" tel="{{.Site.Data.contact.phone}}">{{.Site.Data.contact.phone}}</a>
 </div>

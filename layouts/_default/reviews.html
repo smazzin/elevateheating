@@ -1,7 +1,15 @@
 {{ define "main" }}
-<div class="container-sm my-2">
+<div class="container-sm">
     {{ .Content  | safeHTML }}
-    <a class="btn btn-lg btn-red-shadow" href="#" tel="{{.Site.Data.contact.phone}}">{{.Site.Data.contact.phone}}</a>
+    <div class="grid-2 py-2">
+        {{ range $.Site.Data.Reviews }}
+        <div class="review">
+            <h3>{{ .By }}</h3>
+            <div class="stars">{{ .Stars }}</div>
+            <!--<p><strong>{{ .Project }}</strong></p>-->
+            <p>{{ .Review }}</p>
+        </div>
+        {{ end }}
+    </div>
 </div>
-
 {{ end }}
