@@ -3,7 +3,7 @@
 {{ define "main" }}
 <div class="container-sm">
     {{ .Content  | safeHTML }}
-    <div class="grid-2 py-2">
+    <div class="grid-2">
         {{ range $.Site.Data.Reviews }}
         <div class="review">
             <h3>{{ .By }}</h3>

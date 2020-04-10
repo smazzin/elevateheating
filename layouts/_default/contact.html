@@ -2,7 +2,7 @@
 {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
 {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
 {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
-<div class="container-sm py-2">
+<div class="container-sm">
     {{ .Content  | safeHTML }}
     <div class="col col--sm-12">
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
