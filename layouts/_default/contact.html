@@ -4,7 +4,23 @@
 {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
 <div class="container-sm py-2">
     {{ .Content  | safeHTML }}
-    <a class="btn btn-lg btn-red-shadow" href="#" tel="{{.Site.Data.contact.phone}}">{{.Site.Data.contact.phone}}</a>
+    <div class="col col--sm-12">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <form id="contact-form" accept-charset="UTF-8" action="https://usebasin.com/f/faca860b53d9" method="POST">
+            <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value=""
+                required>
+            <input placeholder="Email address" type="email" name="_replyto" onblur="this.setAttribute('value', this.value);"
+                value="" required>
+            <textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+    
+            <input type="hidden" name="_subject" value="Contact from elevateheatingllc.com">
+            <div class="mt-50">
+                <button class="text text--xs-center text--sm-right btn btn-red" type="submit" value="Send Message">Send
+                    Message</button>
+            </div>
+            <div class="mt-50 g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+        </form>
+    </div>
 </div>
 
 {{ end }}
