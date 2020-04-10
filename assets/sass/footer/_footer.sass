@@ -1,31 +1,25 @@
 footer 
     background-color: $grey
-.contact
-    list-style: none
-    padding: 0
-    margin: 0
-    li 
-        padding: .5em 0
+    h4 
+        color: $blue
+        font-weight: bold
+        font-size: larger
 .footer-content
     width: 100%
     margin: 0 auto
     padding: 2em
     display: grid
-    justify-content: space-around
-    align-items: center
+    justify-content: space-between
+    align-items: top
     @media (min-width: 900px)
         grid-auto-flow: column
-        width: 80%
+        width: 100%
 
 .footer-phone-number
     color: $red
     text-decoration: none
 
 .service-areas
-    h4 
-        color: $blue
-        font-weight: bold
-        font-size: larger
     &-list
         list-style: none
         padding: 0
@@ -33,6 +27,12 @@ footer
         columns: 2
         li 
             padding: .5em 0
+.list 
+    list-style: none
+    padding: 0
+    margin: 0
+    li 
+        padding: .5em 0
 
 .site-footer__copyright
     margin: 0

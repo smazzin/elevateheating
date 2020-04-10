@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="container-sm my-2">
+    {{ .Content  | safeHTML }}
+    <a class="btn btn-lg btn-red-shadow" href="#" tel="{{.Site.Data.contact.phone}}">{{.Site.Data.contact.phone}}</a>
+</div>
+
+{{ end }}

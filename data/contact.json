@@ -7,8 +7,6 @@
     "headerblurb": "Serving greater Portland Metro Area",
     "BusinessName": "Elevate Heating & Cooling, LLC",
     "licensed": "Licensed and Insured CCB# 221000",
-    "Hours": [
-        "Mon - Fri 8:00AM-5:00PM",
-        "Sat - Sun Closed"
-    ]
+    "Hours": "Mon - Fri 8:00AM-5:00PM",
+    "Days":   "Sat - Sun Closed"
 }

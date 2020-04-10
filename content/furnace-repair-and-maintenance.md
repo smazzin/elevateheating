@@ -1,7 +1,7 @@
 ---
 title: "Furnace Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC"
 pagetitle: "Furnace Repair & Maintenance"
-image: /img/about-jumbotron.jpg
+image: /img/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
 ---
 

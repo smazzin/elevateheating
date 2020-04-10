@@ -2,7 +2,7 @@
 title: Ductless & Mini Split System Installations | Beaverton, OR | Elevate Heating & Cooling, LLC
 pagetitle: Ductless & Mini Split System Installations
 description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
-image: /images/ductless-mini-split-installations-hero.jpg
+image: /img/ductless-mini-split-installations-hero.jpg
 herotext: Ductless Mini Split Installations
 ---
 
