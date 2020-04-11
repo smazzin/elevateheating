@@ -4,7 +4,7 @@
             <div class="overlay"></div>
             <div class="top-hero-content">
                 <h1>{{ .Site.Data.home.tophero.title }}</h1>
-                <a class="btn btn-lg btn-red-shadow" href="tel:{{ .Site.Data.contact.phone }}" title="{{.Site.Data.home.tophero.button}} {{.Site.Data.contact.phone}}">{{ .Site.Data.home.tophero.button }}</a>
+                <a class="btn btn-lg btn-red-shadow" href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.tophero.button }}</a>
             </div>
             <svg data-name="Layer 1" id="4c20d5fe-6b2f-413f-94b8-2ad5b1aa331d" preserveAspectRatio="xMinYMax" viewBox="0 0 1618 139"
                 xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
             <div class="container-sm">
                 <h1 class="title">{{ .Site.Data.home.topsection.title | safeHTML }}</h1>
                 <p class="description">{{ .Site.Data.home.topsection.description | safeHTML }}</p>
-                <a class="btn btn-red-shadow" href="{{.Site.Data.contact.scheduleurl}}" title="{{.Site.Data.contact.scheduleblurb}}">
+                <a class="btn btn-red-shadow" href="{{.Site.Data.contact.scheduleurl}}">
                     {{ .Site.Data.contact.scheduleblurb }}
                 </a>
             </div>
@@ -40,9 +40,9 @@
                 <div class="grid">
                     {{ range .Site.Data.home.servicelist.items }}
                         <div class="card">
-                            <p class="title">
-                                <a href="{{.url | relURL}}" title="{{.title}}">{{ .title }}</a>
-                            </p>
+                            <h4 class="title">
+                                <a href="{{.url | relURL}}">{{ .title }}</a>
+                            </h4>
                             <p class="description">{{ .description }}</p>                            
                             <img class="car-img" src="{{.image | relURL}}" alt="{{.title}}">                       
                         </div>
@@ -112,7 +112,7 @@
             <div class="homeadvisor">
                 <div class="grid-3 text-center">
                     {{ range .Site.Data.HomeAdvisor }}
-                    <a href="{{.url}}" title="{{.alt}}">
+                    <a href="{{.url}}">
                         <img src="{{ .image }}" alt="{{.alt}}">
                     </a>
                     {{ end }}
