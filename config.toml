@@ -61,10 +61,10 @@ identifier = "AC Repair & Maintenance"
 url = "ac-repair-and-maintenance"
 
 [[menu.main]]
-name = "Electric Fan Coil Tune Up"
+name = "Heat Pump Tune-Up"
 weight = 3
-identifier = "Electric Fan Coil Tune Up"
-url = "electric-fan-coil-tune-up"
+identifier = "Heat Pump Tune-Up"
+url = "heat-pump-tune-up"
 
 [[menu.main]]
 name = "Ductless/Mini-Split Installations"
