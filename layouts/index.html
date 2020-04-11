@@ -107,4 +107,17 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="container-sm">
+            <div class="homeadvisor">
+                <div class="grid-3 text-center">
+                    {{ range .Site.Data.HomeAdvisor }}
+                    <a href="{{.url}}" title="{{.alt}}">
+                        <img src="{{ .image }}" alt="{{.alt}}">
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
 {{ end }}

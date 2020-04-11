@@ -47,6 +47,18 @@
   row-gap: 2em
   grid-row-gap: 2em
 
+.grid-3
+  // Grid Fallback
+  display: flex
+  flex-wrap: wrap
+  // Supports Grid
+  display: grid
+  @media (min-width: 900px)
+    grid-template-columns: repeat(3, 1fr)
+  grid-gap: 2rem
+  row-gap: 2em
+  grid-row-gap: 2em
+
 @media (min-width: 900px)
   .about
     //Grid Fallback
