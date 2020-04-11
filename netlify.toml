@@ -30,8 +30,8 @@ HUGO_VERSION = "0.68.3"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/electric-fan-coil-tune-up"
-  to = "/heat-pump-tune-up"
+  from = "/electric-fan-coil-tune-up/"
+  to = "/heat-pump-tune-up/"
   status = 301
   force = true
   query = {path = ":path"}
