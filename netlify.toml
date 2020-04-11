@@ -29,9 +29,9 @@ HUGO_VERSION = "0.68.3"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-  from = "/electric-fan-coil-tune-up"
-  to = "/heat-pump-tune-up"
-  status = 301
-  force = false
-  query = {path = ":path"}
+# [[redirects]]
+#   from = "/electric-fan-coil-tune-up"
+#   to = "/heat-pump-tune-up"
+#   status = 301
+#   force = false
+#   query = {path = ":path"}
