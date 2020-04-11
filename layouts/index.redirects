@@ -5,4 +5,4 @@
 {{- end }}
 {{- end -}}
 
-/electric-fan-coil-tune-up /heat-pump-tune-up
+/electric-fan-coil-tune-up /heat-pump-tune-up 301
