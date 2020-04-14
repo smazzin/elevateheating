@@ -1,7 +1,9 @@
 {
     "tophero": {
         "title": "We Want You to Stay Warm This Winter",
+        "alttitle": "Our goal remains the same during these times- to keep you and your family safe while providing the same excellent services. We are here for you!",
         "button": "Call Today!",
+        "nocontact": "/images/no-contact-service.jpg",
         "image": "/images/hero.jpg"
     },
     "topsection": {
