@@ -11,11 +11,6 @@
         {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAxigvrQDioltQ6yoFLM73ybxRp1yACDh0"></script>
-        {{ $g := resources.Get "js/google-reviews.js" | minify }}
-        
-        <script src="{{ $g.Permalink }}"></script>
-
         <script type="application/ld+json">
             {
             "@context": "http://schema.org/",
@@ -146,56 +141,5 @@
         {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
 
         {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
-        {{ block "slick" . }}
-        <script>
-            jQuery(document).ready(function ($) {
-                if ($("#google-reviews").length == 0) {
-                    return
-                }
-                //Find a placeID via https://developers.google.com/places/place-id
-                $("#google-reviews").googlePlaces({
-                    placeId: 'ChIJo5ruhcADlVQRUVig_GrmEl0',
-                        // the following params are optional (default values)
-                    header: "<h3>Google Reviews</h3>", // html/text over Reviews
-                    footer: '', // html/text under Reviews block
-                    maxRows: 5, // max 5 rows of reviews to be displayed
-                    minRating: 5, // minimum rating of reviews to be displayed
-                    months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-                    textBreakLength: "90", // length before a review box is set to max width
-                    shortenNames: true, // example: "Max Mustermann" -> "Max M."",
-                    moreReviewsButtonUrl: '', // url to Google Place reviews popup
-                    moreReviewsButtonLabel: 'Show More Reviews',
-                    writeReviewButtonUrl: '', // url to Google Place write review popup
-                    writeReviewButtonLabel: 'Write New Review',
-                    showProfilePicture: false
-                });
-            });
-        </script>
-            <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    $('.google-reviews').slick({
-                        dots: true,
-                        arrows: true,
-                        infinite: true,
-                        speed: 300,
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        adaptiveHeight: true,
-                        accessibility: true,
-
-                        responsive: [
-                            {
-                                breakpoint: 900,
-                                settings: {
-                                    slidesToShow: 1,
-                                    slidesToScroll: 1
-                                }
-                            }
-                        ]
-                    });
-                });
-            </script> -->
-        {{ end }}
     </body>
 </html>

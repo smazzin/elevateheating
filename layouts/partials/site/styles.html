@@ -1,7 +1,3 @@
 {{ $s := resources.Get "sass/site.sass" | toCSS | postCSS (dict "config" "postcss.config.js") | minify }}
 
 <link rel="stylesheet" href="{{ $s.Permalink }}" />
-
-
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
