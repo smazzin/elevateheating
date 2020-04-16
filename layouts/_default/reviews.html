@@ -1,17 +1,31 @@
 {{ define "schema" }}
 {{ end }}
 {{ define "main" }}
-<div class="container-sm">
-    {{ .Content  | safeHTML }}
-    <div class="grid-2">
-        {{ range $.Site.Data.Reviews }}
-        <div class="review">
-            <h3>{{ .By }}</h3>
-            <div class="stars">{{ .Stars }}</div>
-            <!--<p><strong>{{ .Project }}</strong></p>-->
-            <p>{{ .Review }}</p>
+<div class="reviews">
+    <div class="container-sm">
+        {{ .Content  | safeHTML }}
+        <div class="grid-2">
+            {{ range $.Site.Data.Reviews }}
+            <div class="review">
+                <div class="review-meta">
+                    <span class="review-author">
+                        {{ .By }}
+                    </span>
+                </div>
+                <div class="review-stars">
+                    <ul>
+                        <li><i class="star"></i></li>
+                        <li><i class="star"></i></li>
+                        <li><i class="star"></i></li>
+                        <li><i class="star"></i></li>
+                        <li><i class="star"></i></li>
+                    </ul>
+                </div>
+                <p class="review-text">{{ .Review }}</p>
+            </div>
+            {{ end }}
         </div>
-        {{ end }}
     </div>
 </div>
+
 {{ end }}
