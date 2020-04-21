@@ -3,13 +3,38 @@
         "title": "Areas We Service"
     },
     "citys": [
-        "Hillsboro",
-        "Portland",
-        "Beaverton",
-        "Bethany",
-        "Cornelius",
-        "Banks",
-        "Forest Grove",
-        "North Plains"
+
+        {
+            "city": "Hillsboro",
+            "url": "#"
+        },
+        {
+            "city": "Portland",
+            "url": "#"
+        },
+        {
+            "city": "Beaverton",
+            "url": "#"
+        },
+        {
+            "city": "Bethany",
+            "url": "#"
+        },
+        {
+            "city": "Cornelius",
+            "url": "#"
+        },
+        {
+            "city": "Banks",
+            "url": "#"
+        },
+        {
+            "city": "Forest Grove",
+            "url": "#"
+        },
+        {
+            "city": "North Plains",
+            "url": "/service-areas/north-plains/"
+        }
     ]
 }

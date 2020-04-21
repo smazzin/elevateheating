@@ -31,7 +31,7 @@
                 <h4>{{ .Site.Data.servicearea.heading.title }}</h4>
                 <ul class="service-areas-list">
                     {{ range .Site.Data.servicearea.citys }}
-                        <li>{{ . }}</li>
+                        <li><a href="{{ .url }}"><u>{{ .city }}</u></a></li>
                     {{ end }}
                 </ul>
             </div>
