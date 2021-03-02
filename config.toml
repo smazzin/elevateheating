@@ -49,9 +49,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 hrefTargetBlank = true
 
 [[menu.main]]
-name = "Funace Repair"
+name = "Furnace Repair"
 weight = 1
-identifier = "Funace Repair & Maintenance"
+identifier = "Furnace Repair & Maintenance"
 url = "furnace-repair-and-maintenance"
 
 [[menu.main]]
