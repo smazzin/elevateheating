@@ -5,8 +5,9 @@
 <div class="container-sm">
     {{ .Content  | safeHTML }}
     <div class="col col--sm-12">
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <form id="contact-form" accept-charset="UTF-8" action="https://usebasin.com/f/faca860b53d9" method="POST">
+        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+        <!--<form id="contact-form" accept-charset="UTF-8" action="https://usebasin.com/f/faca860b53d9" method="POST">-->
+        <form id="contact-form" name="contact" data-netlify="true" netlify-honeypot="bot-field" target="_self">
             <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value=""
                 required>
             <input placeholder="Email address" type="email" name="_replyto" onblur="this.setAttribute('value', this.value);"
@@ -18,7 +19,7 @@
                 <button class="text text--xs-center text--sm-right btn btn-red" type="submit" value="Send Message">Send
                     Message</button>
             </div>
-            <div class="mt-50 g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+            <!-- <div class="mt-50 g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div> -->
         </form>
     </div>
 </div>
