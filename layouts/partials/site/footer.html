@@ -31,7 +31,13 @@
                 <h4>{{ .Site.Data.servicearea.heading.title }}</h4>
                 <ul class="service-areas-list">
                     {{ range .Site.Data.servicearea.citys }}
-                        <li><a href="{{ .url }}"><u>{{ .city }}</u></a></li>
+                        <li>
+                            {{ if .url }}
+                            <a href="{{ .url }}"><u>{{ .city }}</u></a>
+                            {{else}}
+                            {{.city}}
+                            {{end}}
+                        </li>
                     {{ end }}
                 </ul>
             </div>
@@ -39,6 +45,6 @@
         <p class="site-footer__copyright">
             &copy; {{ now.Format "2006" }} &middot; <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
         </p>
-        <p class="site-by"><a href="https://www.digitalcloudnw.com/">Site by Digital Cloud</a></p>
+        <p class="site-by"><a href="https://www.digitalcloudnw.com/">Web Design by Digital Cloud</a></p>
     </div>
 </footer>
