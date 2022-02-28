@@ -1,10 +1,10 @@
 {{ define "main" }}
     <section>
-        <div class="top-hero" style="background-image: url(' {{ .Site.Data.home.tophero.nocontact | relURL }} ') ;">
-            <!-- <div class="overlay"></div> -->
+        <div class="top-hero" style="background-image: url(' {{ .Site.Data.home.tophero.image | relURL }} ') ;">
+            <div class="overlay"></div>
             <div class="top-hero-content">
                 <div class="container-sm">
-                    <h1>{{ .Site.Data.home.tophero.alttitle }}</h1>
+                    <h1>{{ .Site.Data.home.tophero.title }}</h1>
                     <a class="btn btn-red-shadow" href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.home.tophero.button }}</a>
                 </div>
             </div>
