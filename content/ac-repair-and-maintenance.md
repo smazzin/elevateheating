@@ -1,6 +1,6 @@
 ---
-title: AC Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC
-pagetitle: AC Repair & Maintenance
+title: Air Conditioning Repair | AC Repair | Bethany, OR | Elevate Heating & Cooling, LLC
+pagetitle: Air Conditioner Repairs in Bethany, OR
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
 image: /images/ac-repair-hero.jpg
 herotext: Ac Repair & Maintenance
@@ -8,7 +8,7 @@ herotext: Ac Repair & Maintenance
 
 # Don’t Sweat Through Your Summers
 
-## Set up regular air conditioner maintenance in Beaverton and surrounding areas
+## Set up regular air conditioner maintenance in Bethany, OR and surrounding areas
 
 It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
 
@@ -28,4 +28,13 @@ Elevate Heating & Cooling can work on any make or model of air conditioning unit
 - $135.00 for our service diagnostic
 - $100.00 an hour for AC repair after the diagnostic
 
-Reach out to us right away to schedule air conditioning repair or maintenance services. We service Hillsboro, Beaverton and surrounding areas.
+Reach out to us right away to schedule air conditioning repair or maintenance services. We service the Portland, OR area, including:
+
+- Aloha
+- Banks
+- Bethany
+- Beaverton
+- Cornelius
+- Forest Grove
+- Hillsboro
+- North Plains

@@ -1,6 +1,6 @@
 {
     "tophero": {
-        "title": "We Want You to Stay Warm This Winter",
+        "title": "Heating & Air Conditioning Services in Bethany, OR and Surrounding Areas",
         "alttitle": "Our goal remains the same during these times - to keep you and your family safe while providing the same excellent services. We are here for you!",
         "button": "Call Today!",
         "nocontact": "/images/no-contact-service.jpg",
@@ -8,7 +8,8 @@
     },
     "topsection": {
         "title": "Stay <span class=\"blue\">Cool<\/span> All Summer and <span class=\"red\">Warm<\/span>  All Winter",
-        "description": "Furnace not working? We can help. Schedule a service repair today! <br\/> We service Hillsboro, Beaverton, and the surrounding greater Portland Oregon Metro Area.",
+        "NewTitle": "test",
+        "description": "Furnace not working? We can help. Schedule a service repair today! <br\/> We service Bethany, Hillsboro, Forest Grove, Aloha, Beaverton, and the surrounding greater Portland Oregon Metro Area.",
         "button": "Schedule Appointment Online",
         "url": ""
     },
@@ -52,14 +53,14 @@
     },
     "section1":{
         "title": "GET THE HVAC SERVICES YOU NEED",
-        "description": "If you’re looking for HVAC contractors you can trust in the Beaverton, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC & Furnace repair service.",
+        "description": "If you're looking for HVAC contractors you can trust in the Bethany, Beaverton, Hillsboro, Aloha, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC & Furnace repair service.",
         "button": "Call Us Today",
         "url": "",
         "image": "/images/elevate-van-sm.jpg"
     },
     "section2":{
         "title": "WE'RE FAMILY OWNED & OPERATED",
-        "description": "We’re a family owned and operated company. You’ll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We’re a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.",
+        "description": "We're a family owned and operated company. You'll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We're a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.",
         "image": "/images/elevate-fam-sm.jpg"
     },
     "reviews": {

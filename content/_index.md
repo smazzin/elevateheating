@@ -1,6 +1,6 @@
 ---
-title: Beaverton, OR Furnace Repair & HVAC Service
-description: Elevate Heating & Cooling, LLC offers Furnace repair, HVAC service in Beaverton, Hillsboro and surrounding areas. Contact an HVAC contractor for AC repair, furnace installation & fan coil tune.
+title: Elevate Heating & Cooling | Heating & Air Conditioning in Bethany, OR
+description: We are your trusted HVAC service company serving Bethany, Hillsboro, Beaverton, OR and surrounding areas. Call us today to schedule.
 ---
 
 # We Want You to Stay Warm This Winter 

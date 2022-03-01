@@ -1,13 +1,13 @@
 ---
-title: "Furnace Repair & Maintenance | Beaverton, OR | Elevate Heating & Cooling, LLC"
-pagetitle: "Furnace Repair & Maintenance"
+title: "Furnace Repair & Maintenance | Bethany, OR | Elevate Heating & Cooling, LLC"
+pagetitle: "Furnace Repair & Maintenance Services in Bethany, OR"
 image: /images/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
 ---
 
 # Keep Your Furnace in Working Order
 
-## Schedule furnace repair services in Beaverton, OR and surrounding Portland area.
+## Schedule furnace repair services in Bethany, OR and surrounding Portland area.
 
 As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
@@ -38,4 +38,13 @@ At Elevate Heating & Cooling, we want to help you avoid costly repairs. That’s
 - $135.00 for our service diagnostic
 - $100.00 an hour for furnace repair after the diagnostic
 
-It’s a good idea to schedule maintenance services twice a year; before and after winter. Reach out to us right away to schedule furnace maintenance and tune-up services in North Plains, OR. 
+It’s a good idea to schedule maintenance services twice a year; before and after winter. Reach out to us right away to schedule furnace maintenance and tune-up services in the Portland, OR area, including:
+
+- Aloha
+- Banks
+- Bethany
+- Beaverton
+- Cornelius
+- Forest Grove
+- Hillsboro
+- North Plains
