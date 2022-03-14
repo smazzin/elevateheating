@@ -4,15 +4,24 @@
     text-rendering: optimizeLegibility
     font-family: $base-font-family
     line-height: $base-line-height
-    // font-size: $base-font-size
+    font-size: $base-font-size
 
+// body 
+//   font-size: 16px
+//   font-size: calc(16px + (18-14)*(100vw - 325px)/(1600 - 50))
+//   line-height: 1.5
 
 a 
   font-family: $base-font-family
   text-decoration: none
-  font-size: 1.25rem
+  // font-size: 1.25rem
+  --min: 1rem
+  --val: 2.5vw
+  --max: 1.25rem
   color: $blue
 
+h1, h2, h3, h4, h5, h6, p, li, a
+    font-size: clamp(var(--min), var(--val), var(--max))
 
 h1, h2, h3, h4, h5, h6 
     font-weight: $head-font-weight
@@ -22,39 +31,59 @@ h1, h2, h3, h4, h5, h6
 
 
 h1 
-  font-size: 3rem
+  // font-size: 3rem
+  --min: 2rem
+  --val: 5vw
+  --max: 3rem
   font-weight: 700
 
 
 h2 
-  font-size: 1.75rem
-
+  // font-size: 1.75rem
+  --min: 1rem
+  --val: 5vw
+  --max: 1.75rem
 
 h3 
-  font-size: 1.5rem
+  // font-size: 1.5rem
+  --min: 1rem
+  --val: 5vw
+  --max: 1.5rem
 
 
 h4 
-  font-size: 1.125rem
-
+  // font-size: 1.125rem
+  --min: 1rem
+  --val: 5vw
+  --max: 1.125rem
 
 h5 
-  font-size: 1rem
-
+  // font-size: 1rem
+  --min: 1rem
+  --val: 5vw
+  --max: 1.1rem
 
 h6 
-  font-size: 0.875rem
-
+  // font-size: 0.875rem
+  --min: 1rem
+  --val: 5vw
+  --max: 1.1rem
 
 p, strong 
   font-family: $base-font-family
-  font-size: 1.25rem
+  // font-size: 1.25rem
+  --min: 1rem
+  --val: 2.5vw
+  --max: 1.25rem
   font-weight: 300
 
 
 ul li 
   font-family: $base-font-family
-  font-size: 1.25rem
+  // font-size: 1.25rem
+  --min: 1rem
+  --val: 2.5vw
+  --max: 1.25rem
   font-weight: 300
   //padding: 0 .5rem
 
