@@ -49,26 +49,38 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 hrefTargetBlank = true
 
 [[menu.main]]
-name = "Furnace Repair"
+name = "Heating"
 weight = 1
-identifier = "Furnace Repair & Maintenance"
-url = "furnace-repair-and-maintenance"
+identifier = "Heating"
+url = "heating-service"
+
+# [[menu.main]]
+# name = "Furnace Repair"
+# weight = 1
+# identifier = "Furnace Repair & Maintenance"
+# url = "furnace-repair-and-maintenance"
+
+# [[menu.main]]
+# name = "AC Repair"
+# weight = 2
+# identifier = "AC Repair & Maintenance"
+# url = "ac-repair-and-maintenance"
 
 [[menu.main]]
-name = "AC Repair"
+name = "Air Conditioning"
 weight = 2
-identifier = "AC Repair & Maintenance"
-url = "ac-repair-and-maintenance"
+identifier = "Air Conditioning"
+url = "air-conditioning"
 
-[[menu.main]]
-name = "Heat Pump Tune-Up"
-weight = 3
-identifier = "Heat Pump Tune-Up"
-url = "heat-pump-tune-up"
+# [[menu.main]]
+# name = "Heat Pump Tune-Up"
+# weight = 3
+# identifier = "Heat Pump Tune-Up"
+# url = "heat-pump-tune-up"
 
 [[menu.main]]
 name = "Ductless/Mini-Split Installations"
-weight = 4
+weight = 3
 identifier = "Ductless/Mini-Split Installations"
 url = "ductless-mini-split-installations"
 

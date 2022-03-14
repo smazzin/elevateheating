@@ -6,14 +6,16 @@ layout: serviceArea
 
 # Heating Services in the Beaverton/Hillsboro, OR Area
 
-At Elevate Heating & Cooling, we offer a full range of heating services in the Beaverton/Hillsboro, OR area. From HVAC furnace and heat pump installation, repair, replacement, and maintenance. 
+At Elevate Heating & Cooling, we offer a full range of heating services in the Beaverton/Hillsboro, OR area. From HVAC furnace and heat pump installation to repair, replacement, and maintenance. 
 
 We work with all makes and models of furnaces, heat pumps, and mini split systems. Call now to schedule heater or furnace service before winter arrives: 503-432-1221.
 
 Elevate Heating & Cooling furnace and heat pump services in Beaverton, OR:
 
 - Heating Maintenance & Repair
-- Heater Installations
-- Furnace Installation
-- [Furnace Repair](../furnace-repair-and-maintenance)
-- Heat Pump & Ductless Mini Split
+- [Heat Pumps](../heating-service/heat-pumps)
+	- Heat Pump Installation
+- Furnaces
+	- Furnace Installation
+	- [Furnace Repair](../furnace-repair-and-maintenance)
+- [Ductless Mini Split Installation](../ductless-mini-split-installations)

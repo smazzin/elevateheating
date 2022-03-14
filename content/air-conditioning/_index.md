@@ -12,7 +12,7 @@ Give us a call and let Elevate Heating & Cooling take care of your home air cond
 
 We offer a variety of AC / air conditioning and HVAC services including:
 
-- Air Conditioning Installations & Replacements
-- Heat Pumps/Mini Split Systems
-- AC Repair & Maintenance
+- Air Conditioning Installation & Replacements
+- [Heat Pumps](../heating-service/heat-pumps)/Mini Split Systems
 - [AC Repair & Maintenance](../ac-repair-and-maintenance)
+- [Ductless Mini Split Installation](../ductless-mini-split-installations)
