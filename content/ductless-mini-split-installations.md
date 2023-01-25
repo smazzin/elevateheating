@@ -1,6 +1,6 @@
 ---
-title: Ductless & Mini Split System Installations | Bethany, OR | Elevate Heating & Cooling, LLC
-pagetitle: Ductless & Mini Split System Installations in Bethany, OR
+title: Ductless & Mini Split System Installations in Hillsboro | Elevate Heating & Cooling, LLC
+pagetitle: Ductless & Mini Split System Installations in Hillsboro
 description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
 image: /images/ductless-mini-split-installations-hero.jpg
 herotext: Ductless Mini Split Installations
@@ -8,7 +8,7 @@ herotext: Ductless Mini Split Installations
 
 # Heat and Cool Your Home for Less
 
-## Install a Ductless Mini-Split system in Beaverton, Or and surrounding areas
+## Install a Ductless Mini-Split system in Beaverton/Hillsboro and surrounding areas
 
 If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system. We provide mini-split installations for clients in and around the Beaverton & Hillsboro, Oregon area.
 

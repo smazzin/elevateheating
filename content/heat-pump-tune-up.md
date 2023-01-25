@@ -1,6 +1,6 @@
 ---
-title: Electric Heat Pump Tune-Up | Bethany, OR | Elevate Heating & Cooling, LLC
-pagetitle: Heat Pump Services in Bethany, OR
+title: Electric Heat Pump Tune-Up in Beaverton/Hillsboro | Elevate Heating & Cooling, LLC
+pagetitle: Heat Pump Services in Beaverton/Hillsboro
 description: If you use a heat pump for electric heat and cooling in Beaverton, OR & the surrounding Portland Oregon Metro Area and you want to get good use out of it.
 image: /images/electric-fan-coil-tune-up-hero.jpg
 herotext: Heat Pump Tune-Up
@@ -8,7 +8,7 @@ herotext: Heat Pump Tune-Up
 
 # Get Years of Use From Your Heat Pump Unit
 
-## Heat Pump Tune-Up services in Bethany, OR and surrounding areas
+## Heat Pump Tune-Up services in Bethany, OR and surrounding Hillsboro area
 
 If you use a heat pump for electric heat and cooling in Beaverton, OR and the surrounding Portland Oregon Metro Area and you want to get good use out of it, we will help keep your heat pump unit running efficiently for years with regular maintenance and tune-ups. 
 

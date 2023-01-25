@@ -1,12 +1,12 @@
 ---
-title: Contact Us For Furnace Repair & AC Maintenance | Bethany, OR | Elevate Heating & Cooling, LLC
+title: Contact Us For Furnace Repair & AC Maintenance | Elevate Heating & Cooling, LLC
 pagetitle: Contact Us For Furnace Repair & AC Maintenance
 description: Contact Elevate Heating & Cooling. We provide a range of services from gas furnace repair and maintenance to installs.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: contact
 ---
 
-# Find HVAC Contractors in Bethany, OR and Surrounding Area
+# Find HVAC Contractors in the Beaverton/Hillsboro and Surrounding Areas
 
 #### Call Today For A Free Estimate On Installation Services
 

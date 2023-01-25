@@ -1,6 +1,6 @@
 ---
-title: Elevate Heating & Cooling, LLC • Service Areas • (541) 670-9618
-description: Elevate Heating & Cooling, LLC offers Furnace repair, Heat Pump service, AC repair in North Plains, Hillsboro, Forest Grove and surrounding areas. Contact us today! (541) 670-9618
+title: Elevate Heating & Cooling, LLC | Service Areas | 503-432-1221
+description: Elevate Heating & Cooling, LLC offers Furnace repair, Heat Pump service, AC repair in North Plains, Hillsboro, Forest Grove and surrounding areas. Contact us today! 503-432-1221
 layout: serviceArea
 ---
 
@@ -10,13 +10,13 @@ Elevate Heating & Cooling, LLC proudly serves the communities of the Portland, O
 
 Proudly serving these communities
 
-- Hillsboro
-- Portland
-- Beaverton
-- Bethany
-- Cornelius
+- Aloha
 - Banks
+- Bethany
+- Beaverton
+- Cornelius
 - Forest Grove
+- Hillsboro
 - North Plains
 
 For all your heating, cooling, air quality needs, call Elevate Heating & Cooling today!
