@@ -52,7 +52,7 @@ hrefTargetBlank = true
 name = "Heating"
 weight = 1
 identifier = "Heating"
-url = "heating-service"
+url = "heating"
 
 # [[menu.main]]
 # name = "Furnace Repair"
