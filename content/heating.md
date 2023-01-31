@@ -15,7 +15,7 @@ Elevate Heating & Cooling furnace and heat pump services near you include:
 - [Heating Maintenance & Repair](../heating-repair)
 - [Heat Pumps](../heat-pumps)
 	- [Heat Pump Tune-Up](../heat-pump-tune-up)
-	- Heat Pump Installation
+	- [Heat Pump Installation](../heating-installation)
 - Furnaces
 	- Furnace Installation
 	- [Furnace Repair](../furnace-repair-and-maintenance)
