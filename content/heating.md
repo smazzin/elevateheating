@@ -10,7 +10,7 @@ At Elevate Heating & Cooling, we offer a full range of heating services in the B
 
 We work with all makes and models of furnaces, heat pumps, and mini split systems. Call now to schedule heater or furnace service before winter arrives: 503-432-1221.
 
-Elevate Heating & Cooling furnace and heat pump services in Beaverton/Hillsboro, OR
+Elevate Heating & Cooling furnace and heat pump services near you include:
 
 - Heating Maintenance & Repair
 - [Heat Pumps](../heat-pumps)
@@ -23,25 +23,21 @@ Elevate Heating & Cooling furnace and heat pump services in Beaverton/Hillsboro,
 
 ### Heating Maintenance & Repair
 
-We offer heating maintenance and repair services in Beaverton, OR and the surrounding Portland Oregon Metro Area. We’ll make sure your furnace or heat pump is blowing enough heat to keep you warm all winter and enough cool air for a comfortable summer. Call us today to schedule a heat pump tune-up.
+We offer heating maintenance and repair services in areas of Oregon such as Aloha, Banks, Bethany, Beaverton, Forest Grove, and the surrounding Portland Oregon Metro Area. We’ll make sure your furnace or heat pump is blowing enough heat to keep you warm all winter and enough cool air for a comfortable summer. Call us today to schedule a heat pump tune-up.
 
-### Heat Pump Installation
+### Heating Installation
 
-Heat pumps are a great option for heating and cooling your home. They are more energy efficient than furnaces and can be used to heat and cool your home. We offer heat pump installation services in Beaverton, OR and the surrounding Portland Oregon Metro Area. Call us today to schedule a heat pump installation.
+Whether you’re looking to install a new furnace or heat pump, we can help. Our team of HVAC experts will help you choose the right system for your home and budget. We’ll also make sure it’s installed correctly so you can enjoy years of reliable heating.
 
-### Furnace Installation
+### Heating Repair
 
-We offer furnace installation services in Beaverton, OR and the surrounding Portland Oregon Metro Area. Call us today to schedule a furnace installation.
+Even the best heating systems need repairs from time to time. If your furnace or heat pump isn’t working properly, call us right away. We’ll diagnose the problem and make the necessary repairs to get your system back up and running.
 
-### Furnace Repair
+### Heating Maintenance
 
-We offer furnace repair services in Beaverton, OR and the surrounding Portland Oregon Metro Area. Call us today to schedule a furnace repair.
+Regular heating maintenance is the best way to keep your furnace or heat pump running smoothly. We’ll inspect your system and make sure it’s working properly. By properly maintaining your heating system, you can avoid costly repairs and extend the life of your system.
 
-### Ductless Mini Split Installation
-
-We offer ductless mini split installation services in Beaverton, OR and the surrounding Portland Oregon Metro Area. Call us today to schedule a ductless mini split installation.
-
-### SET UP A SYSTEM CHANGEOUT TODAY
+### Set Up A System Changeout Today
 
 Sometimes it’s more cost-effective to simply replace your furnace or air conditioner. Elevate Heating & Cooling will help you determine if you need a new system. You may need a replacement because:
 

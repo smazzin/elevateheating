@@ -1,6 +1,6 @@
 ---
 title: Top Rated Hillsboro HVAC Service | Elevate Heating & Cooling
-description: ELevate Heating & Cooling offers HVAC service work in and around the Beaverton/Hillsboro area. Call us today to schedule.
+description: ELevate Heating & Cooling offers HVAC service work in and around the Hillsboro area. Call us today to schedule.
 ---
 
 # We Want You to Stay Warm This Winter 

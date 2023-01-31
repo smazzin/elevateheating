@@ -1,13 +1,13 @@
 ---
-title: "Furnace Repair & Maintenance Beaverton/Hillsboro, OR | Elevate Heating & Cooling, LLC"
-pagetitle: "Furnace Repair & Maintenance Services Beaverton/Hillsboro, OR"
+title: "Furnace Repair & Maintenance Hillsboro, OR | Elevate Heating & Cooling, LLC"
+pagetitle: "Furnace Repair & Maintenance Services in Hillsboro"
 image: /images/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
 ---
 
-## We are your trusted Beaverton/Hillsboro furnace repair and maintenance professionals
+## We are your trusted Hillsboro furnace repair and maintenance professionals
 
-**Schedule furnace repair services in Bethany, OR and surrounding Beaverton/Hillsboro area.**
+**Schedule furnace repair services in Bethany, OR and surrounding areas.**
 
 As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
@@ -26,6 +26,14 @@ When we work on your furnace, we’ll
 - Check the piping
 
 We can also install new furnaces, if necessary. Call today to get a free quote on new furnace installation.
+
+### Set Up A System Changeout Today
+
+Sometimes it’s more cost-effective to simply replace your furnace or air conditioner. Elevate Heating & Cooling will help you determine if you need a new system. You may need a replacement because:
+
+- Cracks in the heat exchanger can leak carbon monoxide into your home.
+- New furnaces and AC units are more energy efficient than older models.
+- Repairs and energy bills may become more expensive than a new system.
 
 ### Fix your furnace without breaking the bank
 

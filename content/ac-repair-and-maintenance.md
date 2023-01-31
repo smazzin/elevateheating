@@ -1,16 +1,16 @@
 ---
-title: Home Air Conditioning Repair in Beaverton Near You | Elevate Heating & Cooling, LLC
-pagetitle: Air Conditioner Repairs in Beaverton/Hillsboro & Near You
+title: Air Conditioning Repair in Hillsboro Near You | Elevate Heating & Cooling, LLC
+pagetitle: Air Conditioner Repairs in Hillsboro & Near You
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
 image: /images/ac-repair-hero.jpg
 herotext: Ac Repair & Maintenance
 ---
 
-# Don’t Sweat Through Your Summers
+## Air Conditioning Repair & Maintenance
 
-## Set up regular air conditioner maintenance in Bethany, OR and surrounding areas
+**Set up regular air conditioner maintenance in Bethany, OR and surrounding areas**
 
-It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
+Elevate Heating & Cooling provides air conditioning repair and maintenance services in Bethany, OR and surrounding areas. It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
 
 - Cleaning the condenser coils
 - Inspecting the evaporator coils
