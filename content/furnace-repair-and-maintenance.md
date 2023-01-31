@@ -1,13 +1,13 @@
 ---
-title: "Furnace Repair & Maintenance in Beaverton/Hillsboro | Elevate Heating & Cooling, LLC"
-pagetitle: "Furnace Repair & Maintenance Services in Bethany, OR"
+title: "Furnace Repair & Maintenance Beaverton/Hillsboro, OR | Elevate Heating & Cooling, LLC"
+pagetitle: "Furnace Repair & Maintenance Services Beaverton/Hillsboro, OR"
 image: /images/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
 ---
 
-# Keep Your Furnace in Working Order
+## We are your trusted Beaverton/Hillsboro furnace repair and maintenance professionals
 
-## Schedule furnace repair services in Bethany, OR and surrounding Hillsboro area.
+**Schedule furnace repair services in Bethany, OR and surrounding Beaverton/Hillsboro area.**
 
 As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
