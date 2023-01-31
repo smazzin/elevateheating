@@ -38,3 +38,8 @@ HUGO_ENABLEGITINFO = "true"
 	from = "/heating-service"
 	to = "/heating"
 	status = 301
+
+[[redirects]]
+	from = "/heating-service/heat-pumps"
+	to = "/heat-pumps"
+	status = 301
