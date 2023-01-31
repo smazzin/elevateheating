@@ -33,7 +33,7 @@
             </div>
         </div>
     </section>
-    <section>
+    {{/*  <section>
         <div class="services">
             <div class="section-title mb-2">
                 <h2>{{ .Site.Data.home.services.title }}</h2>
@@ -52,7 +52,53 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  */}}
+    {{if .Site.Data.services}}
+        <section>
+            <div class="section-title mb-2">
+                <h2>{{ .Site.Data.home.services.title }}</h2>
+            </div>
+            <div class="container-sm">
+                <div class="grid-3">
+                {{ range .Site.Data.services.heating }}
+                <div class="pb-2">
+                    <h3>{{ .title }}</h4>
+                    <ul class="feature-content">
+                    {{ range .service }}
+                    <li>
+                        {{ if .url }}
+                        <a href="{{ .url }}">{{ .title }}</a>
+                        {{ else }}
+                        {{ .title }}
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                    </ul>
+                </div>
+                {{end}}
+                {{ range .Site.Data.services.cooling }}
+                <div class="pb-2">
+                    <h3>{{ .title }}</h3>
+                    <ul class="feature-content">
+                    {{ range .service }}
+                    <li>
+                        {{ if .url }}
+                        <a href="{{ .url }}">{{ .title }}</a>
+                        {{ else }}
+                        {{ .title }}
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+                {{ if .Params.image }}
+                <div class="feature-image"><img width="488" height="328" src="{{ .Params.image | relURL }}" /></div>
+                {{ end }}
+                </div>
+            </div>
+        </section>
+    {{end}}
     <section>
         <div class="section-title">
             <h2>{{ .Site.Data.home.middlehero.title }}</h2>
