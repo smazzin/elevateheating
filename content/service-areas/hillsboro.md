@@ -18,7 +18,7 @@ At Elevate Heating & Cooling, we offer a full range of heating services. From fu
 	- Heat Pump Installation
 - Furnaces
 	- Furnace Installation
-	- [Furnace Repair](../../furnace-repair-and-maintenance)
+	- [Furnace Repair](../../hillsboro-furnace-repair)
 - [Ductless Mini Split Installation](../../ductless-mini-split-installations)
 
 ## Air Conditioning Services

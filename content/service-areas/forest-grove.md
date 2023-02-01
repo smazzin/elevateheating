@@ -29,7 +29,7 @@ From air conditioner installation to repair, replacement, and maintenance. We’
 	- Air Conditioner Tune-Up
 	- Air Conditioner Installation
 
-## Areas We Serve
+## We proudly serve the Forest Grove area and its surrounding communities, including:
 
 - Aloha
 - Banks
