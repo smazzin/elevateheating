@@ -27,7 +27,7 @@ We offer heating maintenance and repair services in areas of Oregon such as Aloh
 
 ### Heating Installation
 
-Whether you’re looking to install a new furnace or heat pump, we can help. Our team of HVAC experts will help you choose the right system for your home and budget. We’ll also make sure it’s installed correctly so you can enjoy years of reliable heating.
+If it’s time to replace your old heating system, our team of experts can assist you in selecting a new system that fits your specific needs and budget. We will handle all aspects of the installation, from sizing and selecting the appropriate equipment to ensuring that your new heating system is installed correctly and efficiently.
 
 ### Heating Repair
 
