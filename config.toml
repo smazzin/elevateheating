@@ -1,4 +1,4 @@
-baseurl = "https://elevateheatingllc.com/"
+baseurl = "https://elevateheatingllc.com"
 contentDir = "content"
 languageCode = "en-us"
 languageLang = "en"
@@ -52,7 +52,7 @@ hrefTargetBlank = true
 name = "Heating"
 weight = 1
 identifier = "Heating"
-url = "heating"
+url = "/heating/"
 
 # [[menu.main]]
 # name = "Furnace Repair"
@@ -70,7 +70,7 @@ url = "heating"
 name = "Air Conditioning"
 weight = 2
 identifier = "Air Conditioning"
-url = "air-conditioning"
+url = "/air-conditioning/"
 
 # [[menu.main]]
 # name = "Heat Pump Tune-Up"
@@ -82,16 +82,16 @@ url = "air-conditioning"
 name = "Ductless/Mini-Split Installations"
 weight = 3
 identifier = "Ductless/Mini-Split Installations"
-url = "ductless-mini-split-installations"
+url = "/ductless-mini-split-installations/"
 
 [[menu.main]]
 name = "Reviews"
 weight = 4
 identifier = "Reviews"
-url = "reviews"
+url = "/reviews/"
 
 [[menu.main]]
 name = "Contact us"
 weight = 5
 identifier = "Contact Us"
-url = "contact-us"
+url = "/contact-us/"
