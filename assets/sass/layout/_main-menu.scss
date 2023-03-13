@@ -109,7 +109,7 @@
     width: 100%;
     
     .hamburger:hover & {
-      background: var(--clr-neutral-50);
+      background: var(--clr-neutral-500);
     }
     
     &-top {
@@ -151,7 +151,7 @@
   transition: all .25s ease-in; 
   
   @media screen and (max-width: 768px) {
-    background: var(--clr-neutral-500);
+    background: var(--clr-neutral-50);
     flex-direction: column;
     justify-content: center;
     opacity: 0;
@@ -183,9 +183,13 @@
       height: 2px;
       left: 50%;
       position: absolute;
-      background: var (--clr-black-base);
+      background: var (--clr-neutral-50);
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
       width: 0;
+    }
+
+    &:hover {
+      color: var(--clr-primary-400);
     }
 
     &:hover:after { 
@@ -204,33 +208,32 @@
 
 
 .sub-nav {
-    border-top: 1px solid var (--clr-green-light);
     display: none;
     position: absolute;
-    background-color: var(--clr-black-base);
+    background-color: var(--clr-neutral-50);
     padding: 5px 5px;
     list-style: none; 
     width: auto;   
-    background: var(--clr-black-base);
+    background: var(--clr-neutral-50);
     @media screen and (max-width: 768px) {
       position: relative;
       width: 100%;
       box-sizing: border-box;
       display: block;
-      z-index: 1;
+      z-index: 999;
     }
 }
 
  .nav__link {
    &:hover + .sub-nav {
-        display:block;
-        z-index: 1;
+     display: block;
+     z-index: 999;
  }
 }
 
 .sub-nav {
   &:hover {
-    display:block;
+    display: block;
     z-index: 1;
   }
 }
