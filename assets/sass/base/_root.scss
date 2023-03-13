@@ -1,6 +1,7 @@
 @use '../abstracts' as *;
 
 :root {
+  --border-radius: 2rem;
   --section-spacing: 3.5rem;
   @include mq(medium) {
     --section-spacing: 7rem;

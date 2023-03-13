@@ -48,50 +48,81 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [blackfriday]
 hrefTargetBlank = true
 
+[params.logo]
+mobile = "images/logo-sm.png"
+mobile_height = "96"
+mobile_width = "275"
+alt = "Elevate Heating & Cooling, LLC"
+
 [[menu.main]]
 name = "Heating"
 weight = 1
 identifier = "Heating"
 url = "/heating/"
 
-# [[menu.main]]
-# name = "Furnace Repair"
-# weight = 1
-# identifier = "Furnace Repair & Maintenance"
-# url = "furnace-repair-and-maintenance"
-
-# [[menu.main]]
-# name = "AC Repair"
-# weight = 2
-# identifier = "AC Repair & Maintenance"
-# url = "ac-repair-and-maintenance"
+[[menu.main]]
+name = "Heating Installation"
+weight = 2
+identifier = "Heating Installation"
+url = "heating-installation"
+parent = "Heating"
 
 [[menu.main]]
-name = "Air Conditioning"
-weight = 2
-identifier = "Air Conditioning"
+name = "Heat Pumps"
+weight = 3
+identifier = "Heat Pumps"
+url = "heat-pumps"
+parent = "Heating"
+
+[[menu.main]]
+name = "Heating Repair"
+weight = 4
+identifier = "Heating Repair"
+url = "heating-repair"
+parent = "Heating"
+
+[[menu.main]]
+name = "Furnace Repair"
+weight = 5
+identifier = "Furnace Repair & Maintenance"
+url = "furnace-repair-and-maintenance"
+parent = "Heating"
+
+[[menu.main]]
+name = "Heat Pump Tune-Up"
+weight = 6
+identifier = "Heat Pump Tune-Up"
+url = "heat-pump-tune-up"
+parent = "Heating"
+
+[[menu.main]]
+name = "Cooling"
+weight = 7
+identifier = "Cooling"
 url = "/air-conditioning/"
 
-# [[menu.main]]
-# name = "Heat Pump Tune-Up"
-# weight = 3
-# identifier = "Heat Pump Tune-Up"
-# url = "heat-pump-tune-up"
+[[menu.main]]
+name = "AC Repair"
+weight = 8
+identifier = "AC Repair & Maintenance"
+url = "ac-repair-and-maintenance"
+parent = "Cooling"
 
 [[menu.main]]
 name = "Ductless/Mini-Split Installations"
-weight = 3
+weight = 9
 identifier = "Ductless/Mini-Split Installations"
 url = "/ductless-mini-split-installations/"
+parent = "Cooling"
 
 [[menu.main]]
 name = "Reviews"
-weight = 4
+weight = 10
 identifier = "Reviews"
 url = "/reviews/"
 
 [[menu.main]]
 name = "Contact us"
-weight = 5
+weight = 11
 identifier = "Contact Us"
 url = "/contact-us/"
