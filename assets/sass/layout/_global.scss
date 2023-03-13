@@ -1,0 +1,74 @@
+// Global styles
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+section {
+    margin-bottom: 4em;
+}
+
+.section-title {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    text-align: center;
+    h2 {
+        color: var(--clr-neutral-100);
+        margin: 0;
+        font-weight: bold;
+    }
+}
+
+.section1 {
+    padding: 2em;
+    margin: 0 auto;
+    img {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+        
+.section2 {
+    @media (min-width: 900px) {
+        background-color: var(--clr-neutral-300);
+    margin: 0 auto;
+    padding: 2em;
+    }
+    img {
+        display: flex;
+        margin: 0 auto;
+    }
+    h2 {
+        text-align: center;
+    }
+}

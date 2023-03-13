@@ -1,0 +1,63 @@
+@use '../abstracts/' as *;
+
+.footer-logo {
+	max-width: 275px;
+}
+
+.footer {
+	align-items: center;
+	// justify-items: center;
+	padding: 2em 0;
+
+		@include mq(medium) {
+			justify-items: center;
+		}
+}
+
+.sub-footer {
+	background-color: var(--clr-blue-base);
+}
+
+.copyright {
+	color: var(--clr-white-base);
+	padding: 2em 0;
+	text-align: center;
+}
+
+.footer-phone-number {
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+.footer-grid-3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	@include mq(medium) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+.footer-service-areas {
+	order: 2;
+
+	@include mq(medium) {
+		order: 1;
+	}
+}
+
+.footer-logo {
+	order: 1;
+
+	@include mq(medium) {
+		order: 2;
+	}
+}
+
+.footer-hours {
+	order: 3;
+
+	@include mq(medium) {
+		order: 3;
+	}
+}

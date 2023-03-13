@@ -1,0 +1,20 @@
+.container {
+	// https: //smolcss.dev/#smol-responsive-padding
+	padding: 1.5rem clamp(1rem, 5%, 3rem);
+	max-width: 90rem;
+	margin: 0 auto;
+}
+
+.container-sm {
+	// https: //smolcss.dev/#smol-responsive-padding
+	padding: 1.5rem clamp(1rem, 5%, 3rem);
+	max-width: 65rem;
+	margin: 0 auto;
+}
+
+.container-xs {
+	// https: //smolcss.dev/#smol-responsive-padding
+	padding: 1.5rem clamp(1rem, 5%, 3rem);
+	max-width: 48rem;
+	margin: 0 auto;
+}
