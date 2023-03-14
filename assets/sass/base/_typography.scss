@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
   font-weight: normal;
   font-stretch: 100%;
   line-height: 1.1;
-  // color: var(--clr-black-base);
+  color: var(--clr-neutral-500);
   margin-bottom: .75em;
 }
 
@@ -43,12 +43,16 @@ h2,
 h3,
 .h3 {
   --flow-spacer: 1.5em;
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
 }
 
 h4,
 .h4 {
   font-size: var(--fs-400);
+}
+
+p {
+  margin-bottom: 1.5em;
 }
 
 small,
