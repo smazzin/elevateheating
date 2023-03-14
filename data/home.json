@@ -23,17 +23,17 @@
                 "title": "Air Conditioning",
                 "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.",
                 "image": "/images/ac-repair-maintenance.jpg",
-                "url": "/ac-repair-and-maintenance"
+                "url": "/air-conditioning"
             },
             {
                 "title": "AC Installation",
-                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.",
+                "description": "We offer the best quality, energy-efficient equiment available for your Air Conditioning replacement.",
                 "image": "/images/ac-repair-maintenance.jpg",
-                "url": "/ac-repair-and-maintenance"
+                "url": "/ac-installation"
             },
             {
                 "title": "Air Conditioning Repair",
-                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.",
+                "description": "Help your equipment run at or near factory specs, depending on the age and condition of your ac system.",
                 "image": "/images/ac-repair-maintenance.jpg",
                 "url": "/ac-repair-and-maintenance"
             },
@@ -45,13 +45,13 @@
             },
             {
                 "title": "Heating Repair",
-                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of heaters.",
+                "description": "Our experienced HVAC technicians provide repairs for all types of furnaces and heat pumps.",
                 "image": "/images/heater-repair-maintenance.jpg",
                 "url": "/heater-repair-and-maintenance"
             },
             {
                 "title": "Heater Installation",
-                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of heaters.",
+                "description": "Our Professional HVAC technicians can help install your new energy-efficient heating system.",
                 "image": "/images/heater-installation.jpg",
                 "url": "/heater-installation"
             }

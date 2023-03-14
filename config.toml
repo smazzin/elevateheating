@@ -109,20 +109,27 @@ url = "ac-repair-and-maintenance"
 parent = "Cooling"
 
 [[menu.main]]
-name = "Ductless/Mini-Split Installations"
+name = "AC Installation"
 weight = 9
+identifier = "AC Installation"
+url = "ac-installation"
+parent = "Cooling"
+
+[[menu.main]]
+name = "Ductless/Mini-Split Installations"
+weight = 10
 identifier = "Ductless/Mini-Split Installations"
 url = "/ductless-mini-split-installations/"
 parent = "Cooling"
 
 [[menu.main]]
 name = "Reviews"
-weight = 10
+weight = 11
 identifier = "Reviews"
 url = "/reviews/"
 
 [[menu.main]]
 name = "Contact us"
-weight = 11
+weight = 12
 identifier = "Contact Us"
 url = "/contact-us/"
