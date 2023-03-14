@@ -7,9 +7,6 @@ layout: contact
 ---
 
 ## Find HVAC & Heating Contractors in the Beaverton, Hillsboro and Surrounding Areas
-
 #### Call Today For A Free Estimate On Installation Services
 
-Thank you for visiting the website of Elevate Heating & Cooling, LLC. We provide a range of HVAC installation, furnace repair and maintenance services. We install new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.
-
-Please use the form on this page to email us.
+Elevate Heating & Cooling, LLC provides a range of HVAC installation, furnace repair and maintenance services. We install new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.

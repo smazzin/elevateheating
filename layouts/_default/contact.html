@@ -1,27 +1,21 @@
+{{ define "body_classes" }}page-contact{{ end }}
 {{ define "main" }}
 {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
 {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
 {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
-<div class="container-sm">
-    {{ .Content  | safeHTML }}
-    <div class="col col--sm-12">
-        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
-        <!--<form id="contact-form" accept-charset="UTF-8" action="https://usebasin.com/f/faca860b53d9" method="POST">-->
-        <form id="contact-form" name="contact" data-netlify="true" netlify-honeypot="bot-field" target="_self">
-            <input type="text" name="Name" placeholder="Name" onblur="this.setAttribute('value', this.value);" value=""
-                required>
-            <input placeholder="Email address" type="email" name="_replyto" onblur="this.setAttribute('value', this.value);"
-                value="" required>
-            <textarea name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="_subject" value="Contact from elevateheatingllc.com">
-            <div class="mt-50">
-                <button class="text text--xs-center text--sm-right btn btn-red" type="submit" value="Send Message">Send
-                    Message</button>
-            </div>
-            <!-- <div class="mt-50 g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div> -->
-        </form>
-    </div>
-</div>
 
+<section>
+    <div class="container">
+      <div class="grid-2">
+          <div class="flow">
+            {{.Content}}
+            {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
+            {{ partial "contact-form.html" }}
+          </div>
+          <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11160.682787181982!2d-122.9525218!3d45.6273071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549503c085ee9aa3%3A0x5d12e66afca05851!2sElevate%20Heating%20%26%20Cooling%2C%20LLC!5e0!3m2!1sen!2sus!4v1678816701383!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+    </div>
+</section>
 {{ end }}
