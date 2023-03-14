@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 
 .btn {
-  display: inline-flex;
+  display: inline-block;
   cursor: pointer;
   text-decoration: none;
   line-height: 1;
@@ -10,6 +10,13 @@
   font-weight: var(--font-weight, 700);
   padding: 1.125em 2em;
   transition: 275ms ease;
+
+  width: 100%;
+  text-align: center;
+
+  @include mq (medium) {
+    width: auto;
+  }
 
   &[data-type="accent"] {
     background-color: var(--clr-primary-400);

@@ -14,33 +14,46 @@
         "url": ""
     },
     "services": {
-        "title": "Hillsboro HVAC, Heating, Cooling, and Furnace Services"
+        "title": "Our Services",
+        "description": "Elevate Heating & Cooling knows that finding the best air conditioning contractor can be a struggle, as you strive to balance expert advice, practical solutions, and superior service. We recognize the importance of providing high-quality workmanship while delivering our services."
     },
     "servicelist": {
         "items": [
             {
-                "title": "Furnace Repair & Maintenance",
-                "description": "Rely on our furnace maintenance services to keep you warm all winter.",
-                "image": "/images/fix-your-furnace-without-breaking-the-bank.jpg",
-                "url": "/furnace-repair-and-maintenance"
-            },
-            {
-                "title": "AC Repair & Maintenance",
-                "description": "Keep the cool air flowing in your home when it gets hot out.",
+                "title": "Air Conditioning",
+                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.",
                 "image": "/images/ac-repair-maintenance.jpg",
                 "url": "/ac-repair-and-maintenance"
             },
             {
-                "title": "Heat Pump Tune-Up",
-                "description": "Add years of operation to your heat pump unit with regular tune-ups.",
-                "image": "/images/electric-fan-coil-tune-up.jpg",
-                "url": "/heat-pump-tune-up"
+                "title": "AC Installation",
+                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.",
+                "image": "/images/ac-repair-maintenance.jpg",
+                "url": "/ac-repair-and-maintenance"
             },
             {
-                "title": "Ductless/Mini-Split Installations",
+                "title": "Air Conditioning Repair",
+                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.",
+                "image": "/images/ac-repair-maintenance.jpg",
+                "url": "/ac-repair-and-maintenance"
+            },
+            {
+                "title": "Ductless/Mini-Splits",
                 "description": "Install an energy-efficient HVAC unit in your home.",
                 "image": "/images/air-conditioner.jpg",
                 "url": "/ductless-mini-split-installations"
+            },
+            {
+                "title": "Heating Repair",
+                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of heaters.",
+                "image": "/images/heater-repair-maintenance.jpg",
+                "url": "/heater-repair-and-maintenance"
+            },
+            {
+                "title": "Heater Installation",
+                "description": "We provide installation, service, repair, maintenance, and tune-ups for all types of heaters.",
+                "image": "/images/heater-installation.jpg",
+                "url": "/heater-installation"
             }
         ]
     },
@@ -52,14 +65,14 @@
         "image": "/images/keep-your-hvac-unit-in-great-condition.jpg"
     },
     "section1":{
-        "title": "Get The Hvac Services You Need",
+        "title": "About Elevate Heating & Cooling",
         "description": "If you're looking for a top-rated HVAC company you can trust in the Hillsboro, Portland, Beaverton, Bethany, Cornelius, Banks, Forest Grove, Aloha, North Plains, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC service.",
         "button": "Call Us Today",
         "url": "",
         "image": "/images/elevate-van-sm.jpg"
     },
     "section2":{
-        "title": "WE'RE FAMILY OWNED & OPERATED",
+        "title": "We're Family Owned & Operated",
         "description": "We're a family owned and operated company. You'll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We're a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.",
         "image": "/images/elevate-fam-sm.jpg"
     },
