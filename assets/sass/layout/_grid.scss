@@ -63,34 +63,47 @@
 }
 
 // grid overlap
-.grid-overlap {
+.image-stack {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
-
   width: 100%;
   margin: 0 auto;
 }
 
-.image,
-.body {
+.image-stack-item-bottom,
+.image-stack-item-top {
   @include mq(medium) {
     grid-row: 1 / 2;
     align-self: center;
   }
 }
 
-.image {
+.image-stack-item-bottom {
   grid-column: 1 / 3;
+  @include mq(medium) {
+    grid-column: 1 / -1;
+  }
+  margin-left: auto;
 }
 
-.body {
+.image-stack-item-top {
   grid-column: 1 / -1;
-  background: var(--clr-blue-base);
-  color: var(--clr-white-base);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--clr-primary-100);
+	background-color: var(--clr-neutral-50);
+	box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.06);
+    -webkit-transition: color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, color 300ms ease;
+    transition: transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+    text-decoration: none;
+    -webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
   padding: 1.45em;
 
   @include mq(medium) {
-    grid-column: 2 / -1;
+    grid-column: 1 / 1;
   }
 }
