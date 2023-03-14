@@ -32,7 +32,7 @@
 
     background: transparent;
     outline: var(--outline-size) solid var(--clr-neutral-50);
-    border-radius: var(--border-radius);
+    // border-radius: var(--border-radius);
     outline-offset: calc(var(--outline-size) * -1);
     color: var(--clr-neutral-50);
     &:is(:hover, :focus) {
