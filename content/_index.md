@@ -1,5 +1,5 @@
 ---
-title: Top Rated Hillsboro HVAC Service Near You | Heating, Cooling, & Furnace Repair
+title: Top Rated Beaverton/Hillsboro HVAC Service Near You | Heating, Cooling, & Furnace Repair
 description: ELevate Heating & Cooling offers HVAC service work in and around the Hillsboro area. Call us today to schedule.
 ---
 
