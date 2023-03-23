@@ -47,13 +47,13 @@
                 "title": "Heating Repair",
                 "description": "Our experienced HVAC technicians provide repairs for all types of furnaces and heat pumps.",
                 "image": "/images/heater-repair-maintenance.jpg",
-                "url": "/heater-repair-and-maintenance"
+                "url": "/heating-repair"
             },
             {
                 "title": "Heater Installation",
                 "description": "Our Professional HVAC technicians can help install your new energy-efficient heating system.",
                 "image": "/images/heater-installation.jpg",
-                "url": "/heater-installation"
+                "url": "/heating-installation"
             }
         ]
     },
