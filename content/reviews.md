@@ -1,7 +1,7 @@
 ---
-title: Reviews | Beaverton, OR | Elevate Heating & Cooling, LLC
+title: Reviews | Beaverton, OR | Elevate Heating & Cooling, Inc
 description: 
 layout: reviews
 ---
 
-# Ratings & Reviews Elevate Heating & Cooling, LLC
+# Ratings & Reviews Elevate Heating & Cooling, Inc

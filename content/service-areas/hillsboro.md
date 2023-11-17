@@ -1,12 +1,12 @@
 ---
-title: Professional Heating & Cooling Contractor in Hillsboro | Elevate Heating & Cooling, LLC
+title: Professional Heating & Cooling Contractor in Hillsboro | Elevate Heating & Cooling, Inc
 description: Our team of licensed HVAC technicians provide reliable heating and air conditioning services Hillsboro, OR.
 layout: serviceArea
 ---
 
 # We are you trusted HVAC contractor in Hillsboro, OR
 
-Are you in Hillsboro needing heating & cooling service for your systems? Elevate Heating & Cooling, LLC provides heating and air conditioning services to the residents of Hillsboro. Affordability, quality, and reliability is what we pride ourselves on! We are committed to providing the highest quality heating and cooling service to all of our customers.
+Are you in Hillsboro needing heating & cooling service for your systems? Elevate Heating & Cooling provides heating and air conditioning services to the residents of Hillsboro. Affordability, quality, and reliability is what we pride ourselves on! We are committed to providing the highest quality heating and cooling service to all of our customers.
 
 ## Heating Services
 

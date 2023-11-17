@@ -1,5 +1,5 @@
 ---
-title: Ductless & Mini Split System Installations Near You | Elevate Heating & Cooling, LLC
+title: Ductless & Mini Split System Installations Near You | Elevate Heating & Cooling, Inc
 pagetitle: Ductless & Mini Split System Installations in Hillsboro & Near You
 description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
 image: /images/ductless-mini-split-installations-hero.jpg

@@ -3,7 +3,7 @@ contentDir = "content"
 languageCode = "en-us"
 languageLang = "en"
 title = "Elevate Heating & Cooling"
-copyright = "Copyright &copy; {year} Elevate Heating & Cooling, LLC, all rights reserved."
+copyright = "Copyright &copy; {year} Elevate Heating & Cooling, Inc, all rights reserved."
 permalinks = "/:slug/"
 
 preserveTaxonomyNames = false
@@ -52,7 +52,7 @@ hrefTargetBlank = true
 mobile = "images/logo-sm.png"
 mobile_height = "96"
 mobile_width = "275"
-alt = "Elevate Heating & Cooling, LLC"
+alt = "Elevate Heating & Cooling, Inc"
 
 [[menu.main]]
 name = "Heating"
