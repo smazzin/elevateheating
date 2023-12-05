@@ -11,10 +11,6 @@ description: Furnace not working or need furnace repair? We can help. Call Eleva
 
 As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
-<a class="btn btn-red" target="_blank" href="https://housecallpro.com/book/Elevate-Heating--Cooling-LLC/e1e426477d584e32882ba7ac2043954d?attribution=Book%20Now">
-    Schedule An Appointment
-</a>
-
 When we work on your furnace, we’ll
 
 - Check carbon monoxide levels

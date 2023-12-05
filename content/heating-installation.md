@@ -16,4 +16,4 @@ There are several types of heating options in terms of the type of heating syste
 - [Heat Pumps](../heat-pumps)
 - [Ductless Mini-Split Systems](../ductless-mini-split-installations)
 
-[Schedule a heating installation service today](../contact-us).
+[Schedule a heating installation service today](https://book.elevateheating.com/web-schedule-a-service-form).

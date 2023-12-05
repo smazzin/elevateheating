@@ -16,4 +16,4 @@ If your heating system isn’t working properly, you may notice some of the foll
 - High energy bills. If your energy bills are higher than usual, it may be time for a repair or replacement. A broken heating system can cause your energy bills to skyrocket.
 - Inaccurate thermostat. Don't jump the gun by scheduling a repair without inspecting further. Your thermostat may have malfunctioned due to a blown fuse or faulty wiring.
 
-[Schedule a heating repair service today](../contact-us) to make sure your heating system is working properly.
+[Schedule a heating repair service today](https://book.elevateheating.com/web-schedule-a-service-form) to make sure your heating system is working properly.
