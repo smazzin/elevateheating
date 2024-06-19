@@ -1,5 +1,5 @@
 ---
-title: "Heating Installation & Replacement Hillsboro, OR | Elevate Heating & Cooling"
+title: "Heat Pump Install & Replacement Hillsboro, OR | Elevate Heating & Cooling"
 description: "We offer heating installation services for residents in Hillsboro, OR and other areas. We will help you prepare for the cold weather."
 layout: serviceArea
 ---

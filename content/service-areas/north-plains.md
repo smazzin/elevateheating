@@ -1,6 +1,6 @@
 ---
 title: Heating & Cooling in North Plains | Elevate Heating & Cooling, Inc
-description: Elevate Heating & Cooling, Inc offers heating and cooling services in North Plains, OR.
+description: North Plains, OR Heating & Cooling Services. Call Elevate Heating & Cooling today to schedule your service.
 layout: serviceArea
 ---
 
