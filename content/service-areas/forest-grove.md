@@ -25,7 +25,7 @@ At Elevate Heating & Cooling, we offer a full range of heating services in Fores
 From air conditioner installation to repair, replacement, and maintenance. We’ll make sure your air conditioner is blowing enough cool air to keep you cool all summer. Call us today to schedule an air conditioner tune-up.
 
 - Air Conditioning Maintenance & Repair
-- [Air Conditioners](../../air-conditioners)
+- [Air Conditioning](../../air-conditioning)
 	- Air Conditioner Tune-Up
 	- Air Conditioner Installation
 
