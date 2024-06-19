@@ -11,8 +11,8 @@ Elevate Heating & Cooling offers heat pump repair, maintenance, replacement or n
 For All Your Heating Needs, Call Elevate Heating & Cooling
 
 - Heat Pump Installation & Replacements
-- [Heat Pump Repair & Maintenance](../heat-pump-tune-up)
-- [Ductless Mini Split Installation](../ductless-mini-split-installations)
+- [Heat Pump Repair & Maintenance](../heat-pump-tune-up/)
+- [Ductless Mini Split Installation](../ductless-mini-split-installations/)
 
 Reach out to us right away for more information about Heat Pump unit replacement services in Portland, OR area including:
 

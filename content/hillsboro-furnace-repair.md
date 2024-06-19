@@ -19,9 +19,9 @@ If your system is beyond repair, our specialists in furnace repair in Hillsboro,
 At Elevate Heating & Cooling, we offer a full range of heating services in Hillsboro, OR.
 
 - Heating Maintenance & Repair
-- [Heat Pumps](../../heat-pumps)
-	- [Heat Pump Tune-Up](../../heat-pump-tune-up)
+- [Heat Pumps]/../../heat-pumps/)
+	- [Heat Pump Tune-Up](../../heat-pump-tune-up/)
 	- Heat Pump Installation
 - Furnaces
 	- Furnace Installation
-	- [Furnace Repair](../../furnace-repair-and-maintenance)
+	- [Furnace Repair](../../furnace-repair-and-maintenance/)

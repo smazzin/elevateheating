@@ -13,19 +13,19 @@ Elevate Heating & Cooling provides numerous heating and cooling services to the 
 At Elevate Heating & Cooling, we offer a full range of heating services in Forest Grove, OR.
 
 - Heating Maintenance & Repair
-- [Heat Pumps](../../heat-pumps)
-	- [Heat Pump Tune-Up](../../heat-pump-tune-up)
+- [Heat Pumps](../../heat-pumps/)
+	- [Heat Pump Tune-Up](../../heat-pump-tune-up/)
 	- Heat Pump Installation
 - Furnaces
 	- Furnace Installation
-	- [Furnace Repair](../../furnace-repair-and-maintenance)
+	- [Furnace Repair](../../furnace-repair-and-maintenance/)
 
 ## Air Conditioning Services
 
 From air conditioner installation to repair, replacement, and maintenance. We’ll make sure your air conditioner is blowing enough cool air to keep you cool all summer. Call us today to schedule an air conditioner tune-up.
 
 - Air Conditioning Maintenance & Repair
-- [Air Conditioning](../../air-conditioning)
+- [Air Conditioning](../../air-conditioning/)
 	- Air Conditioner Tune-Up
 	- Air Conditioner Installation
 

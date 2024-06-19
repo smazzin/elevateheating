@@ -12,14 +12,14 @@ We work with all makes and models of furnaces, heat pumps, and mini split system
 
 Elevate Heating & Cooling furnace and heat pump services near you include:
 
-- [Heating Maintenance & Repair](../heating-repair)
-- [Heat Pumps](../heat-pumps)
-	- [Heat Pump Tune-Up](../heat-pump-tune-up)
-	- [Heat Pump Installation](../heating-installation)
+- [Heating Maintenance & Repair](../heating-repair/)
+- [Heat Pumps](../heat-pumps/)
+	- [Heat Pump Tune-Up](../heat-pump-tune-up/)
+	- [Heat Pump Installation](../heating-installation/)
 - Furnaces
 	- Furnace Installation
-	- [Furnace Repair](../furnace-repair-and-maintenance)
-- [Ductless Mini Split Installation](../ductless-mini-split-installations)
+	- [Furnace Repair](../furnace-repair-and-maintenance/)
+- [Ductless Mini Split Installation](../ductless-mini-split-installations/)
 
 ### Heating Maintenance & Repair
 

@@ -13,7 +13,7 @@ Have you noticed new weird noises coming from your heating system? Is your heati
 There are several types of heating options in terms of the type of heating system, brand, efficiency, and cost. We offer heating installation services for the following types of heating systems:
 
 - Gas Furnace Heaters
-- [Heat Pumps](../heat-pumps)
-- [Ductless Mini-Split Systems](../ductless-mini-split-installations)
+- [Heat Pumps](../heat-pumps/)
+- [Ductless Mini-Split Systems](../ductless-mini-split-installations/)
 
 [Schedule a heating installation service today](https://book.elevateheating.com/web-schedule-a-service-form).
