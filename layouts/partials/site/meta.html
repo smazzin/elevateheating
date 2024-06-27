@@ -10,10 +10,14 @@
 <meta name="robots" content="noindex">
 {{ end }}
 <title>{{ .Title }}</title>
-{{- with .Title }}<meta property="og:title" content="{{ . }}"> {{ end }}
+{{- with .Title }}<meta property="og:title" content="{{ . }}"> 
+<meta name="twitter:title" content="{{ . }}">{{ end }}
 {{ with .Description }}<meta name="description" content="{{ . }}">
 <meta property="og:description" content="{{ . }}">{{ end }}
 <meta property="og:image" content="{{ .Params.image }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with .Description }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+<meta name="twitter:image" content="{{ .Params.image }}">
+
 <link rel="canonical" href="{{ .Permalink }}">
