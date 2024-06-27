@@ -1,5 +1,5 @@
 ---
-title: Home Air Conditioning Repair in Hillsboro | Elevate Heating & Cooling, Inc
+title: Home Air Conditioning Repairs in Hillsboro
 pagetitle: Air Conditioner Repairs in Hillsboro & Near You
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
 image: /images/ac-repair-hero.jpg

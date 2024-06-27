@@ -1,5 +1,5 @@
 ---
-title: Contact Us For HVAC Service Near You | Elevate Heating & Cooling, Inc
+title: Contact Us For HVAC Service Near You
 pagetitle: Contact Us For Furnace Repair & AC Maintenance
 description: Contact Elevate Heating & Cooling. We provide a range of services from gas furnace repair and maintenance to installs.
 image: /images/electric-fan-coil-tune-up.jpg

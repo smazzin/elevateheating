@@ -1,5 +1,5 @@
 ---
-title: Air Conditioning Services in Hillsboro, OR | Elevate Heating & Cooling
+title: Air Conditioning Services in Hillsboro, OR
 description: Elevate offers AC and HVAC services, including installations, repair, and maintenance in Hillsboro, OR areas. Call us today to schedule.
 layout: serviceArea
 ---

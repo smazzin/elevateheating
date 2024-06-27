@@ -1,5 +1,5 @@
 ---
-title: Heat Pump Installation, Repair, and Replacement Services in Hillsboro, OR | Elevate Heating & Cooling
+title: Heat Pump Installs, Repair, & Replacement in Hillsboro, OR
 description: Elevate offers heat pump services, including installations, repair, and maintenance in Hillsboro, OR. Call us today to schedule.
 layout: serviceArea
 ---
