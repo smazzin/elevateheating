@@ -38,6 +38,6 @@ Areas We Serve
 - Bethany
 - Beaverton
 - Cornelius
-- Forest Grove
+- [Forest Grove](../../service-areas/forest-grove/)
 - Hillsboro
-- North Plains
+- [North Plains](../../service-areas/north-plains/)

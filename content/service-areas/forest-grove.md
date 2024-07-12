@@ -37,4 +37,5 @@ From air conditioner installation to repair, replacement, and maintenance. We’
 - Beaverton
 - Cornelius
 - Forest Grove
-- Hillsboro
+- [Hillsboro](../../service-areas/hillsboro/)
+- [North Plains](../../service-areas/north-plains/)
