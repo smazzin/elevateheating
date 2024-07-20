@@ -1,12 +1,21 @@
 @use '../abstracts/' as *;
 
+.footer-phone-number {
+	color: var(--clr-secondary-600);
+}
+
 .footer {
 	justify-content: space-evenly;
 	align-items: top;
 	padding: 1em 0;
-}
+	color: var(--clr-neutral-400);
 
-.footer-phone-number {
-	text-decoration: none;
-	border-bottom: 1px solid;
+	a {
+		color: var(--clr-neutral-400);
+		text-decoration: none;
+		
+		&:hover {
+			color: var(--clr-primary-500);
+		}
+	}
 }

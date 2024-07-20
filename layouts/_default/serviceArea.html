@@ -1,5 +1,8 @@
 {{ define "main" }}
-    <section>
+    {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
+    {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
+    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
+    <section>   
         <div class="container-sm">
             {{ .Content  | safeHTML }}
             <a class="btn" data-type="accent" href="tel:{{ .Site.Data.contact.phone }}">{{.Site.Data.contact.phone}}</a>

@@ -5,40 +5,40 @@
     "citys": [
 
         {
-            "city": "Hillsboro",
-            "url": "/service-areas/hillsboro/"
-        },
-        {
-            "city": "Portland",
-            "url": ""
-        },
-        {
-            "city": "Beaverton",
-            "url": ""
-        },
-        {
-            "city": "Bethany",
-            "url": ""
-        },
-        {
-            "city": "Cornelius",
-            "url": ""
+            "city": "Aloha",
+            "url": "/service-areas/aloha-or/"
         },
         {
             "city": "Banks",
-            "url": ""
+            "url": "/service-areas/banks-or/"
+        },
+        {
+            "city": "Beaverton",
+            "url": "/service-areas/beaverton-or/"
+        },
+        {
+            "city": "Bethany",
+            "url": "/service-areas/bethany-or/"
+        },
+        {
+            "city": "Cornelius",
+            "url": "/service-areas/cornelius-or/"
         },
         {
             "city": "Forest Grove",
             "url": "/service-areas/forest-grove/"
         },
         {
-            "city": "Aloha",
-            "url": ""
+            "city": "Hillsboro",
+            "url": "/service-areas/hillsboro/"
         },
         {
             "city": "North Plains",
             "url": "/service-areas/north-plains/"
+        },
+        {
+            "city": "Portland",
+            "url": "/service-areas/portland-or/"
         }
     ]
 }

@@ -1,10 +1,10 @@
 ---
-title: Heating & Cooling in North Plains
+title: HVAC, Heating & Cooling in North Plains
+pagetitle: Air Conditioning & Heating Service in North Plains, OR
 description: North Plains, OR Heating & Cooling Services. Call Elevate Heating & Cooling today to schedule your service.
+image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
-
-# Air Conditioning & Heating Service in North Plains, OR
 
 Are you in North Plains needing heating & cooling service for your systems? Elevate Heating & Cooling provides heating and air conditioning services to the residents of North Plains, OR. Affordability, quality, and reliability is what we pride ourselves on!
 
@@ -14,9 +14,9 @@ Areas We Serve
 
 - Aloha
 - Banks
-- Bethany
 - Beaverton
+- Bethany
 - Cornelius
-- [Forest Grove](../../service-areas/forest-grove/)
-- [Hillsboro](../../service-areas/hillsboro/)
-- North Plains
+- Forest Grove
+- Hillsboro
+- Portland

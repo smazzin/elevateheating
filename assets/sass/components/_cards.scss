@@ -46,6 +46,11 @@
 	transform-style: preserve-3d;
 
 	&-link {
+		color: currentColor;
+		&:hover {
+			color: currentColor;
+			text-decoration: none;
+		}
 		text-decoration: none;
 		font-weight: 600;
 		&::after {

@@ -66,12 +66,12 @@ strong {
   }
 
 a {
-  color: var(--clr, var(--clr-green-base));
-
+  color: var(--clr, var(--clr-primary-500));
+  text-decoration: none;
   &:hover,
   &:focus {
-    color: var(--clr-green-base);
-    text-decoration: none; 
+    color: var(--clr-primary-500);
+    text-decoration: underline; 
   }
 }
 

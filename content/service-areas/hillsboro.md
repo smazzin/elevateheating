@@ -1,10 +1,10 @@
 ---
 title: Professional Heating & Cooling Contractor in Hillsboro
+pagetitle: Heating, Cooling & HVAC Services in Hillsboro, OR
 description: Our team of licensed HVAC technicians provide reliable heating and air conditioning services Hillsboro, OR.
+image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
-
-# We are you trusted HVAC contractor in Hillsboro, OR
 
 Are you in Hillsboro needing heating & cooling service for your systems? Elevate Heating & Cooling provides heating and air conditioning services to the residents of Hillsboro. Affordability, quality, and reliability is what we pride ourselves on! We are committed to providing the highest quality heating and cooling service to all of our customers.
 
@@ -35,9 +35,9 @@ Areas We Serve
 
 - Aloha
 - Banks
-- Bethany
 - Beaverton
+- Bethany
 - Cornelius
-- [Forest Grove](../../service-areas/forest-grove/)
-- Hillsboro
-- [North Plains](../../service-areas/north-plains/)
+- Forest Grove
+- North Plains
+- Portland

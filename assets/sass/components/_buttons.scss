@@ -24,6 +24,17 @@
     &:is(:hover, :focus) {
       background: var(--clr-primary-600);
       color: var(--clr-neutral-50);
+      text-decoration: none;
+    }
+  }
+
+  &[data-type="secondary"] {
+    background-color: var(--clr-secondary-500);
+    color: var(--clr-neutral-50);
+    &:is(:hover, :focus) {
+      background: var(--clr-secondary-600);
+      color: var(--clr-neutral-50);
+      text-decoration: none;
     }
   }
 
@@ -39,12 +50,14 @@
     &:is(:hover, :focus) {
       background: var(--clr-neutral-50);
       color: var(--clr-neutral-400);
+      text-decoration: none;
     }
   }
 
 }
 
 .mobile-btn {
+  color: currentColor;
   display: flex;
   align-items: center;
   justify-content: center;

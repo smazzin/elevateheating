@@ -45,6 +45,15 @@ notAlternative = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+[markup.goldmark.renderer]
+unsafe = true
+
 [blackfriday]
 hrefTargetBlank = true
 
@@ -123,13 +132,82 @@ url = "/ductless-mini-split-installations/"
 parent = "Cooling"
 
 [[menu.main]]
-name = "Reviews"
+name = "Serivce Areas"
 weight = 11
+identifier = "Service Areas"
+url = "/service-areas/"
+
+[[menu.main]]
+name = "Aloha"
+weight = 12
+identifier = "Aloha"
+url = "/service-areas/aloha-or/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Banks"
+weight = 12
+identifier = "Banks"
+url = "/service-areas/banks-or/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Beaverton"
+weight = 12
+identifier = "Beaverton"
+url = "/service-areas/beaverton-or/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Bethany"
+weight = 12
+identifier = "Bethany"
+url = "/service-areas/bethany-or/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Cornelius"
+weight = 12
+identifier = "Cornelius"
+url = "/service-areas/cornelius-or/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Forest Grove"
+weight = 12
+identifier = "Forest Grove"
+url = "/service-areas/forest-grove/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Hillsboro"
+weight = 12
+identifier = "Hillsboro"
+url = "/service-areas/hillsboro/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "North Plains"
+weight = 12
+identifier = "North Plains"
+url = "/service-areas/north-plains/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Portland"
+weight = 12
+identifier = "Portland"
+url = "/service-areas/portland-or/"
+parent = "Service Areas"
+
+[[menu.main]]
+name = "Reviews"
+weight = 13
 identifier = "Reviews"
 url = "/reviews/"
 
 [[menu.main]]
 name = "Contact us"
-weight = 12
+weight = 14
 identifier = "Contact Us"
 url = "/contact-us/"
