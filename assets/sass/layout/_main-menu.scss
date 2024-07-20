@@ -162,6 +162,7 @@
     left: 0;
     transform: translatey(-100%);
     text-align: center;
+    height: fit-content;
     
     .open & {
       transform: translatey(0%);  
