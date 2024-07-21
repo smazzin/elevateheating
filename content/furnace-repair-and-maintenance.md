@@ -1,16 +1,14 @@
 ---
-title: "Furnace Repair & Maintenance Hillsboro, OR"
-pagetitle: "Furnace Repair & Maintenance Services in Hillsboro"
+title: "Furnace Repair & Maintenance in Hillsboro, OR"
+pagetitle: "Furnace Repair in Hillsboro, OR"
 image: /images/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
 ---
 
-## We are your trusted Hillsboro furnace repair and maintenance professionals
+**Hillsboro furnace repair experts** at Elevate are ready to address any heating issues you may have. As winter approaches, you want to be sure that your furnace is working as it should. We will keep you warm and cozy all winter. We provide furnace repair and furnace maintenance services.
 
-**Schedule furnace repair services in Bethany, OR and surrounding areas.**
-
-As winter approaches, you want to be sure that your furnace is working as it should. We will keep your warm and cozy all winter. We provide furnace repair and furnace maintenance services.
-
+<div class="h-grid-col-2-1">
+<div>
 When we work on your furnace, we’ll
 
 - Check carbon monoxide levels
@@ -20,6 +18,11 @@ When we work on your furnace, we’ll
 - Check for corrosion and rust
 - Check for leaks
 - Check the piping
+</div>
+
+![Furnace Repair in Hillsboro, OR](/images/fix-your-furnace-without-breaking-the-bank.jpg)
+
+</div>
 
 We can also install new furnaces, if necessary. Call today to get a free quote on new furnace installation.
 
@@ -33,8 +36,6 @@ Sometimes it’s more cost-effective to simply replace your furnace or air condi
 
 ### Fix your furnace without breaking the bank
 
-![Fix your furnace without breaking the bank](/images/fix-your-furnace-without-breaking-the-bank.jpg)
-
 At Elevate Heating & Cooling, we want to help you avoid costly repairs. That’s why we offer regular maintenance. With Elevate Heating & Cooling, you can always depend on quality service and flat and fair pricing. We charge
 
 - $159.00 for furnace maintenance
@@ -46,9 +47,10 @@ It’s a good idea to schedule maintenance services twice a year; before and aft
 
 - Aloha
 - Banks
-- Bethany
 - Beaverton
+- Bethany
 - Cornelius
 - Forest Grove
 - Hillsboro
 - North Plains
+- Portland

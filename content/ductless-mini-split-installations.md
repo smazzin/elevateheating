@@ -1,6 +1,6 @@
 ---
-title: Ductless & Mini Split System Installations Near You | Elevate Heating & Cooling, Inc
-pagetitle: Ductless & Mini Split System Installations in Hillsboro & Near You
+title: Ductless & Mini Split System Installations in Hillsboro, OR
+pagetitle: Ductless & Mini Split System Installations in Hillsboro, OR
 description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
 image: /images/ductless-mini-split-installations-hero.jpg
 herotext: Ductless Mini Split Installations
@@ -22,13 +22,14 @@ We will help install and repair your ductless mini-split system. There are many 
 - Labor costs are lower with min-split installations.
 - Mini-splits are quick to install and easy to manage.
 
-Reach out to us right away if you want a more energy-efficient way to heat and cool your home in the Portland, OR area including:
+Reach out to us right away if you want a more energy-efficient way to heat and cool your home in the Portland metro area including:
 
 - Aloha
 - Banks
-- Bethany
 - Beaverton
+- Bethany
 - Cornelius
 - Forest Grove
 - Hillsboro
 - North Plains
+- Portland

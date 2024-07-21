@@ -1,10 +1,12 @@
 ---
-title: Home AC Installation & Replacement in Hillsboro, OR
+title: Air Conditioning Installation in Hillsboro, OR
+pagetitle: Air Conditioning Installation in Hillsboro, OR
 description: Elevate offers AC installation & replacement services in Hillsboro, OR areas. Call us today to schedule.
+image: /images/air-conditioner.jpg
 layout: serviceArea
 ---
 
-# AC System Installation & Replacement Hillsboro, OR
+## A/C Installation & Replacement Hillsboro, OR
 
 Elevate Heating & Cooling provides you with air conditioning services in the Beaverton/Hillsboro area including new system installs, maintenance, repairs, replacements and more.
 

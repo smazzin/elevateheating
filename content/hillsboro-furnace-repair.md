@@ -1,10 +1,12 @@
 ---
 title: "Hillsboro, OR Furnace Repair & Replacement"
+pagetitle: "Hillsboro, OR Furnace Repair & Replacement"
 description: "Hillsboro, OR Furnace Repair & Service. Call Elevate Heating & Cooling today to schedule."
+image: "/images/van-hero.jpg"
 layout: serviceArea
 ---
 
-# Hillsboro, OR Furnace Repair
+## Hillsboro, OR Furnace Repair
 
 A functioning furnace is essential to ensure a warm and comfortable living environment, especially during harsh winter months. Unfortunately, furnaces can break down and require repair. If you live in Hillsboro, OR and are in need of furnace repair, call Elevate Heating & Cooling. Our trained professionals are committed to providing the highest quality furnace repair service to all of our customers. We’ll make sure your furnace is blowing enough heat to keep you warm all winter.
 
@@ -19,9 +21,9 @@ If your system is beyond repair, our specialists in furnace repair in Hillsboro,
 At Elevate Heating & Cooling, we offer a full range of heating services in Hillsboro, OR.
 
 - Heating Maintenance & Repair
-- [Heat Pumps]/../../heat-pumps/)
+- [Heat Pumps](../../heat-pumps/)
 	- [Heat Pump Tune-Up](../../heat-pump-tune-up/)
-	- Heat Pump Installation
+	- [Heat Pump Installation](../../heating-installation/)
 - Furnaces
 	- Furnace Installation
 	- [Furnace Repair](../../furnace-repair-and-maintenance/)

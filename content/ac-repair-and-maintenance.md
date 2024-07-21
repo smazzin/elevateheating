@@ -1,6 +1,6 @@
 ---
-title: Home Air Conditioning Repairs in Hillsboro
-pagetitle: Air Conditioner Repairs in Hillsboro & Near You
+title: Air Conditioning Repair in Hillsboro
+pagetitle: Air Conditioning Repair in Hillsboro, OR
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
 image: /images/ac-repair-hero.jpg
 herotext: Ac Repair & Maintenance
@@ -8,9 +8,9 @@ herotext: Ac Repair & Maintenance
 
 ## Air Conditioning Repair & Maintenance
 
-**Set up regular air conditioner maintenance in Bethany, OR and surrounding areas**
+**Set up regular air conditioner maintenance in Hillsboro, OR and surrounding areas**
 
-Elevate Heating & Cooling provides air conditioning repair and maintenance services in Bethany, OR and surrounding areas. It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
+Elevate Heating & Cooling provides air conditioning repair and maintenance services in Hillsboro, OR and surrounding areas. It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. We’ll keep your air conditioning unit in great condition by:
 
 - Cleaning the condenser coils
 - Inspecting the evaporator coils
@@ -20,7 +20,7 @@ Elevate Heating & Cooling provides air conditioning repair and maintenance servi
 
 Call us today to learn more about air conditioner maintenance and repair services.
 
-### Cool down with AC maintenance and repair
+### Cool Down with AC maintenance and repair
 
 Elevate Heating & Cooling can work on any make or model of air conditioning unit. You can even hire us for heat pump repair and maintenance services. Our pricing is always flat and fair. We charge:
 
@@ -28,13 +28,14 @@ Elevate Heating & Cooling can work on any make or model of air conditioning unit
 - $135.00 for our service diagnostic
 - $100.00 an hour for AC repair after the diagnostic
 
-Reach out to us right away to schedule air conditioning repair or maintenance services. We service the Portland, OR area, including:
+Reach out to us right away to schedule air conditioning repair or maintenance services. We service the Portland metro area, including:
 
 - Aloha
 - Banks
-- Bethany
 - Beaverton
+- Bethany
 - Cornelius
 - Forest Grove
 - Hillsboro
 - North Plains
+- Portland

@@ -1,16 +1,16 @@
 ---
 title: Air Conditioning Services in Hillsboro, OR
+pagetitle: Air Conditioning Services in Hillsboro, OR
 description: Elevate offers AC and HVAC services, including installations, repair, and maintenance in Hillsboro, OR areas. Call us today to schedule.
+image: /images/air-conditioner.jpg
 layout: serviceArea
 ---
 
-# Air Conditioning Services
+## Get Your Air Conditioner Serviced Today
 
-Elevate Heating & Cooling provides you with air conditioning services in Beaverton/Hillsboro area including new system installs, maintenance, repairs, replacements and more. 
+Elevate Heating & Cooling provides you with air conditioning services in the Hillsboro area including new system installs, maintenance, repairs, replacements and more. 
 
-Give us a call and let Elevate Heating & Cooling take care of your home air conditioning needs.
-
-We offer a variety of AC / air conditioning and HVAC services including:
+When you're suddenly faced with air conditioning problems on a hot day, you need a reliable HVAC contractor to help you get your system back up and running. At Elevate Heating & Cooling, we offer a full range of air conditioning services to keep your home cool and comfortable all summer long.
 
 - [Air Conditioning Installation & Replacements](../ac-installation/)
 - [Heat Pumps](../heat-pumps/)/Mini Split Systems
@@ -23,11 +23,11 @@ We offer air conditioning installation and replacement services in areas of Oreg
 
 ### Air Conditioning Repair Services
 
-Even the best air conditioning systems need repairs from time to time. If your Bethany or Hillsboro air conditioner isn’t working properly, call us right away. We’ll diagnose the problem and make the necessary repairs to get your system back up and running.
+Even the best air conditioning systems need repairs from time to time. If your Hillsboro air conditioner isn’t working properly, call us right away. We’ll diagnose the problem and make the necessary repairs to get your system back up and running.
 
 ### Air Conditioning Maintenance
 
-Take care of your Bethany or Hillsboro air conditioning on a regular basis, and it will take care of you during the hot summer months. Regular air conditioning maintenance is the best way to keep your air conditioner running smoothly. We’ll inspect your system and make sure it’s working properly. By properly maintaining your air conditioning system, you can avoid costly repairs and extend the life of your system.
+Take care of your Hillsboro air conditioning on a regular basis, and it will take care of you during the hot summer months. Regular air conditioning maintenance is the best way to keep your air conditioner running smoothly. We’ll inspect your system and make sure it’s working properly. By properly maintaining your air conditioning system, you can avoid costly repairs and extend the life of your system.
 
 ### Ducltess Mini Split Installation
 

@@ -1,25 +1,35 @@
 ---
-title: Heat Pump Installs, Repair, & Replacement in Hillsboro, OR
+title: Heat Pump Services in Hillsboro, OR
+pagetitle: Heat Pump Services in Hillsboro, OR
 description: Elevate offers heat pump services, including installations, repair, and maintenance in Hillsboro, OR. Call us today to schedule.
+image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
 
-# Heat Pump Services Near You
+## Heat Pump Installation, Repair, & Maintenance Services
 
-Elevate Heating & Cooling offers heat pump repair, maintenance, replacement or new installation services. Whether you are wanting to switch to a heat pump from a furnace, are needing a new heat pump installed in your new home, Elevate Heating & Cooling has the expertise your looking for. Give us a call today.
+Whether you're looking for a way to heat or cool your home, a heat pump can offer a powerful, efficient way to get maximum comfort in the Portland Metro areas. When you need fast, reliable heat pump services, choose your trusted HVAC contractor at Elevate Heating & Cooling.
+
+<div class="h-grid-col-2-1">
+<div>
 
 For All Your Heating Needs, Call Elevate Heating & Cooling
-
-- Heat Pump Installation & Replacements
-- [Heat Pump Repair & Maintenance](../heat-pump-tune-up/)
+- [Heat Pump Installation & Replacements](../heating-installation/)
+- [Heat Pump Repair & Maintenance](../heat-pump-tune-up/): Keep your system running at top performance with routine maintenance from your local HVAC pros. We offer comprehensive tune-ups and repair services to keep your heat pump running smoothly all year long.
 - [Ductless Mini Split Installation](../ductless-mini-split-installations/)
 
-Reach out to us right away for more information about Heat Pump unit replacement services in Portland, OR area including:
+</div>
+
+![Heat Pump Services in Hillsboro, OR](/images/heat-pumps.jpg)
+</div>
+Reach out to us right away for more information about Heat Pump unit replacement services in the Portland metro area including:
 
 - Aloha
 - Banks
-- Bethany
 - Beaverton
+- Bethany
 - Cornelius
 - Forest Grove
 - Hillsboro
+- North Plains
+- Portland
