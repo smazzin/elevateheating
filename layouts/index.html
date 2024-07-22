@@ -23,13 +23,21 @@
                     </svg>
                 </div>
             </div>
-            <img loading="lazy" class="hero-img" src="{{ .Site.Data.home.tophero.image | relURL }}" alt="Hillsboro's Trusted Air Conditioning & Heating Company" width="1696" height="795">
+            {{ with resources.Get "images/van-hero.jpg" }}
+            {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+                <img class="hero-img" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Hillsboro's Trusted Air Conditioning & Heating Company">
+            {{ end }}
+            {{ end }}
         </div>
     </section>
     <section>
         <div class="container">
             <div class="grid-2 align-items-center">
-                <img loading="lazy" class="border-radius" src="{{ .Site.Data.home.section2.image }}" alt="Elevate Heating & Cooling Fam" width="583" height="728">
+                {{ with resources.Get "images/elevate-fam.jpg" }}
+                {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+                    <img class="border-radius" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Elevate Heating & Cooling Fam">
+                {{ end }}
+                {{ end }}
                 <div class="content flow">
                     <h2 class="h1">{{ .Site.Data.home.section1.title }}</h2>
                     <p>{{ .Site.Data.home.section1.description }}</p>
@@ -128,7 +136,11 @@
                 </svg>
             </div>
         </div>
-        <img loading="lazy" class="hero-img" src="{{ .Site.Data.home.middlehero.image | relURL }}" alt="Schedule Your Furnace Maintenance & Tune-up Today" width="1696" height="790">
+        {{ with resources.Get "images/keep-your-hvac-unit-in-great-condition.jpg" }}
+        {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+            <img class="hero-img" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Schedule Your Furnace Maintenance & Tune-up Today">
+        {{ end }}
+        {{ end }}
     </div>
     </section>
     <section>
@@ -142,7 +154,11 @@
                     </a>
                 </div>
                 <div class="image-stack-item image-stack-item-bottom">
-                    <img loading="lazy" class="image border-radius" src="{{ .Site.Data.home.topsection.image | relURL }}" alt="Elevate Heating & Cooling is the area's top choice for any kind of HVAC service" width="976" height="925">
+                    {{ with resources.Get "images/elevate-heating-van.jpg" }}
+                    {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+                        <img class="image border-radius" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Elevate Heating & Cooling is the area's top choice for any kind of HVAC service">
+                    {{ end }}
+                    {{ end }}
                 </div>
             </div>
         </div>
