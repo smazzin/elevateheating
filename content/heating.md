@@ -47,7 +47,7 @@ Sometimes it’s more cost-effective to simply replace your furnace or air condi
 - New furnaces and AC units are more energy efficient than older models.
 - Repairs and energy bills may become more expensive than a new system.
 
-Reach out to us right away for more information about HVAC unit replacement services in Portland, OR area including:
+Reach out to us right away for more information about HVAC unit replacement services in Beaverton/Hillsboro, OR area including:
 
 - Aloha
 - Banks
