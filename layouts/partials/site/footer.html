@@ -5,7 +5,7 @@
                 <li>
                     <div class="logo">
                         <a href="{{.Site.BaseURL}}">
-                            <img class="logo" src="/images/logo-sm.png" alt="{{.Site.Title}}">
+                            <img src="{{ .Site.Params.logo.mobile | relURL }}" height="{{ .Site.Params.logo.mobile_height }}" width="{{ .Site.Params.logo.mobile_width }}" alt="{{ .Site.Params.logo.alt }}" />
                         </a>
                     </div>
                 </li>
