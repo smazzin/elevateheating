@@ -57,9 +57,9 @@
             <div class="cards">
                 {{ range .Site.Data.home.servicelist.items }}
                     <div class="card border-radius">
-                        <h4>
+                        <strong class="h4 font-weight-bold">
                             <a class="card-link" href="{{.url | relURL}}/">{{ .title }}</a>
-                        </h4>
+                        </strong>
                         <p class="description">{{ .description }}</p>                            
                         {{/*  <img class="car-img" src="{{.image | relURL}}" alt="{{.title}}">  */}}
                     </div>
