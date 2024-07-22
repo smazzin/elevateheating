@@ -35,7 +35,7 @@
             <div class="grid-2 align-items-center">
                 {{ with resources.Get "images/elevate-fam.jpg" }}
                 {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
-                    <img class="border-radius" src="{{ .RelPermalink }}" width="583" height="728" alt="Elevate Heating & Cooling Fam">
+                    <img loading="lazy" class="border-radius" src="{{ .RelPermalink }}" width="583" height="728" alt="Elevate Heating & Cooling Fam">
                 {{ end }}
                 {{ end }}
                 <div class="content flow">
