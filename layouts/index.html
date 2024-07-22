@@ -24,7 +24,7 @@
                 </div>
             </div>
             {{ with resources.Get "images/van-hero.jpg" }}
-            {{ with .Resize (printf "%dx%d webp q30" .Width .Height) }}
+            {{ with .Resize (printf "%dx%d webp q20" .Width .Height) }}
                 <img loading="eager" class="hero-img" src="{{ .RelPermalink }}" width="1705" height="862" alt="Hillsboro's Trusted Air Conditioning & Heating Company">
             {{ end }}
             {{ end }}
