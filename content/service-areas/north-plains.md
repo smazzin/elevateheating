@@ -6,6 +6,8 @@ image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
 
+## Your Local HVAC Experts in North Plains, OR
+
 Are you in North Plains needing heating & cooling service for your systems? Elevate Heating & Cooling provides heating and air conditioning services to the residents of North Plains, OR. Affordability, quality, and reliability is what we pride ourselves on!
 
 For all your heating, cooling, air quality needs, call Elevate Heating & Cooling today!

@@ -6,6 +6,8 @@ image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
 
+## Work with the Local HVAC Pros in Forest Grove, OR
+
 Elevate Heating & Cooling provides numerous heating and cooling services to the residents of Forest Grove, OR. We are committed to providing the highest quality heating and cooling service to all of our customers. Our wide range of services varies from furnace and heat pump installation to repair, replacement, and maintenance. We’ll make sure your furnace or heat pump is blowing enough heat to keep you warm all winter and cool all summer.
 
 ## Heating Services

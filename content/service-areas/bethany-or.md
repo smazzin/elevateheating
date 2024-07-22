@@ -6,6 +6,8 @@ image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
 
+## Find the Right HVAC Repair Expert in Bethany, OR
+
 In the middle of the hot summer in Bethany, OR there is nothing worse than having your air conditioner or furnace break down. But if it happens to you, don't worry! Elevate Heating & Cooling is here for all your AC repair and Furnace repair needs. From installations to repairs, replacements, and maintenance, we ensure your systems keep you warm in winter and cool in summer.
 
 <a class="btn margin-inline-end-16" data-type="accent" href="tel:5034321221">Call: (503) 432-1221</a>

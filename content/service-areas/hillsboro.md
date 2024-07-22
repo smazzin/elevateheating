@@ -6,6 +6,8 @@ image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
 
+## Elevate Heating & Cooling: Your Local HVAC Pros
+
 Are you in Hillsboro needing heating & cooling service for your systems? Elevate Heating & Cooling provides heating and air conditioning services to the residents of Hillsboro. Affordability, quality, and reliability is what we pride ourselves on! We are committed to providing the highest quality heating and cooling service to all of our customers.
 
 ## Heating Services

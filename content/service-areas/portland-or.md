@@ -6,6 +6,8 @@ image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 ---
 
+## Elevate Heating & Cooling: Your Local HVAC Pros
+
 At Elevate Heating & Cooling, we know Portland residents depend on their HVAC systems for year-round comfort. We go above and beyond the expectaions of your "average Joe" to ensure you are 100% satisfied. Our team travels all across the Portland metro area to provide homeowners with the best heating and cooling services available.
 
 Elevate Heating & Cooling offers comprehensive HVAC services in Portland, OR, committed to the highest standards of quality. From furnace and heat pump installations to repairs, replacements, and maintenance, we ensure your systems keep you warm in winter and cool in summer.
