@@ -21,3 +21,12 @@
 <meta name="twitter:image" content="{{ .Params.image }}">
 
 <link rel="canonical" href="{{ .Permalink }}">
+
+{{/*  if is homepage  */}}
+{{ if eq .Type "home" }}
+{{ with resources.Get "images/van-hero.jpg" }}
+{{ with .Resize (printf "%dx%d webp q30" .Width .Height) }}
+		<link rel="preload" as="image" href="{{ .RelPermalink }}">
+{{ end }}
+{{ end }}
+{{ end }}
