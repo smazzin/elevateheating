@@ -24,8 +24,8 @@
                 </div>
             </div>
             {{ with resources.Get "images/van-hero.jpg" }}
-            {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
-                <img class="hero-img" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Hillsboro's Trusted Air Conditioning & Heating Company">
+            {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
+                <img class="hero-img" src="{{ .RelPermalink }}" width="1705" height="862" alt="Hillsboro's Trusted Air Conditioning & Heating Company">
             {{ end }}
             {{ end }}
         </div>
@@ -34,8 +34,8 @@
         <div class="container">
             <div class="grid-2 align-items-center">
                 {{ with resources.Get "images/elevate-fam.jpg" }}
-                {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
-                    <img class="border-radius" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Elevate Heating & Cooling Fam">
+                {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
+                    <img class="border-radius" src="{{ .RelPermalink }}" width="583" height="728" alt="Elevate Heating & Cooling Fam">
                 {{ end }}
                 {{ end }}
                 <div class="content flow">
@@ -137,8 +137,8 @@
             </div>
         </div>
         {{ with resources.Get "images/keep-your-hvac-unit-in-great-condition.jpg" }}
-        {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
-            <img class="hero-img" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Schedule Your Furnace Maintenance & Tune-up Today">
+        {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
+            <img loading="lazy" class="hero-img" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Schedule Your Furnace Maintenance & Tune-up Today">
         {{ end }}
         {{ end }}
     </div>
@@ -155,8 +155,8 @@
                 </div>
                 <div class="image-stack-item image-stack-item-bottom">
                     {{ with resources.Get "images/elevate-heating-van.jpg" }}
-                    {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
-                        <img class="image border-radius" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Elevate Heating & Cooling is the area's top choice for any kind of HVAC service">
+                    {{ with .Resize (printf "%dx%d webp q50" .Width .Height) }}
+                        <img loading="lazy" class="image border-radius" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Elevate Heating & Cooling is the area's top choice for any kind of HVAC service">
                     {{ end }}
                     {{ end }}
                 </div>
