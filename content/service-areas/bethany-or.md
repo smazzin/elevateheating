@@ -34,5 +34,6 @@ With Elevate, you can experience uninterrupted comfort in your Bethany, OR home.
 - North Plains
 - Portland
 
+Bethany, Oregon: One of Portland metro's fastest-growing suburbs. Located north of [Beaverton](../../service-areas/beaverton-or/), it has some of the areas most notable restraunts, like Bethany's Table and Bethany Public House & Brewery. The Claremont Golf Club is a popular spot for Portland golfers, and the Bethany Village shopping center is a great place to shop and dine.
 
 Elevate Heating & Cooling is proud to serve Bethany and its surrounding communities with top-quality HVAC services. Call [503-432-1221](tel:5034321221) or [contact us online](../../contact-us/) to schedule HVAC services in Bethany, OR today!

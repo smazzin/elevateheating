@@ -56,3 +56,7 @@ To schedule HVAC services in Cornelius, OR, simply call [503-432-1221](tel:50343
 - Hillsboro
 - North Plains
 - Portland
+
+Cornelius, Oregon: Nestled in the Chehalem Mountains American Viticultural Area, Cornelius is home to four wineries. Play a round of golf at the Forest Hills Golf Course, one of the Pacific Northwest's oldest golf courses.
+
+Elevate Heating & Cooling is proud to serve Cornelius and its surrounding communities with expert HVAC services. Call [503-432-1221](tel:5034321221) or [contact us online](../../contact-us/) to schedule HVAC services in Cornelius, OR today!
