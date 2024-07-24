@@ -13,7 +13,7 @@ At Elevate Heating & Cooling, we know Portland residents depend on their HVAC sy
 Elevate Heating & Cooling offers comprehensive HVAC services in Portland, OR, committed to the highest standards of quality. From furnace and heat pump installations to repairs, replacements, and maintenance, we ensure your systems keep you warm in winter and cool in summer.
 
 <a class="btn margin-inline-end-16" data-type="accent" href="tel:5034321221">Call: (503) 432-1221</a>
-<a class="btn margin-block-start-16" data-type="secondary" href="{{ .Site.Data.contact.scheduleurl }}">Schedule Service</a>
+<a class="btn margin-block-start-16" data-type="secondary" href="https://book.elevateheating.com/web-schedule-a-service-form">Schedule Service</a>
 
 Or [contact Elevate Heating & Cooling online](../../contact-us/) to schedule HVAC service in Portland, OR.
 

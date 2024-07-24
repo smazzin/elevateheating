@@ -11,7 +11,7 @@ layout: serviceArea
 At Elevate Heating & Cooling, we've established ourselves as the premier choice for HVAC services in Aloha, OR. We know Aloha residents depend on their HVAC systems for year-round comfort. In addition to excellent HVAC installations and repairs, Elevate Heating & Cooling also offers affordable rates to homeowners in Aloha, OR. When you choose Elevate, you can be sure you're getting the best service at the best price.
 
 <a class="btn margin-inline-end-16" data-type="accent" href="tel:5034321221">Call: (503) 432-1221</a>
-<a class="btn margin-block-start-16" data-type="secondary" href="{{ .Site.Data.contact.scheduleurl }}">Schedule Service</a>
+<a class="btn margin-block-start-16" data-type="secondary" href="https://book.elevateheating.com/web-schedule-a-service-form">Schedule Service</a>
 
 Or [contact Elevate Heating & Cooling online](../../contact-us/) to schedule HVAC service in Aloha, OR.
 
