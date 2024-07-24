@@ -14,21 +14,6 @@ enableRobotsTXT = true # generate robots.txt
 
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
-googleMapsApiKey = ""
-
-[security]
-  enableInlineShortcodes = false
-
-  [security.exec]
-    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
-    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
-
-  [security.funcs]
-    getenv = ['^HUGO_', '^CI$', '^GOOGLE_MAPS_API_KEY$']
-
-  [security.http]
-    methods = ['(?i)GET|POST']
-    urls = ['.*']
 
 # add redirects/headers
 [outputs]
