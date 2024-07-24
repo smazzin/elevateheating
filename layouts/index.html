@@ -165,6 +165,7 @@
     </section>
     <section>
         <div class="container">
+            {{ $googleMapsApiKey := getenv "GOOGLE_MAPS_API_KEY" }}
             <h2 class="h1">{{ .Site.Data.home.reviews.title }}</h2>
             <p class="margin-block-end-16">Looking for more Elevate Heating & Cooling reviews?</p>
             <p class="margin-block-end-16">Read some of our 150+ 5-star reviews and see why Elevate is Beaverton & Hillsboro's most trusted HVAC company.</p>
@@ -175,7 +176,7 @@
                     --gmpx-rating-color: #eb6e00;
                 }
                 </style>
-            <gmpx-api-loader key="AIzaSyDXqC3ijXFkJKYywci3RWJBoSubbaJ8Yys" solution-channel="GMP_GCC_placeoverview_v1_xl"></gmpx-api-loader>
+            <gmpx-api-loader key="{{ $googleMapsApiKey }}" solution-channel="GMP_GCC_placeoverview_v1_xl"></gmpx-api-loader>
             <gmpx-place-data-provider place="ChIJo5ruhcADlVQRUVig_GrmEl0">
                 <div slot="initial-loading">
                   loading...
