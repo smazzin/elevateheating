@@ -2,8 +2,8 @@
     position: relative;
     overflow: hidden;
     // mobile
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     // desktop
     @include mq (medium) {
         padding-top: 164px;
