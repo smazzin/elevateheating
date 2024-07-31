@@ -4,6 +4,7 @@ pagetitle: Portland, OR Heating & Cooling Services
 description: Our team of licensed HVAC technicians provide reliable hvac, heating, and air conditioning services in Portland, OR.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Portland, OR
 ---
 
 ## Elevate Heating & Cooling: Your Local HVAC Pros

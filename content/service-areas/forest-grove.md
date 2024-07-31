@@ -4,6 +4,7 @@ pagetitle: Local HVAC, Heating & Cooling Services in Forest Grove, OR
 description: Our team of licensed HVAC technicians provide reliable heating and air conditioning services Forest Grove, OR.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Forest Grove, OR
 ---
 
 ## Work with the Local HVAC Pros in Forest Grove, OR

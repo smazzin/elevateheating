@@ -3,7 +3,8 @@ title: Air Conditioning Repair in Hillsboro
 pagetitle: Air Conditioning Repair in Hillsboro, OR
 description: It’s hard to stay comfortable if your AC unit isn’t working. We will help you cool off with AC repair and maintenance services. Contact us today!
 image: /images/ac-repair-hero.jpg
-herotext: Ac Repair & Maintenance
+layout: servicePage
+type: Air Conditioning Repair Service
 ---
 
 ## Air Conditioning Repair & Maintenance

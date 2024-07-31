@@ -4,6 +4,7 @@ pagetitle: Professional HVAC Services in Cornelius, OR
 description: Our team of licensed HVAC technicians provide reliable hvac, heating, and air conditioning services in Cornelius, OR.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Cornelius, OR
 ---
 
 ## Work with the HVAC Experts in Cornelius, OR

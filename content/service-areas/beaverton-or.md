@@ -4,6 +4,7 @@ pagetitle: Beaverton, OR Heating, Cooling & HVAC Services
 description: Guarantee year-round comfort with Elevate Heating & Cooling's HVAC services. Your Beaverton, OR home deserves the best heating and cooling services available.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Beaverton, OR
 ---
 
 ## The Air Conditioning & Heating Pros

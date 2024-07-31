@@ -4,6 +4,7 @@ pagetitle: Air Conditioning & Heating Service in North Plains, OR
 description: North Plains, OR Heating & Cooling Services. Call Elevate Heating & Cooling today to schedule your service.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: North Plains, OR
 ---
 
 ## Your Local HVAC Experts in North Plains, OR

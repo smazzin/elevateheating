@@ -3,7 +3,6 @@ title: Heat Pump Tune-Up & Repair Service in Hillsboro, OR
 pagetitle: Heat Pump Tune-up Services in Hillsboro, OR
 description: Elevate Heating & Cooling provides heat pump tune-up services in Hillsboro, OR and surrounding areas. Call us today to schedule.
 image: /images/electric-fan-coil-tune-up-hero.jpg
-herotext: Heat Pump Tune-Up
 ---
 
 ## Avoid Heating System Breakdowns & Costly Repairs with Regular Heat Pump Tune-Ups

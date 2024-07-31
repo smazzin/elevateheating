@@ -4,6 +4,7 @@ pagetitle: Heating, Cooling & HVAC Services in Hillsboro, OR
 description: Our team of licensed HVAC technicians provide reliable heating and air conditioning services Hillsboro, OR.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Hillsboro, OR
 ---
 
 ## Elevate Heating & Cooling: Your Local HVAC Pros

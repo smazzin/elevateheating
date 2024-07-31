@@ -9,64 +9,6 @@
         {{ end }}
 
         {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
-        <script type="application/ld+json">
-            {
-            "@context": "http://schema.org/",
-            "@type": ["LocalBusiness","Service", "HVACBusiness"],
-            "aggregateRating" : {
-                "@type" : "AggregateRating",
-                "ratingValue": "5",
-                "reviewCount": "181"
-            },
-                "name": "Elevate Heating & Cooling, Inc",
-                "telephone": "503-432-1221",
-                "openingHours": "Mo-Fri 08:00-17:00",
-                "logo": "https://elevateheating.com/images/elevate-logo.png",
-                "image": "https://elevateheating.com/images/elevate-logo.png",
-                "url": "https://elevateheating.com",
-                "priceRange" : "$$$",
-                "areaServed" : [
-                    {"@type" : "Place",
-                                "name": ["Aloha, Oregon"]
-                    },
-                    {"@type" : "Place",
-                                "name": ["Banks, Oregon"]
-                    },
-                    {"@type" : "Place",
-                                "name": ["Beaverton, Oregon"]
-                    },
-                    {"@type" : "Place",
-                                "name": ["Bethany, Oregon"]
-                    },
-                    {"@type" : "Place",
-                                "name": ["Cornelius, Oregon"]
-                    },
-                    {"@type" : "Place",
-                            "name": ["Forest Grove, Oregon"]
-                    },
-                    {"@type" : "Place",
-                            "name": ["Hillsboro, Oregon"]
-                    },
-                    {"@type" : "Place",
-                                "name": ["North Plains, Oregon"]
-                    },
-                    {"@type" : "Place",
-                            "name": ["Portland, Oregon"]
-                    },
-
-                ],
-                "address" : {
-                "@type" : "PostalAddress",
-                "streetAddress" : "",
-                "addressLocality" : "Beaverton",
-                "addressRegion" : "OR",
-                "postalCode" : "97006"
-                },
-                "description": "We provide a range of services from furance repair and maintenance to installing new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.",
-                "sameAs": ["https://www.facebook.com/ElevateHeating/",
-                "https://www.instagram.com/elevateheatingandcooling/"]
-            }
-            </script>
         {{ block "schema" . }}
         {{ end }}
         {{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}

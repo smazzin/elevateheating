@@ -3,7 +3,6 @@ title: Heat Pump Services in Hillsboro, OR
 pagetitle: Heat Pump Services in Hillsboro, OR
 description: Elevate offers heat pump services, including installations, repair, and maintenance in Hillsboro, OR. Call us today to schedule.
 image: /images/electric-fan-coil-tune-up.jpg
-layout: serviceArea
 ---
 
 ## Heat Pump Installation, Repair, & Maintenance Services

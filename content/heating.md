@@ -3,7 +3,6 @@ title: Top Rated Heating & HVAC Services in Beaverton/Hillsboro, OR
 pagetitle: Heating & Furnace Services in Beaverton/Hillsboro, OR
 description: We are your trusted Beaverton/Hillsboro HVAC heating service for furnaces and heat pump installation, repair and more. Call us today to schedule.
 image: /images/electric-fan-coil-tune-up.jpg
-layout: serviceArea
 ---
 
 ## Heating Services

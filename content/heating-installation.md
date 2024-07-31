@@ -3,7 +3,6 @@ title: "Heating & Furnace Installation Hillsboro, OR - Elevate Heating & Cooling
 pagetitle: "Heating Installation & Replacement"
 description: "We offer heating installation services for residents in Hillsboro, OR and other areas. We will help you prepare for the cold weather."
 image: "/images/electric-fan-coil-tune-up.jpg"
-layout: serviceArea
 ---
 
 ## Choose the Right Heating System for Your Home Makes All the Difference

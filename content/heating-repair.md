@@ -3,7 +3,6 @@ title: "Heating Repair in Hillsboro, OR - Elevate Heating & Cooling"
 pagetitle: "Heating Repair in Hillsboro, OR"
 description: "We offer heating repair services for residents in Hillsboro, OR and other areas. We will help you prepare for the cold weather."
 image: "/images/electric-fan-coil-tune-up.jpg"
-layout: serviceArea
 ---
 
 ## Heating System Experts You Can Trust

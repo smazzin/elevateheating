@@ -3,7 +3,6 @@ title: Ductless & Mini Split System Installations in Hillsboro, OR
 pagetitle: Ductless & Mini Split System Installations in Hillsboro, OR
 description: If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system.
 image: /images/ductless-mini-split-installations-hero.jpg
-herotext: Ductless Mini Split Installations
 ---
 
 ## Heat and Cool Your Home for Less

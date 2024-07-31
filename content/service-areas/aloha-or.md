@@ -4,6 +4,7 @@ pagetitle: HVAC, Heating & Cooling Services in Aloha, OR
 description: Our team of licensed HVAC technicians provide reliable hvac, heating, and air conditioning services in Aloha, OR.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Aloha, OR
 ---
 
 ## Worth with the Air Conditioning and Heating Experts

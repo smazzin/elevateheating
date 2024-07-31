@@ -4,6 +4,7 @@ pagetitle: HVAC Services in Bethany & Surrounding Areas
 description: Guarantee year-round comfort with Elevate Heating & Cooling's HVAC services. Your Bethany, OR home deserves the best heating and cooling services available.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Bethany, OR
 ---
 
 ## Find the Right HVAC Repair Expert in Bethany, OR

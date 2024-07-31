@@ -4,6 +4,7 @@ pagetitle: Air Conditioning & Heating Services in Banks, OR
 description: Elevate Heating & Cooling is the best choice for HVAC services in Banks, OR. We offer reliable heating and cooling services to keep your home comfortable year-round.
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
+city: Banks, OR
 ---
 
 ## Elevate Heating & Cooling - Expert HVAC Services in Banks, OR
