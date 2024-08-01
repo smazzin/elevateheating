@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify --disableKinds=taxonomy,taxonomyTerm"
+command = "hugo --gc --minify --disableKinds=taxonomy"
 
 [context.production.environment]
 HUGO_VERSION = "0.129.0"
