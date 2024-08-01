@@ -1,0 +1,22 @@
+{{ define "schema" }}
+{{ end }}
+{{ define "main" }}
+{{ $scheduleurl := .Site.Data.contact.scheduleurl }}
+{{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
+{{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
+
+<section>
+    <div class="container">
+      <div class="grid-2">
+          <div class="flow">
+            {{.Content}}
+            {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
+            {{ partial "contact-form.html" }}
+          </div>
+          <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11160.682787181982!2d-122.9525218!3d45.6273071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549503c085ee9aa3%3A0x5d12e66afca05851!2sElevate%20Heating%20%26%20Cooling%2C%20LLC!5e0!3m2!1sen!2sus!4v1678816701383!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+    </div>
+</section>
+{{ end }}

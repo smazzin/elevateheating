@@ -3,7 +3,7 @@ title: Metro Beaverton/Hillsboro HVAC Service Areas - Elevate Heating & Cooling
 pagetitle: HVAC, Heating & Cooling Service Areas
 description: Elevate Heating & Cooling offers expert HVAC services to the Beaverton & Hillsboro metro area. Call us today! 503-432-1221
 image: /images/elevate-heating-van.jpg
-layout: contact
+layout: serviceAreaIndex
 ---
 
 ## Elevate Heating & Cooling Service Areas
