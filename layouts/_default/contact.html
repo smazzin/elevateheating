@@ -1,4 +1,7 @@
 {{ define "body_classes" }}page-contact{{ end }}
+{{ define "schema" }}
+{{ partial "contactPageSchema" (dict "description" .Params.description ) }}
+{{ end }}
 {{ define "main" }}
 {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
 {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
