@@ -5,6 +5,7 @@ description: Our team of licensed HVAC technicians provide reliable hvac, heatin
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Portland, OR
+wiki: https://en.wikipedia.org/wiki/Portland,_Oregon
 ---
 
 ## Elevate Heating & Cooling: Your Local HVAC Pros

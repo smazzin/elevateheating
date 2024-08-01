@@ -5,6 +5,7 @@ description: Our team of licensed HVAC technicians provide reliable heating and 
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Hillsboro, OR
+wiki: https://en.wikipedia.org/wiki/Hillsboro,_Oregon
 ---
 
 ## Elevate Heating & Cooling: Your Local HVAC Pros

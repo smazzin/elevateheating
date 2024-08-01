@@ -5,6 +5,7 @@ description: Our team of licensed HVAC technicians provide reliable hvac, heatin
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Aloha, OR
+wiki: https://en.wikipedia.org/wiki/Aloha,_Oregon
 ---
 
 ## Worth with the Air Conditioning and Heating Experts

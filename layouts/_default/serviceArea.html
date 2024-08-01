@@ -1,5 +1,5 @@
 {{ define "schema" }}
-{{ partial "serviceAreaSchema" (dict "city" .Params.city "description" .Params.description) }}
+{{ partial "serviceAreaSchema" (dict "city" .Params.city "wiki" .Params.wiki "description" .Params.description) }}
 {{ end }}
 {{ define "main" }}
     {{ $scheduleurl := .Site.Data.contact.scheduleurl }}

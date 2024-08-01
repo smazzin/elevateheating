@@ -5,6 +5,7 @@ description: Elevate Heating & Cooling is the best choice for HVAC services in B
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Banks, OR
+wiki: https://en.wikipedia.org/wiki/Banks,_Oregon
 ---
 
 ## Elevate Heating & Cooling - Expert HVAC Services in Banks, OR

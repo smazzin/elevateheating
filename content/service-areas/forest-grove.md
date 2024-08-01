@@ -5,6 +5,7 @@ description: Our team of licensed HVAC technicians provide reliable heating and 
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Forest Grove, OR
+wiki: https://en.wikipedia.org/wiki/Forest_Grove,_Oregon
 ---
 
 ## Work with the Local HVAC Pros in Forest Grove, OR

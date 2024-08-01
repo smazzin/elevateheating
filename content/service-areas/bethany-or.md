@@ -5,6 +5,7 @@ description: Guarantee year-round comfort with Elevate Heating & Cooling's HVAC 
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Bethany, OR
+wiki: https://en.wikipedia.org/wiki/Bethany,_Oregon
 ---
 
 ## Find the Right HVAC Repair Expert in Bethany, OR

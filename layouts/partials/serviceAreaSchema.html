@@ -1,7 +1,67 @@
 <script type="application/ld+json">
 	{
 		"@context": "http://schema.org/",
-		"@type": ["Service", "HVACBusiness"],
+		"@type": ["LocalBusiness", "HVACBusiness"],
+		"@id" : "https://elevateheating.com/",
+		"name": "Elevate Heating & Cooling, Inc",
+		"telephone": "503-432-1221",
+		"hasMap": "https://www.google.com/maps?cid=6706676142287378513",
+		"logo": "https://elevateheating.com/images/elevate-logo.png",
+		"url": "https://elevateheating.com",
+		"address" : {
+		"@type" : "PostalAddress",
+		"streetAddress" : "",
+		"addressLocality" : "North Plains",
+		"addressRegion" : "OR",
+		"postalCode" : "97133",
+		"addressCountry" : "US"
+		},
+		"contactPoint" : {
+				"contactType" : "customer service",
+				"telephone" : "+1-503-432-1221"
+		},
+		"sameAs": ["https://www.facebook.com/ElevateHeating/",
+		"https://www.instagram.com/elevateheatingandcooling/"],
+		"description": {{ .description }},
+		"areaServed": {
+			"@type": "City",
+			"name": {{ .city }},
+			"sameAs": {{ .wiki }}
+		}
+	}
+</script>
+{{/*  backup  */}}
+{{/*  <script type="application/ld+json">
+	{
+	"@context": "http://schema.org/",
+	"@type": ["HomeAndConstructionBusiness"],
+			"name": "Elevate Heating & Cooling, Inc",
+			"telephone": "503-432-1221",
+			"openingHours": "Mo-Fri 08:00-17:00",
+			"hasMap": "https://www.google.com/maps?cid=6706676142287378513",
+			"logo": "https://elevateheating.com/images/elevate-logo.png",
+			"image": "https://elevateheating.com/images/elevate-logo.png",
+			"url": "https://elevateheating.com",
+			"address" : {
+			"@type" : "PostalAddress",
+			"streetAddress" : "",
+			"addressLocality" : "North Plains",
+			"addressRegion" : "OR",
+			"postalCode" : "97133",
+			"addressCountry" : "US"
+			},
+			"contactPoint" : {
+					"contactType" : "customer service",
+					"telephone" : "+1-503-432-1221"
+			},
+			"sameAs": ["https://www.facebook.com/ElevateHeating/",
+			"https://www.instagram.com/elevateheatingandcooling/"]
+	}
+	</script>  */}}
+{{/*  <script type="application/ld+json">
+	{
+		"@context": "http://schema.org/",
+		"@type": ["LocalBusiness", "HVACBusiness"],
 		"name": "Elevate Heating & Cooling, Inc",
 		"description": {{ .description }},
 		"@id": "https://elevateheating.com/",
@@ -37,4 +97,4 @@
 			"sameAs": ["https://www.facebook.com/ElevateHeating/",
 			"https://www.instagram.com/elevateheatingandcooling/"]
 	}
-	</script>
+	</script>  */}}

@@ -5,6 +5,7 @@ description: Our team of licensed HVAC technicians provide reliable hvac, heatin
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Cornelius, OR
+wiki: https://en.wikipedia.org/wiki/Cornelius,_Oregon
 ---
 
 ## Work with the HVAC Experts in Cornelius, OR

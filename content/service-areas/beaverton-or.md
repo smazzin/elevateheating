@@ -5,6 +5,7 @@ description: Guarantee year-round comfort with Elevate Heating & Cooling's HVAC 
 image: /images/electric-fan-coil-tune-up.jpg
 layout: serviceArea
 city: Beaverton, OR
+wiki: https://en.wikipedia.org/wiki/Beaverton,_Oregon
 ---
 
 ## The Air Conditioning & Heating Pros
