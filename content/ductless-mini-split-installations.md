@@ -13,7 +13,13 @@ type: HVAC Contractor
 
 If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system. We provide mini-split installations for clients in and around the [Beaverton](../service-areas/beaverton-or/) & [Hillsboro](../service-areas/hillsboro/), Oregon area.
 
+<div class="h-grid-col-2-1">
+<div>
 The mini-split system is an energy-efficient and cost-effective way to heat and cool your home. Call us today to get a free estimate on mini-split installation services.
+
+</div>
+{{< figure src="/images/ductless-heating-cooling.jpg" alt="Ductless Heating & Cooling Unit" width="350" height="350" >}}
+</div>
 
 ### Invest In A Ductless Mini-Split System
 

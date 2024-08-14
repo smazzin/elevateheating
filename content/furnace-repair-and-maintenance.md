@@ -11,6 +11,8 @@ type: Furnace repair service
 
 <div class="h-grid-col-2-1">
 <div>
+
+
 When we work on your furnace, we’ll
 
 - Check carbon monoxide levels
@@ -22,7 +24,7 @@ When we work on your furnace, we’ll
 - Check the piping
 </div>
 
-![Furnace Repair in Hillsboro, OR](/images/fix-your-furnace-without-breaking-the-bank.jpg)
+{{< figure src="/images/gas-furnace-repair.jpg" alt="Employees working on a gas furnace" width="350" height="350" >}}
 
 </div>
 
