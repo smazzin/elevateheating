@@ -6,8 +6,8 @@
     padding-bottom: 4rem;
     // desktop
     @include mq (medium) {
-        padding-top: 164px;
-        padding-bottom: 334px;
+        padding-top: 6rem;
+        padding-bottom: 10rem;
     }
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -16,7 +16,7 @@
     }
     svg {
         position: absolute;
-        z-index: 2;
+        z-index: 999;
         left: 0;
         bottom: 0;
         width: 100%;

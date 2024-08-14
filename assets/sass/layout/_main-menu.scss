@@ -233,14 +233,14 @@
  .nav__link {
    &:hover + .sub-nav {
      display: block;
-     z-index: 999;
+     z-index: 9999;
  }
 }
 
 .sub-nav {
   &:hover {
     display: block;
-    z-index: 1;
+    z-index: 9999;
   }
 }
 
