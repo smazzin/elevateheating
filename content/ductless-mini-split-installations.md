@@ -9,7 +9,7 @@ image: /images/ductless-mini-split-installations-hero.jpg
 
 **Install a Ductless Mini-Split system in Beaverton, Hillsboro and surrounding areas.**
 
-If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system. We provide mini-split installations for clients in and around the Beaverton & Hillsboro, Oregon area.
+If you have an older home, there’s a strong chance that there’s no ductwork. We can make your life easier by installing a ductless mini-split system. We provide mini-split installations for clients in and around the [Beaverton](../service-areas/beaverton-or/) & [Hillsboro](../service-areas/hillsboro/), Oregon area.
 
 The mini-split system is an energy-efficient and cost-effective way to heat and cool your home. Call us today to get a free estimate on mini-split installation services.
 

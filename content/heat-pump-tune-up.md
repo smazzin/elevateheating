@@ -23,6 +23,7 @@ A heat pump tune-up will include:
 ![Heat Pump Tune-up services in Hillsboro, OR](/images/heat-pumps.jpg)
 
 </div>
+
 We’ll make sure your heat pump is blowing enough electric heat to keep you warm all winter and enough cool air for a comfortable summer. Call us today to schedule a heat pump tune-up.
 
 Reach out to us right away for more information about HVAC unit replacement services in the Portland metro area including:
