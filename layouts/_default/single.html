@@ -3,7 +3,10 @@
 {{ define "main" }}
     {{ $scheduleurl := .Site.Data.contact.scheduleurl }}
     {{ $scheduleblurb := .Site.Data.contact.scheduleblurb }}
-    {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
+    {{ if .Params.image }}
+        {{ partial "hero" (dict "imageUrl" .Params.image "title" .Params.pagetitle "heroBody" .Params.heroBody "scheduleurl" $.Site.Data.contact.scheduleurl "scheduleblurb" $.Site.Data.contact.scheduleblurb) }}
+    {{ else }}
+    {{ end }}
     <section>   
         <div class="container-sm">
             {{ .Content  | safeHTML }}
