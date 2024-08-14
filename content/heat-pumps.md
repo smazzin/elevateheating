@@ -22,6 +22,7 @@ For All Your Heating Needs, Call Elevate Heating & Cooling
 </div>
 
 ![Heat Pump Services in Hillsboro, OR](/images/heat-pumps.jpg)
+{class="border-radius" width="350" height="350"}
 </div>
 Reach out to us right away for more information about Heat Pump unit replacement services in the Portland metro area including:
 
