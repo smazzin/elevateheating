@@ -48,9 +48,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
-        title = true
 [markup.goldmark.renderer]
 unsafe = true
 

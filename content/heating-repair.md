@@ -28,7 +28,8 @@ At Elevate, we service a variety of heating systems, including gas furnaces and 
 
 </div>
 
-{{< figure src="/images/brazing-evaporator-coil.jpg" alt="Employee brazing an evaporator coil" width="350" height="350" >}}
+![Employee brazing an evaporator coil](/images/brazing-evaporator-coil.jpg) 
+{class="border-radius" width="350" height="350"}
 
 </div>
 

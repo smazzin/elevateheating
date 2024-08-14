@@ -23,6 +23,7 @@ A heat pump tune-up will include:
 </div>
 
 ![Heat Pump Tune-up services in Hillsboro, OR](/images/heat-pumps.jpg)
+{class="border-radius" width="350" height="350"}
 
 </div>
 

@@ -18,7 +18,10 @@ If you have an older home, there’s a strong chance that there’s no ductwork.
 The mini-split system is an energy-efficient and cost-effective way to heat and cool your home. Call us today to get a free estimate on mini-split installation services.
 
 </div>
-{{< figure src="/images/ductless-heating-cooling.jpg" alt="Ductless Heating & Cooling Unit" width="350" height="350" >}}
+
+![Ductless Heating & Cooling Unit](/images/ductless-heating-cooling.jpg)
+{class="border-radius" width="350" height="350"}
+
 </div>
 
 ### Invest In A Ductless Mini-Split System

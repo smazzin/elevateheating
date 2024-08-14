@@ -24,7 +24,8 @@ When we work on your furnace, we’ll
 - Check the piping
 </div>
 
-{{< figure src="/images/gas-furnace-repair.jpg" alt="Employees working on a gas furnace" width="350" height="350" >}}
+![Employees working on a gas furnace](/images/gas-furnace-repair.jpg)
+{class="border-radius" width="350" height="350"}
 
 </div>
 
