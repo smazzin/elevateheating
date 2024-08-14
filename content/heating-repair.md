@@ -3,6 +3,8 @@ title: "Heating Repair in Hillsboro, OR"
 pagetitle: "Heating Repair in Hillsboro, OR"
 description: "We offer heating repair services for residents in Hillsboro, OR and other areas. We will help you prepare for the cold weather."
 image: "/images/electric-fan-coil-tune-up.jpg"
+layout: servicePage
+type: Heating Contractor
 ---
 
 ## Heating Repair Experts You Can Trust

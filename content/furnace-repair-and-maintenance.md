@@ -3,6 +3,8 @@ title: "Furnace Repair & Maintenance in Hillsboro, OR"
 pagetitle: "Furnace Repair in Hillsboro, OR"
 image: /images/keep-your-hvac-unit-in-great-condition.jpg
 description: Furnace not working or need furnace repair? We can help. Call Elevate Heating & Cooling now to schedule an appointment.
+layout: servicePage
+type: Furnace repair service
 ---
 
 **Hillsboro furnace repair experts** at Elevate are ready to address any heating issues you may have. As winter approaches, you want to be sure that your furnace is working as it should. We will keep you warm and cozy all winter. We provide furnace repair and furnace maintenance services.

@@ -3,6 +3,8 @@ title: "Heating & Furnace Installation Hillsboro, OR"
 pagetitle: "Heating Installation & Replacement Near You in Hillsboro, OR"
 description: "We offer heating installation services for residents in Hillsboro, OR and other areas. We will help you prepare for the cold weather."
 image: "/images/electric-fan-coil-tune-up.jpg"
+layout: servicePage
+type: Heating Contractor
 ---
 
 ## Choose the Right Heating System for Your Home Makes All the Difference

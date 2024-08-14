@@ -3,6 +3,8 @@ title: "Hillsboro, OR Furnace Repair & Replacement"
 pagetitle: "Hillsboro, OR Furnace Repair & Replacement"
 description: "Hillsboro, OR Furnace Repair & Service. Call Elevate Heating & Cooling today to schedule."
 image: "/images/van-hero.jpg"
+layout: servicePage
+type: Furnace Repair Service
 ---
 
 ## Hillsboro, OR Furnace Repair
