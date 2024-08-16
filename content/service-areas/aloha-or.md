@@ -8,7 +8,7 @@ city: Aloha, OR
 wiki: https://en.wikipedia.org/wiki/Aloha,_Oregon
 ---
 
-## Worth with the Air Conditioning and Heating Experts
+## Work with the Air Conditioning and Heating Experts
 
 At Elevate Heating & Cooling, we've established ourselves as the premier choice for HVAC services in Aloha, OR. We know Aloha residents depend on their HVAC systems for year-round comfort. In addition to excellent HVAC installations and repairs, Elevate Heating & Cooling also offers affordable rates to homeowners in Aloha, OR. When you choose Elevate, you can be sure you're getting the best service at the best price.
 
