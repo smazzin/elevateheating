@@ -9,7 +9,7 @@ type: Heating Contractor
 
 ## Heating Repair Experts You Can Trust
 
-When the cold weather hits, you want to make sure your heating system is working properly. Elevate Heating & Cooling offers reliable home centrail air heating repairs for gas furnace heaters and heat pumps
+When the cold weather hits, you want to make sure your heating system is working properly. Elevate Heating & Cooling offers reliable home central air heating repairs for gas furnace heaters and heat pumps
 
 ## Symptoms of a Broken Heating System
 
