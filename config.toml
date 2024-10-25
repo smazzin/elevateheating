@@ -211,3 +211,9 @@ name = "Contact us"
 weight = 14
 identifier = "Contact Us"
 url = "/contact-us/"
+
+[[menu.main]]
+name = "Financing"
+weight = 15
+identifier = "Financing"
+url = "/hvac-financing/"
