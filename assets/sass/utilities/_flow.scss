@@ -1,8 +1,0 @@
-.flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1rem);
-}
-
-.grid-flow {
-  display: grid;
-  grid-gap: var(--flow-spacer, 2rem);
-}
