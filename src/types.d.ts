@@ -153,6 +153,15 @@ export interface Price {
   ribbonTitle?: string;
 }
 
+export interface ServiceAlt {
+  title?: string;
+  subtitle?: string;
+  description?: string;
+  items?: Array<Item>;
+  callToAction?: CallToAction;
+  image?: string | unknown;
+}
+
 export interface Testimonial {
   title?: string;
   testimonial?: string;
@@ -237,6 +246,10 @@ export interface Stats extends Omit<Headline, 'classes'>, Widget {
 
 export interface Pricing extends Omit<Headline, 'classes'>, Widget {
   prices?: Array<Price>;
+}
+
+export interface ServicesAlt extends Omit<Headline, 'classes'>, Widget {
+  serviceItems?: Array<ServiceAlt>;
 }
 
 export interface Testimonials extends Omit<Headline, 'classes'>, Widget {
