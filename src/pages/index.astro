@@ -5,6 +5,7 @@ import BigHero from '~/components/widgets/BigHero.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Brands from '~/components/widgets/Brands.astro';
 import Services from '~/components/widgets/Services.astro';
+import HeroMiddle from '~/components/widgets/HeroMiddle.astro';
 import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
@@ -168,6 +169,22 @@ const metadata = {
       },
     ]}
 />
+
+  <!-- HeroMiddle Widget ************** -->
+
+  <HeroMiddle
+    tagline="HVAC Financing Available"
+    title="Flexible Financing Options"
+    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat"
+    image={{
+      src: '~/assets/images/keep-your-hvac-unit-in-great-condition.jpg',
+      alt: 'Features2 Image',
+    }}
+    callToAction1={{
+      text: 'Learn More',
+      href: '/hvac-financing',
+    }}
+  />
 
   <!-- Content Widget **************** -->
 

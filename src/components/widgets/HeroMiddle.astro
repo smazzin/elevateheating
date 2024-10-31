@@ -1,0 +1,64 @@
+---
+import Headline from '~/components/ui/Headline.astro';
+import Image from '~/components/common/Image.astro';
+import Button from '~/components/ui/Button.astro';
+import type { Features as Props } from '~/types';
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  tagline = await Astro.slots.render('tagline'),
+  image = await Astro.slots.render('image'),
+  callToAction1 = await Astro.slots.render('callToAction'),
+
+  id,
+  classes = { headline: {
+    container: 'text-center max-w-3xl',
+    tagline: 'text-white font-bold tracking-wide uppercase',
+    title: 'text-white text-3xl md:text-4xl',
+    subtitle: 'text-xl text-white',
+  } },
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<section class="relative px-[5%] py-16 md:py-24 lg:py-28" {...id ? { id } : {}}>
+  <div class="container grid grid-cols-1 md:grid-cols-1 md:gap-x-12 md:gap-y-8 lg:gap-x-20 lg:gap-y-4">
+  <Headline title={title} subtitle={subtitle} tagline={tagline} classes={classes?.headline as Record<string, string>} />
+    <div class="flex text-center md:text-left rtl:md:text-right mx-auto">
+      {
+        typeof callToAction1 === 'string' ? (
+          <Fragment set:html={callToAction1} />
+        ) : (
+          callToAction1 &&
+          callToAction1.text &&
+          callToAction1.href && <Button variant="primary" {...callToAction1} class="mb-12 w-auto" />
+        )
+      }
+    </div>
+</div>
+  {
+    image && (
+      <div class="absolute inset-0 -z-10">
+        {typeof image === 'string' ? (
+          <Fragment set:html={image} />
+        ) : (
+          <Image
+            class="size-full object-cover"
+            layout="cover"
+            widths={[400, 768, 1024, 2040]}
+            sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+            loading="eager"
+            width={1440}
+            height={500}
+            {...image}
+          />
+        )}
+        <div class="absolute inset-0 bg-black/65"></div>
+        <slot name="bg">
+          {bg ? <Fragment set:html={bg} /> : null}
+        </slot>
+      </div>
+    )
+  }
+</section>
