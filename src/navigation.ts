@@ -47,7 +47,7 @@ export const headerData = {
           href: getPermalink('/ac-installation/'),
         },
         {
-          text: 'Ductless/Mini-Split Installations',
+          text: 'Ductless Sytems',
           href: getPermalink('/ductless-mini-split-installations/'),
         },
       ],
