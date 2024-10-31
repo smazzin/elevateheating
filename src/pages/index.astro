@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import BigHero from '~/components/widgets/BigHero.astro';
-// import Note from '~/components/widgets/Note.astro';
+import Brands from '~/components/widgets/Brands.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
@@ -43,9 +43,28 @@ const metadata = {
     </Fragment>
   </BigHero>
 
-  <!-- Note Widget *******************
+    <!-- Brands Widget ****************** -->
 
-  <Note /> -->
+  <Brands
+    id="brands"
+    title="Trusted & Certified"
+    subtitle=""
+    icons={[]}
+    images={[
+      {
+        src: '~/assets/images/bbb.webp',
+        alt: 'bbb',
+      },
+      {
+        src: '~/assets/images/google-guaranteed.png',
+        alt: 'google guaranteed',
+      },
+      {
+        src: '~/assets/images/homeadvisor.webp',
+        alt: 'home advisor',
+      },
+    ]}
+  />
 
   <!-- Features Widget *************** -->
 
