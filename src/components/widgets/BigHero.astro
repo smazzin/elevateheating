@@ -1,0 +1,99 @@
+---
+import Image from '~/components/common/Image.astro';
+import Button from '~/components/ui/Button.astro';
+
+import type { Hero as Props } from '~/types';
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  tagline,
+
+  content = await Astro.slots.render('content'),
+  actions = await Astro.slots.render('actions'),
+  image = await Astro.slots.render('image'),
+
+  id,
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<section class="relative px-[5%] not-prose" {...id ? { id } : {}}>
+  <div class="container">
+    <div class="flex max-h-[60rem] items-center py-8 md:py-24 lg:py-36">
+      <div class="max-w-md">
+        {
+          tagline && (
+            <p
+              class="text-base text-secondary font-bold tracking-wide uppercase"
+              set:html={tagline}
+            />
+          )
+        }
+        {
+          title && (
+            <h1
+              class="mb-5 text-4xl font-bold text-white md:mb-6 md:text-3xl lg:text-4xl"
+              set:html={title}
+            />
+          )
+        }
+        {subtitle && <p class="text-base text-white md:text-md" set:html={subtitle} />}
+        {
+          actions && (
+          <div class="my-6 flex gap-x-4 md:mt-8">
+              {Array.isArray(actions) ? (
+                actions.map((action) => (
+                  <div class="flex w-full sm:w-auto">
+                    <Button {...(action || {})} class="w-full sm:mb-0" />
+                  </div>
+                ))
+              ) : (
+                <Fragment set:html={actions} />
+              )}
+            </div>
+          )
+        }
+        {content && <Fragment set:html={content} />}
+      </div>
+    </div>
+  </div>
+
+	<svg class="absolute left-0 bottom-0 -z-10" style="width: 100%;" data-name="Layer 1" id="4c20d5fe-6b2f-413f-94b8-2ad5b1aa331d" preserveAspectRatio="xMinYMax" viewBox="0 0 1618 139"
+	xmlns="http://www.w3.org/2000/svg">
+		<path class="fill-primary"
+				d="M1098.9,89.1C833.8,117.9,632.8,66.8,293.4,31.8,187.5,20.9,87.5,23.5,0,32.3V130H1618V3C1395.3,2.2,1362,60.5,1098.9,89.1Z"
+				style="opacity:0.30000001192092896;isolation:isolate" transform="translate(0 -2.99)"></path>
+		<path class="fill-primary"
+				d="M1618,143V59.5c-56.8,18.8-123.8,38.3-223.9,52.3-267,37.4-469.4-28.9-811.2-74.4C317.2,2.2,88.6,75.9,0,110.4V143Z"
+				style="" transform="translate(0 -2.99)"></path>
+		<path class="fill-white dark:fill-[--aw-color-bg-page-dark]"
+				d="M1618,143V53c-96.7,19.1-160.5,56.4-331.2,77.7C1047,160.7,865.1,107.5,558,71.1,262.1,35.9,17.4,135.2,0,142.4v.6Z"
+				style="" transform="translate(0 -2.99)"></path>
+	</svg>
+
+  {
+    image && (
+      <div class="absolute inset-0 -z-20">
+        {typeof image === 'string' ? (
+          <Fragment set:html={image} />
+        ) : (
+          <Image
+            class="size-full object-cover"
+            layout="cover"
+            widths={[400, 768, 1024, 2040]}
+            sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+            loading="eager"
+            width={1440}
+            height={900}
+            {...image}
+          />
+        )}
+        <div class="absolute inset-0 bg-black/50"></div>
+        <slot name="bg">
+          {bg ? <Fragment set:html={bg} /> : null}
+        </slot>
+      </div>
+    )
+  }
+</section>
