@@ -127,7 +127,7 @@ export const headerData = {
       href: '/contact-us/',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Schedule Service', href: 'https://book.elevateheating.com/web-schedule-a-service-form', target: '_blank' }],
 };
 
 export const footerData = {
