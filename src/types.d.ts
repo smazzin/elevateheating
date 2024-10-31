@@ -161,6 +161,14 @@ export interface Testimonial {
   image?: string | unknown;
 }
 
+export interface Service {
+  tagline?: string;
+  title?: string;
+  service?: string;
+  serviceLink?: string;
+  image?: string | unknown;
+}
+
 export interface Input {
   type: HTMLInputTypeAttribute;
   name: string;
@@ -233,6 +241,11 @@ export interface Pricing extends Omit<Headline, 'classes'>, Widget {
 
 export interface Testimonials extends Omit<Headline, 'classes'>, Widget {
   testimonials?: Array<Testimonial>;
+  callToAction?: CallToAction;
+}
+
+export interface Services extends Omit<Headline, 'classes'>, Widget {
+  services?: Array<Service>;
   callToAction?: CallToAction;
 }
 

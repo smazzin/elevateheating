@@ -3,9 +3,8 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import BigHero from '~/components/widgets/BigHero.astro';
 import Brands from '~/components/widgets/Brands.astro';
-import Features from '~/components/widgets/Features.astro';
+import Services from '~/components/widgets/Services.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
@@ -13,7 +12,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'HVAC Contractor Serving Hillsboro, OR | Elevate Heating & Cooling',
   ignoreTitleTemplate: true,
 };
 ---
@@ -35,11 +34,11 @@ const metadata = {
     image={{ src: '~/assets/images/van-hero.jpg', alt: 'Elevate Heating & Cooling Van' }}
   >
     <Fragment slot="title">
-      Beaverton & Hillsboro's Trusted Heating & Air Conditioning Experts
+      Beaverton & Hillsboro's Trusted Heating & Air Conditioning Contractor
     </Fragment>
 
     <Fragment slot="subtitle">
-      Any heating or cooling issues that may arise with your home can be resolved By us.
+      Any HVAC issues that may arise with your home can be resolved by us.
     </Fragment>
   </BigHero>
 
@@ -66,52 +65,74 @@ const metadata = {
     ]}
   />
 
-  <!-- Features Widget *************** -->
-
-  <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
-    items={[
+  <Services
+    id="services"
+    tagline="Our HVAC Services"
+    title="HVAC Contractor Serving Hillsboro, OR"
+    subtitle="Elevate Heating & Cooling knows that finding the best HVAC contractor in Hillsboro, OR can be a struggle, as you strive to balance, expert advice, practical solutions, and superior service. We reconize the importance of providing high-quality workmanship while delivering our services."
+    services={[
       {
-        title: 'Astro + Tailwind CSS Integration',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+        tagline: '',
+        title: 'Air Conditioning',
+        service: 'We provide installation, service, repair, maintenance, and tune-ups for all types of air conditioners.',
+        // image: {
+        //   src: '~/assets/images/ac-repair-maintenance.jpg',
+        //   alt: 'Roof Replacement Image',
+        // },
+        serviceLink: '/roof-replacement',
       },
       {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+        tagline: '',
+        title: 'AC Installation',
+        service: 'We offer the best quality, energy-efficient equipment available for your Air Conditioning replacement.',
+        // image: {
+        //   src: '~/assets/images/ac-repair-maintenance.jpg',
+        //   alt: 'Roof Repair Image',
+        // },
+        serviceLink: '/roof-repair',
       },
       {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+        tagline: '',
+        title: 'Air Conditioning Repair',
+        service: 'Help your equipment run at or near factory specs, depending on the age and condition of your ac system.',
+        // image: {
+        //   src: '~/assets/images/ac-repair-maintenance.jpg',
+        //   alt: 'Metal Roofing Image',
+        // },
+        serviceLink: '/metal-roofing',
       },
       {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+        tagline: '',
+        title: 'Ductless Systems',
+        service: 'Install an energy-efficient HVAC unit in your home.',
+        // image: {
+        //   src: '~/assets/images/air-conditioner.jpg',
+        //   alt: 'Commercial Roofing Image',
+        // },
+        serviceLink: '/commercial-roofing',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
+        tagline: '',
+        title: 'Heating Repair',
+        service: "Our experienced HVAC technicians provide repairs for all types of furnaces and heat pumps.",
+        // image: {
+        //   src: '~/assets/images/heater-repair-maintenance.jpg',
+        //   alt: 'Residential Roofing Image',
+        // },
+        serviceLink: '/residential-roofing',
       },
       {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+        tagline: '',
+        title: 'Heater Installation',
+        service: "Our Professional HVAC technicians can help install your new energy-efficient heating system.",
+        // image: {
+        //   src: '~/assets/images/heater-installation.jpg',
+        //   alt: 'Residential Roofing Image',
+        // },
+        serviceLink: '/residential-roofing',
       },
     ]}
-  />
+/>
 
   <!-- Content Widget **************** -->
 
@@ -225,40 +246,6 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="Get your dream website up and running in no time with AstroWind."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
-        description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
-  />
 
   <!-- Features2 Widget ************** -->
 
