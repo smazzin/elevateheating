@@ -1,0 +1,46 @@
+---
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  content?: string;
+}
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  tagline,
+  content = await Astro.slots.render('content'),
+} = Astro.props;
+---
+
+<section class="relative md:-mt-[5%] not-prose">
+  <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
+    <div class="py-12 md:py-20 pb-8 md:pb-8">
+      <div class="mx-auto w-full max-w-xl">
+        {
+          tagline && (
+            <p
+              class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase"
+              set:html={tagline}
+            />
+          )
+        }
+        {
+          title && (
+            <h2
+              class="mb-5 font-bold leading-tighter tracking-tighter font-heading text-3xl md:text-4xl"
+              set:html={title}
+            />
+          )
+        }
+        {subtitle && <p class="prose text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
+        <div class="prose dark:text-slate-300">
+          {content && <Fragment set:html={content} />}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
