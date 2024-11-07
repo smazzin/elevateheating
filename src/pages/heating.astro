@@ -8,8 +8,8 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'AC Replacement & Installation in Hillsboro, OR | We Finance',
-	description: 'We offer expert AC installation and replacement services in Hillsboro, OR and surrounding areas. Call Us Today To Schedule.',
+  title: 'Heating & HVAC Services in Hillsboro, OR | We Finance',
+	description: 'We are your trusted Hillsboro heating service for furnaces and heat pumps, repair & more. Call Us Today To Schedule.',
 };
 ---
 
@@ -18,17 +18,17 @@ const metadata = {
 
   <Hero2
     tagline=""
-    title="Air Conditioning Replacement & Installation Services in Hillsboro, OR"
+    title="Heating & Furnace Services in Hillsboro, OR"
     actions={[
       { variant: 'primary', text: 'Get a FREE Estimate', href: '/get-a-free-estimate/', icon: 'tabler:square-rounded-arrow-right' },
     ]}
     image={{
-      src: '~/assets/images/air-conditioner.jpg',
-      alt: 'Air conditioning installation and replacement in Hillsboro, OR',
+      src: '~/assets/images/electric-fan-coil-tune-up.jpg',
+      alt: 'Electric fan coil tune up in Hillsboro, OR',
     }}
   >
   <Fragment slot="subtitle">
-    Elevate Heating & Cooling provides you with <a class="text-blue-600 underline dark:text-muted" href="/air-conditioning/">air conditioning</a> services in the Hillsboro, OR area including new ac installs, maintenance, repairs, replacements and more.
+    At Elevate Heating & Cooling, we offer a full range of heating services in the Hillsboro, OR area. From furnace and heat pump installation to repair, replacement, and maintenance. Our expert HVAC contractors work with all makes and models of furnaces, heat pumps, and ductless heating systems.
   </Fragment>
   </Hero2>
 
@@ -43,32 +43,37 @@ const metadata = {
       icon: 'tabler:square-rounded-arrow-right',
     }}
     image={{
-      src: '~/assets/images/electric-fan-coil-tune-up.jpg',
+      src: '~/assets/images/electric-fan-coil-tune-up-hero.jpg',
       alt: 'Expert HVAC services in Hillsboro, OR',
     }}
     isReversed
   >
   <Fragment slot="content">
-    <h2 class="mb-5 font-bold leading-tighter tracking-tighter font-heading text-3xl md:text-4xl">Schedule AC Replacement & Installation Services</h2>
+    <h2 class="mb-5 font-bold leading-tighter tracking-tighter font-heading text-3xl md:text-3xl">New Heating Replacement & Installation Services</h2>
   </Fragment>
   <Fragment slot="content">
-    <p class="mb-4 text-base">When you are ready to replace your old air conditioning system for your hillsboro home, we can help you find the right system for your home. We’ll make sure your new cooling system is the right size for your home and that it’s properly installed.</p> 
-    <p class="mb-4 text-base">We’ll also make sure your new system is properly maintained so it will last for years to come. We want to ensure that you are well educated on the different types of HVAC systems available and the benefits of each system. We will help you choose the right system for your home and your budget.</p>
+    <p class="mb-4 text-base">Call now to schedule your heat pump installation or replace your gas furnace before winter arrives: 503-432-1221.</p>
+  </Fragment>
+
+	<Fragment slot="content">
+		<h3 class="mb-5 font-bold leading-tighter tracking-tighter font-heading text-3xl md:text-3xl">Heating System Maintenance & Repair</h3>
+		<p class="mb-4 text-base">Regular heating maintenance is the best way to keep your furnace or heat pump running smoothly. We’ll inspect your system and make sure it’s working properly. By properly maintaining your heating system, you can avoid costly repairs and extend the life of your system.</p>
+		<p class="mb-4 text-base">Even the best heating systems need repairs from time to time. If your furnace or heat pump isn’t working properly, call us right away. We’ll diagnose the problem and make the necessary repairs to get your system back up and running.</p>
   </Fragment>
 </Content>
 
-  <!-- LongContent Widget ************** -->
+	<!-- LongContent Widget ************** -->
 
   <LongContent 
     tagline="" 
-    title="Not Sure If You Need your AC Replaced?" 
+    title="Not Sure If You Need your Heating System Replaced?" 
     >
     <Fragment slot="content">
-      <p class="mb-2 text-base">We can help! We can inspect your current hvac system and then explain to you what your best options are. Here are couple of signs that your home might need an AC replacement:</p>
+      <p class="mb-2 text-base">We can help! We can inspect your current hvac system and then explain to you what your best options are. Here are couple of signs that your home might need an heat pump or gas furnace replacement:</p>
       <ul class="list-disc">
-        <li class="ml-8">Have you had to call for <a class="text-blue-600 underline dark:text-muted" href="/ac-repair-and-maintenance/">ac repairs</a> more than a couple of times within the last couple of years?</li>
-        <li class="ml-8">Most home air conditioners will have a lifespan of about 10 - 15 years. If your system is at least 10 years old, it might be a good idea to replace it. The older your AC system, the more problems that can arise.</li>
-        <li class="ml-8">Inconsistent temperatures in your home</li>
+        <li class="ml-8">Cold air or no air is coming out from your vents</li>
+        <li class="ml-8">Your system constantly runs</li>
+        <li class="ml-8">Your energy bills are on the rise from month to month</li>
       </ul>
     </Fragment>
   </LongContent>
