@@ -23,7 +23,7 @@ export const headerData = {
         },
         {
           text: 'Furnace Repair',
-          href: getPermalink('/furnace-repair/'),
+          href: getPermalink('/furnace-repair-and-maintenance/'),
         },
         {
           text: 'Heat Pump Tune-Up',
