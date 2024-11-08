@@ -1,0 +1,124 @@
+---
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Content from '~/components/widgets/Content.astro';
+import LongContent from '~/components/widgets/LongContent.astro';
+import HeroMiddle from '~/components/widgets/HeroMiddle.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+// import Contact from '~/components/sections/Contact.astro'
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'HVAC Heating Replacement in Hillsboro, OR | We Finance',
+	description: 'We offer expert heating installation and replacement services in Hillsboro, OR and surrounding areas. Call Us Today To Schedule.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline=""
+    title="Heater Replacement & Installation Near You in Hillsboro, OR"
+    actions={[
+      { variant: 'primary', text: 'Get a FREE Estimate', href: '/get-a-free-estimate/', icon: 'tabler:square-rounded-arrow-right' },
+    ]}
+    image={{
+      src: '~/assets/images/electric-fan-coil-tune-up.jpg',
+      alt: 'Heating & furnace installation and replacement in Hillsboro, OR',
+    }}
+  >
+  <Fragment slot="subtitle">
+    If your home's hvac heating system is older than ten years, it can be more prone to breaking down. If you are experiencing frequent breakdowns, it might be time to replace your heating system. We offer expert heating installation and replacement services in Hillsboro, OR and surrounding areas. Call Us Today To Schedule and one of our HVAC tech's will be happy to help.
+  </Fragment>
+  </Hero2>
+
+  <!-- Content Widget ******************* -->
+
+  <Content
+    tagline=""
+    title=""
+    callToAction={{
+      text: 'Get YOUR FREE Estimate',
+      href: '/get-a-free-estimate/',
+      icon: 'tabler:square-rounded-arrow-right',
+    }}
+    image={{
+      src: '~/assets/images/electric-fan-coil-tune-up.jpg',
+      alt: 'Expert HVAC services in Hillsboro, OR',
+    }}
+    isReversed
+  >
+  <Fragment slot="content">
+    <h2 class="mb-5 font-bold leading-tighter tracking-tighter font-heading text-3xl md:text-4xl">Schedule Your Heater Replacement & Installation Services</h2>
+  </Fragment>
+  <Fragment slot="content">
+    <p class="mb-4 text-base">When you are ready to replace your old heating and HVAC system for your Hillsboro home, we can help you find the right system for your home. We’ll make sure your new heating system is the right size for your home and that it’s properly installed.</p> 
+    <p class="mb-4 text-base">We’ll also make sure your new system is properly maintained so it will last for years to come. We want to ensure that you are well educated on the different types of HVAC systems available and the benefits of each system. We will help you choose the right system for your home and your budget.</p>
+  </Fragment>
+</Content>
+
+  <!-- LongContent Widget ************** -->
+
+  <LongContent 
+    tagline="" 
+    title="Help Keep Your Home Comfortable with New High-Efficiency Heating Systems" 
+    >
+    <Fragment slot="content">
+      <p class="mb-2 text-base">Upgrading your homes heating system can provide a lot of great benefits for your home, this would include improved energy efficiency, lower utility bills, and enhanced comfort for your family. Elevate Heating & Cooling provides expert heating and HVAC installation services. Here are a few benefits of a new heater installation for your home:</p>
+      <ul class="list-disc">
+        <li class="ml-8">Help reduce the need for frequent repairs</li>
+        <li class="ml-8">Energy efficiency, which will help lower your heating costs</li>
+        <li class="ml-8">Enhanced comfort and temperatur control</li>
+      </ul>
+    </Fragment>
+  </LongContent>
+
+
+  <!-- HeroMiddle Widget ************** -->
+
+	<HeroMiddle
+    tagline="Financing Options"
+    title="We Offer Financing"
+    subtitle="Apply for financing today and get the HVAC services you need now. We know your HVAC is an investment. That’s why we’re proud to offer financing so you can get affordable service and we can get you the service you need."
+    image={{
+      src: '~/assets/images/electric-fan-coil-tune-up.jpg',
+      alt: 'Expert HVAC services in Hillsbor, OR',
+    }}
+    callToAction1={{
+      text: 'Apply For Financing',
+      href: '/hvac-financing',
+    }}
+  />
+
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Customer Testimonials"
+    subtitle='Read testimonials from our satisfied clients'
+    testimonials={[
+      {
+        testimonial: `Gary did a fantastic job. He promptly returned my initial phone call and had reasonable pricing (I called some other well known arborists but they were too busy to even return my calls- and others were booked months out). When I asked Gary questions about my mature pear and camellia trees, he had very knowledgable advice about their growth behavior, which I appreciated. Lastly, he showed up on time and got the job done very efficiently. Cleaned up all the mess before he left too! Will be calling for all my future tree trimming and pruning needs.`,
+        name: 'Emily L.',
+      },
+      {
+        testimonial: `Very friendly and knowledgable! Punctual and got the job done right. I appreciated the safety measures they took and their work ethic. I'll definitely be using them again when I need more tree work done!`,
+        name: 'Marcos F.',
+      },
+      {
+        testimonial: `Every time I've called for service they're here in just a few days. They are hard working, thorough, honest and friendly! We highly recommend using Malkuch Tree Service!`,
+        name: 'S C.',
+      },
+    ]}
+    callToAction={{
+      target: '',
+      text: 'See all our reviews on Google',
+      href: 'https://www.google.com/maps?cid=6706676142287378513',
+      icon: 'tabler:chevron-right',
+    }}
+  />
+
+  <!-- <Contact 
+  title="Contact us" 
+  subtitle='Have a question or need an estimate?' 
+/> -->
+</Layout>
