@@ -1,6 +1,6 @@
 site:
   name: Elevate Heating & Cooling, Inc
-  site: 'https://elevate-astro.netlify.app'
+  site: 'https://elevateheating.netlify.app/'
   base: '/'
   trailingSlash: false
 
