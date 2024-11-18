@@ -2,18 +2,31 @@
 import { SITE } from 'astrowind:config';
 import Image from '~/components/common/Image.astro';
 const image = '~/assets/images/logo-sm.png';
+const logo = '~/assets/images/logo-sm.png'
+const logoDarkMode = '~/assets/images/logo-sm-dark.png'
 ---
 
 <span
   class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >
   <Image
-    src={image}
+    src={logo}
     width={188}
     height={134}
     alt={SITE?.name}
     loading="lazy"
     decoding="async"
     layout="contained"
+    class="block dark:hidden"
+  />
+  <Image
+    src={logoDarkMode}
+    width={188}
+    height={134}
+    alt={SITE?.name}
+    loading="lazy"
+    decoding="async"
+    layout="contained"
+    class="hidden dark:block"
   />
 </span>
