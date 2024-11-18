@@ -11,7 +11,7 @@ metadata:
   title:
     default: Elevate Heating & Cooling
     template: '%s — Elevate Heating & Cooling'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Elevate Heating & Cooling Meta description"
   robots:
     index: true
     follow: true
