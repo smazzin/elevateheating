@@ -1,0 +1,177 @@
+---
+import Content from '~/components/widgets/Content.astro';
+import LongContent from '~/components/widgets/LongContent.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Brands from '~/components/widgets/Brands.astro';
+import Features1 from '~/components/widgets/Features1.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Heating & Cooling Services in Aloha, OR | Schedule Today',
+	description: 'Our team of licensed HVAC technicians provide reliable hvac, heating, and air conditioning services in Aloha, OR.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText 
+  tagline="" 
+  title="HVAC, Heating & Cooling Services in Aloha, OR" 
+  subtitle="At Elevate Heating & Cooling, we've established ourselves as the premier choice for HVAC services in Aloha, OR. We know Aloha residents depend on their HVAC systems for year-round comfort. In addition to excellent HVAC installations and repairs, Elevate Heating & Cooling also offers affordable rates to homeowners in Aloha, OR. When you choose Elevate, you can be sure you're getting the best service at the best price."
+  callToAction={{
+    text: 'Request a FREE Estimate',
+    href: '#',
+    icon: 'tabler:square-rounded-arrow-right',
+  }}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'High-Quality Designs',
+        description:
+          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
+        //icon: 'tabler:wand',
+      },
+      {
+        title: 'Customization Tools',
+        description:
+          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
+        //icon: 'tabler:settings',
+      },
+      {
+        title: 'Pre-Designed Elements',
+        description:
+          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
+        //icon: 'tabler:presentation',
+      },
+      {
+        title: 'Preview and Mockup Views',
+        description:
+          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
+        //icon: 'tabler:carousel-horizontal',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/residential-roofing.png',
+      alt: 'Features Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+    </Fragment>
+  </Content>
+
+    <!-- Brands Widget ****************** -->
+
+    <Brands
+    id="brands"
+    title="Trusted & Certified"
+    subtitle=""
+    icons={[]}
+    images={[
+      {
+        src: '~/assets/images/bbb.webp',
+        alt: 'bbb',
+      },
+      {
+        src: '~/assets/images/google-guaranteed.png',
+        alt: 'google guaranteed',
+      },
+      {
+        src: '~/assets/images/homeadvisor.webp',
+        alt: 'home advisor',
+      },
+    ]}
+  />
+
+	  <!-- Features1 Widget ************** -->
+
+		<Features1
+    tagline="Tagline"
+    title="Medium length section heading goes here"
+    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat"
+    callToAction1={{
+      text: 'See more',
+      href: '/',
+    }}
+    image={{
+      src: '~/assets/images/home-hero.png',
+      alt: 'Features2 Image',
+    }}
+  />
+
+	  <!-- LongContent Widget ************** -->
+
+    <LongContent 
+    tagline="" 
+    title="Some Content About Ft. Lauderdale, FL" 
+    >
+
+    <Fragment slot="content">
+      <p class="mb-2 text-base">Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p>
+      <p class="mb-2 text-base">Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p>
+      <p class="mb-2 text-base">Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p>
+    </Fragment>
+  </LongContent>
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Words from real customers"
+    testimonials={[
+      {
+        testimonial: `RA Reymann Roofing is the best roofing company in south Florida.  Whether you need roof repairs, or a brand new roof they are the ones you want to hire, if you want it done right.  They have amazing customer service and their communication is top of the line.`,
+        name: 'Liz',
+        job: 'Port St. Lucie, FL',
+      },
+      {
+        testimonial: `RA Reymann Roofing is a very reliable roofing company that you can trust to shoot you straight and get the job done right.   They will not cut corners.`,
+        name: 'Mark S.',
+        job: 'Jupiter, FL',
+      },
+      {
+        testimonial: `We were unfortunate to have another company do our roof.  We thought everything was fine until the roof started to leak.  RA Reymann Roofing came out and saved the day.  Looks like the other roofing company put siding nails in our roof.  I guess thats what we get for going with the lowest price.`,
+        name: 'Amelia ',
+        job: 'Hobe Sound, FL',
+      },
+    ]}
+    callToAction={{
+      target: '',
+      text: 'More testimonials...',
+      href: '#',
+      icon: 'tabler:chevron-right',
+    }}
+  />
+
+  <ContactUs
+    id="form"
+    title="Get your FREE roofing estimate!"
+    subtitle="Fill out the form below and we will get back to you as soon as possible."
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Message',
+    }}
+    disclaimer={{
+      label:
+        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+    }}
+    description=""
+  />
+</Layout>
