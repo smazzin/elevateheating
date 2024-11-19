@@ -11,7 +11,7 @@ metadata:
   title:
     default: Elevate Heating & Cooling
     template: '%s — Elevate Heating & Cooling'
-  description: "Elevate Heating & Cooling Meta description"
+  description: "ELevate Heating & Cooling offers HVAC service work in and around the Hillsboro area. Call us today to schedule."
   robots:
     index: true
     follow: true

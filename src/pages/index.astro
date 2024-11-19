@@ -4,13 +4,13 @@ import Layout from '~/layouts/PageLayout.astro';
 import BigHero from '~/components/widgets/BigHero.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Brands from '~/components/widgets/Brands.astro';
-import ServicesAlt from '~/components/widgets/ServicesAlt.astro';
-// import Services from '~/components/widgets/Services.astro';
+// import ServicesAlt from '~/components/widgets/ServicesAlt.astro';
+import Services from '~/components/widgets/Services.astro';
 import HeroMiddle from '~/components/widgets/HeroMiddle.astro';
 import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
-  title: 'HVAC Contractor Serving Hillsboro, OR | Elevate Heating & Cooling',
+  title: 'Top Rated Beaverton/Hillsboro HVAC Service',
   ignoreTitleTemplate: true,
 };
 ---
@@ -32,7 +32,7 @@ const metadata = {
     image={{ src: '~/assets/images/van-hero.jpg', alt: 'Elevate Heating & Cooling Van' }}
   >
     <Fragment slot="title">
-      Hillsboro's Trusted Heating & Air Conditioning Company
+      Beaverton & Hillsboro's Trusted Air Conditioning & Heating Company
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -49,12 +49,12 @@ const metadata = {
     icons={[]}
     images={[
       {
-        src: '~/assets/images/bbb.webp',
-        alt: 'bbb',
+        src: '~/assets/images/yelp-badge.png',
+        alt: 'yelp reviews',
       },
       {
-        src: '~/assets/images/google-guaranteed.png',
-        alt: 'google guaranteed',
+        src: '~/assets/images/google-review-links-badge.png',
+        alt: 'google reviews',
       },
       {
         src: '~/assets/images/homeadvisor.webp',
@@ -63,104 +63,50 @@ const metadata = {
     ]}
   />
 
-  <!-- Testimonials Widget ************ -->
-   <Testimonials
-    id="testimonials"
-    title="What Our Customers Say"
-    subtitle="We take pride in our work and our customers' satisfaction."
-    testimonials={[
-      {
-        title: 'Great Service!',
-        testimonial: 'Elevate Heating & Cooling was great to work with. They were professional, on time, and did a great job. I would highly recommend them to anyone.',
-        name: 'John Doe',
-        job: 'Homeowner',
-        image: {
-          src: '~/assets/images/testimonial-1.jpg',
-          alt: 'John Doe',
-        },
-      },
-      {
-        title: 'Highly Recommend!',
-        testimonial: 'Elevate Heating & Cooling was great to work with. They were professional, on time, and did a great job. I would highly recommend them to anyone.',
-        name: 'Jane Doe',
-        job: 'Homeowner',
-        image: {
-          src: '~/assets/images/testimonial-2.jpg',
-          alt: 'Jane Doe',
-        },
-      },
-      {
-        title: 'Great Service!',
-        testimonial: 'Elevate Heating & Cooling was great to work with. They were professional, on time, and did a great job. I would highly recommend them to anyone.',
-        name: 'John Doe',
-        job: 'Homeowner',
-        image: {
-          src: '~/assets/images/testimonial-1.jpg',
-          alt: 'John Doe',
-        },
-      },
+  <!-- Content Widget **************** -->
+
+  <Content
+    title=""
+    subtitle=""
+    isReversed
+    items={[
+      // {
+      //   title: 'Description:',
+      //   description:
+      //     'Are you a startup with big dreams? AstroWind propels your success. Our template forges a seamless online presence, attracting investors and customers from day one. Astro 4.0 and Tailwind CSS ensure striking, responsive sites, leaving lasting impressions. Countless startups leverage AstroWind to kickstart their journey and resonate with audiences.',
+      // },
+      // {
+      //   title: 'Benefits:',
+      //   description: `Allow startups to quickly create professional websites without investing extensive time and resources. <br /> Make a memorable first impression with visually appealing design elements that highlight your startup's unique value proposition. <br /> Ensures your website looks stunning and works well on all devices. <br /> Engage potential investors and customers with engaging content, clear messaging, and intuitive navigation.`,
+      // },
     ]}
-  />
+    image={{
+      src: '~/assets/images/elevate-fam-lg.jpg',
+      alt: 'About Elevate Heating & Cooling Image',
+    }}
+  >
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+      About Elevate Heating & Cooling, Inc
+    </h3>
+  </Fragment>
+  <Fragment slot="content">
+    <p class="mb-4">
+      If you're looking for a top-rated HVAC company you can trust in the Hillsboro, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC service.
+    </p>
+  </Fragment>
+  <Fragment slot="content">
+    <p>
+      We're a family owned and operated company. You'll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We're a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.
+    </p>
+  </Fragment>
 
-<ServicesAlt
-  tagline="Our HVAC Services"
-  title="HVAC Contractor Serving Hillsboro, OR"
-  subtitle="Elevate Heating & Cooling knows that finding the best HVAC contractor in Hillsboro, OR can be a struggle, as you strive to balance, expert advice, practical solutions, and superior service. We reconize the importance of providing high-quality workmanship while delivering our services."
-  image={{
-    src: '~/assets/images/hvac-services.jpg',
-    alt: 'HVAC Services Image',
-  }}
-  serviceItems={[
-    {
-      title: 'Heating',
-      subtitle: '',
-      items: [
-        {
-          description: 'Heating Replacement & Installation',
-        },
-        {
-          description: 'Heat Pump Services',
-        },
-        {
-          description: 'Heating Repair',
-        },
-        {
-          description: 'Heater Maintenance',
-        },
-      ],
-      callToAction: {
-        target: '_blank',
-        text: 'Heating Services',
-        href: '/heating/',
-      },
-    },
-    {
-      title: 'Cooling',
-      subtitle: '',
-      items: [
-        {
-          description: 'AC Repair',
-        },
-        {
-          description: 'AC Maintenance',
-        },
-        {
-          description: 'AC Replacement & Installation',
-        },
-        {
-          description: 'Ductless Systems',
-        },
-      ],
-      callToAction: {
-        target: '_blank',
-        text: 'Cooling Services',
-        href: '/air-conditioning/',
-      },
-    },
-  ]}
-/>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
-  <!-- <Services
+  <Services
     id="services"
     tagline="Our HVAC Services"
     title="HVAC Contractor Serving Hillsboro, OR"
@@ -227,6 +173,103 @@ const metadata = {
         serviceLink: '/residential-roofing',
       },
     ]}
+  />
+
+  <!-- Testimonials Widget ************ -->
+   <Testimonials
+    id="testimonials"
+    title="What Our Customers Say"
+    subtitle="We take pride in our work and our customers' satisfaction."
+    testimonials={[
+      {
+        title: 'Great Service!',
+        testimonial: 'the service was easy to schedule, on time and efficient. I received a thorough explanation of the service provided, the particular details of the condition of my furnace and my questions were answered During the process. I also received ideas for better efficiency. I will be scheduling a tune up for my central air whe the weather permits.',
+        name: 'John Doe',
+        job: 'Homeowner',
+        image: {
+          src: '~/assets/images/testimonial-1.jpg',
+          alt: 'Colleen P',
+        },
+      },
+      {
+        title: 'Highly Recommend!',
+        testimonial: 'Very professional and quick to respond to my call. He was able to help me figure out what I needed to do for my furnace and what I needed to do setup wise for future AC that would require minimal work later.',
+        name: 'Jane Doe',
+        job: 'Homeowner',
+        image: {
+          src: '~/assets/images/testimonial-2.jpg',
+          alt: 'Nolan K',
+        },
+      },
+      {
+        title: 'Great Service!',
+        testimonial: 'We are happy to have found Elevate Heating & Cooling to inspect our home heating system and provide certification for the sale of our home. Chase was wonderful to work with; professional, knowledgeable, thorough and friendly. We highly recommend Chase and Elevate!',
+        name: 'John Doe',
+        job: 'Homeowner',
+        image: {
+          src: '~/assets/images/testimonial-1.jpg',
+          alt: 'Eleanor G',
+        },
+      },
+    ]}
+  />
+
+<!-- <ServicesAlt
+  tagline="Our HVAC Services"
+  title="HVAC Contractor Serving Hillsboro, OR"
+  subtitle="Elevate Heating & Cooling knows that finding the best HVAC contractor in Hillsboro, OR can be a struggle, as you strive to balance, expert advice, practical solutions, and superior service. We reconize the importance of providing high-quality workmanship while delivering our services."
+  image={{
+    src: '~/assets/images/hvac-services.jpg',
+    alt: 'HVAC Services Image',
+  }}
+  serviceItems={[
+    {
+      title: 'Heating',
+      subtitle: '',
+      items: [
+        {
+          description: 'Heating Replacement & Installation',
+        },
+        {
+          description: 'Heat Pump Services',
+        },
+        {
+          description: 'Heating Repair',
+        },
+        {
+          description: 'Heater Maintenance',
+        },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Heating Services',
+        href: '/heating/',
+      },
+    },
+    {
+      title: 'Cooling',
+      subtitle: '',
+      items: [
+        {
+          description: 'AC Repair',
+        },
+        {
+          description: 'AC Maintenance',
+        },
+        {
+          description: 'AC Replacement & Installation',
+        },
+        {
+          description: 'Ductless Systems',
+        },
+      ],
+      callToAction: {
+        target: '_blank',
+        text: 'Cooling Services',
+        href: '/air-conditioning/',
+      },
+    },
+  ]}
 /> -->
 
   <!-- HeroMiddle Widget ************** -->
@@ -244,47 +287,4 @@ const metadata = {
       href: '/hvac-financing',
     }}
   />
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    title=""
-    subtitle=""
-    isReversed
-    items={[
-      // {
-      //   title: 'Description:',
-      //   description:
-      //     'Are you a startup with big dreams? AstroWind propels your success. Our template forges a seamless online presence, attracting investors and customers from day one. Astro 4.0 and Tailwind CSS ensure striking, responsive sites, leaving lasting impressions. Countless startups leverage AstroWind to kickstart their journey and resonate with audiences.',
-      // },
-      // {
-      //   title: 'Benefits:',
-      //   description: `Allow startups to quickly create professional websites without investing extensive time and resources. <br /> Make a memorable first impression with visually appealing design elements that highlight your startup's unique value proposition. <br /> Ensures your website looks stunning and works well on all devices. <br /> Engage potential investors and customers with engaging content, clear messaging, and intuitive navigation.`,
-      // },
-    ]}
-    image={{
-      src: '~/assets/images/elevate-fam-lg.jpg',
-      alt: 'Startup Image',
-    }}
-  >
-  <Fragment slot="content">
-    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-      About Elevate Heating & Cooling, Inc
-    </h3>
-  </Fragment>
-  <Fragment slot="content">
-    <p class="mb-4">
-      If you're looking for a top-rated HVAC company you can trust in the Hillsboro, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC service.
-    </p>
-  </Fragment>
-  <Fragment slot="content">
-    <p>
-      We're a family owned and operated company. You'll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We're a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.
-    </p>
-  </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
 </Layout>
