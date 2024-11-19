@@ -1,23 +1,19 @@
 ---
-
+import Button from '~/components/ui/Button.astro';
+import { Icon } from 'astro-icon/components';
+const url = 'google.com';
 ---
 
 <div
-  class="dark text-muted text-sm bg-black dark:bg-transparent dark:border-b dark:border-slate-800 dark:text-slate-400 hidden md:flex gap-1 overflow-hidden px-3 py-2 relative text-ellipsis whitespace-nowrap"
->
-  <span
-    class="dark:bg-slate-700 bg-white/40 dark:text-slate-300 font-semibold px-1 py-0.5 text-xs mr-0.5 rtl:mr-0 rtl:ml-0.5 inline-block"
-    >NEW</span
-  >
-  <a href="/hvac-financing/" class="text-muted hover:underline dark:text-slate-400 font-medium"
-    >Financing Available »</a
-  >
-  <!-- <a
-    target="_blank"
-    rel="noopener"
-    class="ltr:ml-auto rtl:mr-auto w-[5.6rem] h-[1.25rem] ml-auto bg-contain inline-block bg-[url(https://img.shields.io/github/stars/onwidget/astrowind.svg?style=social&label=Stars&maxAge=86400)]"
-    title="If you like AstroWind, give us a star."
-    href="https://github.com/onwidget/astrowind"
-  >
-  </a> -->
+  class="dark text-white bg-black dark:bg-transparent dark:border-b dark:border-slate-800 dark:text-slate-400 w-full">
+  <div class="w-full max-w-7xl flex gap-1 items-center overflow-hidden px-3 py-2 relative whitespace-nowrap">
+    <span class="text-2xl items-center md:hidden inline-block">Call Us Today!</span>
+    <Button class:list={'ltr:ml-auto ml-auto rtl:mr-auto'} variant='secondary' title="Call Today" data-aw-url={url}>
+      <span class="hidden md:flex">
+        <Icon name="tabler:phone-outgoing" class="mr-3 w-5 h-5 inline-block" />
+        503-432-1221
+      </span>
+      <Icon name="tabler:phone-outgoing" class="w-8 h-8 md:hidden inline-block" />
+    </Button>
+  </div>
 </div>

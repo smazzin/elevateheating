@@ -127,7 +127,10 @@ export const headerData = {
       href: '/contact-us/',
     },
   ],
-  actions: [{ text: 'Schedule Service', href: 'https://book.elevateheating.com/web-schedule-a-service-form', target: '_blank' }],
+  actions: [
+    { text: 'Schedule Service', href: 'https://book.elevateheating.com/web-schedule-a-service-form', target: '_blank' },
+    // { text: 'Schedule Service', href: 'https://book.elevateheating.com/web-schedule-a-service-form', target: '_blank' }
+  ],
 };
 
 export const footerData = {
