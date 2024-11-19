@@ -149,13 +149,13 @@ export const footerData = {
         { text: 'Portland', href: '/service-areas/portland-or/' },
       ],
     },
-    // {
-    //   title: 'Company',
-    //   links: [
-    //     { text: 'About', href: '#' },
-    //     { text: 'Contact', href: '#' },
-    //   ],
-    // },
+    {
+      title: 'Company',
+      links: [
+        { text: 'About', href: '/about-us' },
+        { text: 'Contact', href: '/contact-us' },
+      ],
+    },
     {
       title: 'Contact',
       links: [
@@ -164,10 +164,10 @@ export const footerData = {
       ],
     },
   ],
-  // secondaryLinks: [
-  //   { text: 'Terms', href: getPermalink('/terms') },
-  //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  // ],
+  secondaryLinks: [
+    { text: 'Terms', href: getPermalink('/terms') },
+    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+  ],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/elevateheatingandcooling' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/ElevateHeating/' },
