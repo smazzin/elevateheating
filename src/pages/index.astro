@@ -17,7 +17,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <ContactHero
-    video={{ src: '~/assets/videos/vans.mp4' }}
+    image={{ src: '~/assets/images/vans.jpg', alt: 'Elevate Heating & Cooling Van' }}
     id="form"
     title="Beaverton & Hillsboro's Trusted Air Conditioning & Heating Company"
     subtitle="Any HVAC issues that may arise with your home can be resolved by us."
@@ -31,6 +31,11 @@ const metadata = {
         type: 'email',
         name: 'email',
         label: 'Email',
+      },
+      {
+        type: 'tel',
+        name: 'phone',
+        label: 'Phone',
       },
     ]}
     textarea={{
@@ -98,7 +103,7 @@ const metadata = {
       // },
     ]}
     image={{
-      src: '~/assets/images/elevate-fam-lg.jpg',
+      src: '~/assets/images/van-hero.jpg',
       alt: 'About Elevate Heating & Cooling Image',
     }}
   >
