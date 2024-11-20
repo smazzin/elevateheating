@@ -22,11 +22,15 @@
     "fix:prettier": "prettier -w ."
   },
   "dependencies": {
+    "@astrojs/alpinejs": "^0.4.0",
     "@astrojs/rss": "^4.0.8",
     "@astrojs/sitemap": "^3.2.0",
     "@astrolib/analytics": "^0.6.1",
     "@astrolib/seo": "^1.0.0-beta.8",
     "@fontsource-variable/inter": "^5.1.0",
+    "@googlemaps/extended-component-library": "^0.6.13",
+    "@types/alpinejs": "^3.13.10",
+    "alpinejs": "^3.14.3",
     "astro": "^4.16.2",
     "astro-embed": "^0.7.4",
     "astro-icon": "^1.1.1",
