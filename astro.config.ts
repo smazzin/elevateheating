@@ -25,7 +25,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
-  integrations: [alpinejs({ entrypoint: '/src/entrypoint' }), tailwind({
+  integrations: [alpinejs(), tailwind({
     applyBaseStyles: false,
   }), sitemap(), mdx(), icon({
     include: {
