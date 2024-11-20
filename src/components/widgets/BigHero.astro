@@ -1,6 +1,7 @@
 ---
 import Image from '~/components/common/Image.astro';
 import Button from '~/components/ui/Button.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
 
 import type { Hero as Props } from '~/types';
 
@@ -20,7 +21,7 @@ const {
 
 <section class="relative px-[5%] not-prose" {...id ? { id } : {}}>
   <div class="container">
-    <div class="flex max-h-[60rem] items-center py-8 md:py-24 lg:py-36">
+    <div class="flex max-h-[50rem] items-center py-8 md:py-24 lg:py-24">
       <div class="max-w-md">
         {
           tagline && (

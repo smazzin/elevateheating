@@ -4,7 +4,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import BigHero from '~/components/widgets/BigHero.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Brands from '~/components/widgets/Brands.astro';
-// import ServicesAlt from '~/components/widgets/ServicesAlt.astro';
 import Services from '~/components/widgets/Services.astro';
 import HeroMiddle from '~/components/widgets/HeroMiddle.astro';
 import Content from '~/components/widgets/Content.astro';
@@ -16,8 +15,6 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
   <BigHero
     actions={[
       {
@@ -40,8 +37,6 @@ const metadata = {
     </Fragment>
   </BigHero>
 
-  <!-- Brands Widget ****************** -->
-
   <Brands
     id="brands"
     title="Trusted & Certified"
@@ -63,8 +58,6 @@ const metadata = {
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
   <Content
     title=""
     subtitle=""
@@ -85,21 +78,21 @@ const metadata = {
       alt: 'About Elevate Heating & Cooling Image',
     }}
   >
-  <Fragment slot="content">
-    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-      About Elevate Heating & Cooling, Inc
-    </h3>
-  </Fragment>
-  <Fragment slot="content">
-    <p class="mb-4">
-      If you're looking for a top-rated HVAC company you can trust in the Hillsboro, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC service.
-    </p>
-  </Fragment>
-  <Fragment slot="content">
-    <p>
-      We're a family owned and operated company. You'll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We're a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.
-    </p>
-  </Fragment>
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        About Elevate Heating & Cooling, Inc
+      </h3>
+    </Fragment>
+    <Fragment slot="content">
+      <p class="mb-4">
+        If you're looking for a top-rated HVAC company you can trust in the Hillsboro, OR area, look no further than Elevate Heating & Cooling. We provide comprehensive and high-quality HVAC service.
+      </p>
+    </Fragment>
+    <Fragment slot="content">
+      <p>
+        We're a family owned and operated company. You'll experience the same respect we extend to all of our neighbors and friends. We enjoy saving our clients time, money, energy and resources. You can expect us to always be honest and upfront. We're a licensed and insured HVAC contractor with years of experience. Our owner oversees every job and does not cut corners.
+      </p>
+    </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -175,8 +168,7 @@ const metadata = {
     ]}
   />
 
-  <!-- Testimonials Widget ************ -->
-   <Testimonials
+  <Testimonials
     id="testimonials"
     title="What Our Customers Say"
     subtitle="We take pride in our work and our customers' satisfaction."
@@ -213,66 +205,6 @@ const metadata = {
       },
     ]}
   />
-
-<!-- <ServicesAlt
-  tagline="Our HVAC Services"
-  title="HVAC Contractor Serving Hillsboro, OR"
-  subtitle="Elevate Heating & Cooling knows that finding the best HVAC contractor in Hillsboro, OR can be a struggle, as you strive to balance, expert advice, practical solutions, and superior service. We reconize the importance of providing high-quality workmanship while delivering our services."
-  image={{
-    src: '~/assets/images/hvac-services.jpg',
-    alt: 'HVAC Services Image',
-  }}
-  serviceItems={[
-    {
-      title: 'Heating',
-      subtitle: '',
-      items: [
-        {
-          description: 'Heating Replacement & Installation',
-        },
-        {
-          description: 'Heat Pump Services',
-        },
-        {
-          description: 'Heating Repair',
-        },
-        {
-          description: 'Heater Maintenance',
-        },
-      ],
-      callToAction: {
-        target: '_blank',
-        text: 'Heating Services',
-        href: '/heating/',
-      },
-    },
-    {
-      title: 'Cooling',
-      subtitle: '',
-      items: [
-        {
-          description: 'AC Repair',
-        },
-        {
-          description: 'AC Maintenance',
-        },
-        {
-          description: 'AC Replacement & Installation',
-        },
-        {
-          description: 'Ductless Systems',
-        },
-      ],
-      callToAction: {
-        target: '_blank',
-        text: 'Cooling Services',
-        href: '/air-conditioning/',
-      },
-    },
-  ]}
-/> -->
-
-  <!-- HeroMiddle Widget ************** -->
 
   <HeroMiddle
     tagline="Financing Options"

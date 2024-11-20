@@ -44,12 +44,32 @@ const {
   </div>
           <!-- social proof -->
       <div
-        class="-mt-2 flex max-w-md"
+        class="-mt-6 grid grid-cols-1 max-w-md"
         data-aos="fade-right"
         data-aos-delay=".3"
         data-aos-trigger="#hero-side"
       >
-        <div class="-m-1.5 flex flex-wrap items-center">
+        <!-- See https://github.com/googlemaps/extended-component-library for docs and updates. -->
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"></script>
+
+        <gmpx-api-loader key="AIzaSyDXqC3ijXFkJKYywci3RWJBoSubbaJ8Yys" solution-channel="GMP_GCC_placebuildingblocks_v1"></gmpx-api-loader>
+        <gmpx-place-data-provider place="ChIJo5ruhcADlVQRUVig_GrmEl0">
+          <div slot="initial-loading">
+            loading...
+          </div>
+          <div>
+            <div>
+              <gmpx-place-field-link href-field="googleMapsURI">
+                View All Reviews on Google
+              </gmpx-place-field-link>
+            </div>
+            <div>
+              <gmpx-place-rating></gmpx-place-rating>
+            </div>
+          </div>
+        </gmpx-place-data-provider>
+
+        <!-- <div class="-m-1.5 flex flex-wrap items-center">
           <div class="w-auto p-1.5">
             <div class="flex flex-wrap">
               <div
@@ -94,7 +114,7 @@ const {
               5.0 Rating from 200+ reviews
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
 </div>
 </WidgetWrapper>
