@@ -1,0 +1,51 @@
+---
+import { findVideo } from '~/utils/videos'; // Updated to video utility functions
+import {
+  getVideosOptimized, // Replace with a function if video optimization is needed
+  astroAssetsOptimizer, // Optional: Replace with a video-compatible optimizer if needed
+  type VideoProps,
+  type AttributesProps,
+} from '~/utils/videos-optimization'; // Replace this with your video optimization utility if applicable
+
+type Props = VideoProps;
+type VideoType = {
+  src: string;
+  attributes: AttributesProps;
+};
+
+const props = Astro.props;
+
+// Basic video attribute defaults
+if (!props.controls) {
+  props.controls = true;
+}
+
+if (!props.preload) {
+  props.preload = 'metadata';
+}
+
+const _video = await findVideo(props.src);
+
+let video: VideoType | undefined = undefined;
+
+if (typeof _video === 'string') {
+  // Absolute or external URLs
+  video = {
+    src: _video,
+    attributes: { ...props, src: undefined },
+  };
+} else if (_video) {
+  // Optional optimization if using Astro or external video optimizer
+  video = await getVideosOptimized(_video, props, astroAssetsOptimizer);
+}
+---
+
+{
+  !video ? (
+    <Fragment />
+  ) : (
+    <video src={video.src} crossorigin="anonymous" referrerpolicy="no-referrer" {...video.attributes}>
+      Your browser does not support the video tag.
+    </video>
+  )
+}
