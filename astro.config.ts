@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
 
-import alpinejs from '@astrojs/alpinejs';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
@@ -25,7 +24,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
-  integrations: [alpinejs(), tailwind({
+  integrations: [tailwind({
     applyBaseStyles: false,
   }), sitemap(), mdx(), icon({
     include: {
@@ -59,7 +58,7 @@ export default defineConfig({
     Logger: 1,
   }), astrowind({
     config: './src/config.yaml',
-  }), alpinejs()],
+  })],
 
   image: {
     domains: ['cdn.pixabay.com'],

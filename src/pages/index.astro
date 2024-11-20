@@ -6,6 +6,7 @@ import ContactHero from '~/components/widgets/ContactHero.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Brands from '~/components/widgets/Brands.astro';
 import Services from '~/components/widgets/Services.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import HeroMiddle from '~/components/widgets/HeroMiddle.astro';
 import Content from '~/components/widgets/Content.astro';
 
@@ -196,6 +197,23 @@ const metadata = {
       },
     ]}
   />
+
+  <Hero2
+    isreversed
+    tagline=""
+    title="Stay Cool All Summer and Warm All Winter"
+    actions={[
+      { variant: 'primary', text: 'Get a FREE Estimate', href: '/get-a-free-estimate/', icon: 'tabler:square-rounded-arrow-right' },
+    ]}
+    image={{
+      src: '~/assets/images/elevate-heating-van.jpg',
+      alt: 'Elevate Heating & Cooling Van',
+    }}
+  >
+  <Fragment slot="subtitle">
+    Elevate Heating & Cooling is the area's top choice for any kind of HVAC service. We offer a wide range of services, including furnace repair, AC repair, heat pump tune-ups, ductless mini-split installations, and more. We service Hillsboro, Portland, Beaverton, Bethany, Cornelius, Banks, Forest Grove, Aloha, North Plains, OR and the surrounding greater Portland Oregon Metro Area.
+  </Fragment>
+</Hero2>
 
   <Testimonials
     id="testimonials"
