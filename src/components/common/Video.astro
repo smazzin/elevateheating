@@ -44,7 +44,8 @@ if (typeof _video === 'string') {
   !video ? (
     <Fragment />
   ) : (
-    <video src={video.src} crossorigin="anonymous" referrerpolicy="no-referrer" {...video.attributes}>
+    <video crossorigin="anonymous" referrerpolicy="no-referrer" {...video.attributes}>
+      <source src={video.src} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   )
