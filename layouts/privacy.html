@@ -1,0 +1,12 @@
+{{ define "schema" }}
+{{ end }}
+{{ define "main" }}
+<div class="reviews">
+    <div class="container-sm">
+        <div class="grid-1">
+            {{ .Content  | safeHTML }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
